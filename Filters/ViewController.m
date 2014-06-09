@@ -136,18 +136,63 @@
             break;
     }
     
-    //UIImage *filteredImage = [selectedFilter imageByFilteringImage:originalImage];
+    GPUImagePicture *imageToProcess = [[GPUImagePicture alloc] initWithImage:originalImage smoothlyScaleOutput:YES];
     
-    GPUImagePicture *imageToProcess = [[GPUImagePicture alloc] initWithImage:originalImage];
-    //maskFilter = [[GPUImageMaskFilter alloc] init];
-    //[maskFilter setBackgroundColorRed:1.0 green:0.0 blue:0.0 alpha:1.0];
-    //[imageToProcess addTarget:maskFilter];
-    //[maskFilter processImage];
-
-    [imageToProcess addTarget:selectedFilter];
+    maskFilter = [[GPUImageMaskFilter alloc] init];
+    [maskFilter setBackgroundColorRed:1.0 green:0.0 blue:0.0 alpha:1.0];
+    UIImage *maskImage = [UIImage imageNamed:@"mask"];
+    GPUImagePicture* maskPicture = [[GPUImagePicture alloc] initWithImage:maskImage smoothlyScaleOutput:YES];
+    
+    [imageToProcess addTarget:maskFilter];
+    [maskPicture processImage];
+    [maskPicture addTarget:maskFilter];
+    [maskFilter addTarget:selectedFilter];
     [selectedFilter useNextFrameForImageCapture];
+    
+    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
+    blendFilter.mix = 0.0f;
+    
+    [maskFilter addTarget:blendFilter];
+    [imageToProcess addTarget:blendFilter];
     [imageToProcess processImage];
-    UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
+    //I need useNextFrameForImageCapture or it crashes.
+    [blendFilter useNextFrameForImageCapture];
+    
+    UIImage *filteredImage = [blendFilter imageFromCurrentFramebuffer];
+
+    //DOESN'T WORK!
+//    [imageToProcess addTarget:maskFilter];
+//    [maskPicture processImage];
+//    [maskPicture addTarget:maskFilter];
+//    
+//    //[maskFilter addTarget:selectedFilter];
+//    //[selectedFilter useNextFrameForImageCapture];
+//    
+//    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
+//    blendFilter.mix = 0.0f;
+//    
+//    [imageToProcess addTarget:blendFilter];
+//    [selectedFilter addTarget:blendFilter];
+//    
+//    [imageToProcess processImage];
+//    //I need useNextFrameForImageCapture or it crashes.
+//    [blendFilter useNextFrameForImageCapture];
+//    UIImage *filteredImage = [blendFilter imageFromCurrentFramebuffer];
+    
+//    [imageToProcess addTarget:maskFilter];
+//    [imageToProcess processImage];
+//    [maskFilter useNextFrameForImageCapture];
+//    [maskPicture processImage];
+//    [maskPicture addTarget:maskFilter];
+//    UIImage *filteredImage = [maskFilter imageFromCurrentFramebuffer];
+    
+    //[maskPicture addTarget:maskFilter];
+    //[maskFilter useNextFrameForImageCapture];
+    
+    //[imageToProcess addTarget:selectedFilter];
+    //[selectedFilter useNextFrameForImageCapture];
+    //[imageToProcess processImage];
+    //UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
     
     [self.selectedImageView setImage:filteredImage];
 }
