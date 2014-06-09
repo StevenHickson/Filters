@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B95D3DC-E094-4C8B-AACC-00A21EEDBB3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Filters</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45C62D1D-65D4-4378-8FDB-7FAD6AC8965C</key>
+		<string>https://github.com/StevenHickson/Filters.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Filters.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45C62D1D-65D4-4378-8FDB-7FAD6AC8965C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/StevenHickson/Filters.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45C62D1D-65D4-4378-8FDB-7FAD6AC8965C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45C62D1D-65D4-4378-8FDB-7FAD6AC8965C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Filters</string>
+		</dict>
+	</array>
+</dict>
+</plist>

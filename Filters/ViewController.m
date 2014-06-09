@@ -12,6 +12,7 @@
 @interface ViewController ()
 {
     UIImage *originalImage;
+    GPUImageMaskFilter *maskFilter;
 }
 
 @property(nonatomic, weak) IBOutlet UIImageView *selectedImageView;
@@ -135,7 +136,19 @@
             break;
     }
     
-    UIImage *filteredImage = [selectedFilter imageByFilteringImage:originalImage];
+    //UIImage *filteredImage = [selectedFilter imageByFilteringImage:originalImage];
+    
+    GPUImagePicture *imageToProcess = [[GPUImagePicture alloc] initWithImage:originalImage];
+    //maskFilter = [[GPUImageMaskFilter alloc] init];
+    //[maskFilter setBackgroundColorRed:1.0 green:0.0 blue:0.0 alpha:1.0];
+    //[imageToProcess addTarget:maskFilter];
+    //[maskFilter processImage];
+
+    [imageToProcess addTarget:selectedFilter];
+    [selectedFilter useNextFrameForImageCapture];
+    [imageToProcess processImage];
+    UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
+    
     [self.selectedImageView setImage:filteredImage];
 }
 

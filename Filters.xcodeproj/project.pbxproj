@@ -564,6 +564,7 @@
 				ED2FDE971943927200AAF177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2FDE981943927200AAF177 /* Build configuration list for PBXNativeTarget "FiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +573,7 @@
 				ED2FDE9A1943927200AAF177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
