@@ -159,24 +159,20 @@
     //need to apply selected filter to the result of maskFilter.
     [maskFilter addTarget:selectedFilter];
     [selectedFilter useNextFrameForImageCapture];
-    [imageToProcess processImage];
+    //[imageToProcess processImage];
     [maskPicture processImage];
     
-//    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
-//    blendFilter.mix = 0.0f;
-//    
-//    [selectedFilter addTarget:blendFilter];
-//    [imageToProcess addTarget:blendFilter];
-//    [imageToProcess processImage];
-//    //I need useNextFrameForImageCapture or it crashes.
-//    [blendFilter useNextFrameForImageCapture];
+    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
+    blendFilter.mix = 1.0f;
     
-    UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
-
-    //[imageToProcess addTarget:selectedFilter];
-    //[selectedFilter useNextFrameForImageCapture];
-    //[imageToProcess processImage];
-    //UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
+    //the order of these matters a lot
+    [imageToProcess addTarget:blendFilter];
+    [selectedFilter addTarget:blendFilter];
+    //I need useNextFrameForImageCapture or it crashes.
+    [blendFilter useNextFrameForImageCapture];
+    [imageToProcess processImage];
+    
+    UIImage *filteredImage = [blendFilter imageFromCurrentFramebuffer];
     
     [self.selectedImageView setImage:filteredImage];
 }
