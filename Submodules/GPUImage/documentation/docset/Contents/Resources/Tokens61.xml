@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHighlightShadowFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHighlightShadowFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighlightShadowFilter/setShadows:</TokenIdentifier>
+			<Abstract type="html">0 - 1, increase to lighten shadows.
+@default 0</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat shadows</Declaration>
+			
+			
+			<Anchor>//api/name/shadows</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighlightShadowFilter/shadows</TokenIdentifier>
+			<Abstract type="html">0 - 1, increase to lighten shadows.
+@default 0</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat shadows</Declaration>
+			
+			
+			<Anchor>//api/name/shadows</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHighlightShadowFilter/shadows</TokenIdentifier>
+			<Abstract type="html">0 - 1, increase to lighten shadows.
+@default 0</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat shadows</Declaration>
+			
+			
+			<Anchor>//api/name/shadows</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighlightShadowFilter/setHighlights:</TokenIdentifier>
+			<Abstract type="html">0 - 1, decrease to darken highlights.
+@default 1</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat highlights</Declaration>
+			
+			
+			<Anchor>//api/name/highlights</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighlightShadowFilter/highlights</TokenIdentifier>
+			<Abstract type="html">0 - 1, decrease to darken highlights.
+@default 1</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat highlights</Declaration>
+			
+			
+			<Anchor>//api/name/highlights</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHighlightShadowFilter/highlights</TokenIdentifier>
+			<Abstract type="html">0 - 1, decrease to darken highlights.
+@default 1</Abstract>
+			<DeclaredIn>GPUImageHighlightShadowFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat highlights</Declaration>
+			
+			
+			<Anchor>//api/name/highlights</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

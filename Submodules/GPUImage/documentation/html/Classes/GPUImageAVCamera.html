@@ -1,0 +1,1337 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GPUImageAVCamera Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GPUImage </a></h1>
+				<a id="developerHome" href="../index.html">Sunset Lake Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GPUImageAVCamera Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/captureSession">&nbsp;&nbsp;&nbsp;&nbsp;captureSession</option>
+	
+	<option value="//api/name/captureSessionPreset">&nbsp;&nbsp;&nbsp;&nbsp;captureSessionPreset</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/frameRate">&nbsp;&nbsp;&nbsp;&nbsp;frameRate</option>
+	
+	<option value="//api/name/frontFacingCameraPresent">&nbsp;&nbsp;&nbsp;&nbsp;frontFacingCameraPresent</option>
+	
+	<option value="//api/name/horizontallyMirrorRearFacingCamera">&nbsp;&nbsp;&nbsp;&nbsp;horizontallyMirrorRearFacingCamera</option>
+	
+	<option value="//api/name/inputCamera">&nbsp;&nbsp;&nbsp;&nbsp;inputCamera</option>
+	
+	<option value="//api/name/runBenchmark">&nbsp;&nbsp;&nbsp;&nbsp;runBenchmark</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/connectedCameraDevices">&nbsp;&nbsp;&nbsp;&nbsp;+ connectedCameraDevices</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/averageFrameDurationDuringCapture">&nbsp;&nbsp;&nbsp;&nbsp;- averageFrameDurationDuringCapture</option>
+	
+	<option value="//api/name/cameraPosition">&nbsp;&nbsp;&nbsp;&nbsp;- cameraPosition</option>
+	
+	<option value="//api/name/initWithDeviceUniqueID:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithDeviceUniqueID:</option>
+	
+	<option value="//api/name/initWithSessionPreset:cameraDevice:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithSessionPreset:cameraDevice:</option>
+	
+	<option value="//api/name/initWithSessionPreset:deviceUniqueID:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithSessionPreset:deviceUniqueID:</option>
+	
+	<option value="//api/name/pauseCameraCapture">&nbsp;&nbsp;&nbsp;&nbsp;- pauseCameraCapture</option>
+	
+	<option value="//api/name/printSupportedPixelFormats">&nbsp;&nbsp;&nbsp;&nbsp;- printSupportedPixelFormats</option>
+	
+	<option value="//api/name/processAudioSampleBuffer:">&nbsp;&nbsp;&nbsp;&nbsp;- processAudioSampleBuffer:</option>
+	
+	<option value="//api/name/processVideoSampleBuffer:">&nbsp;&nbsp;&nbsp;&nbsp;- processVideoSampleBuffer:</option>
+	
+	<option value="//api/name/removeInputsAndOutputs">&nbsp;&nbsp;&nbsp;&nbsp;- removeInputsAndOutputs</option>
+	
+	<option value="//api/name/resumeCameraCapture">&nbsp;&nbsp;&nbsp;&nbsp;- resumeCameraCapture</option>
+	
+	<option value="//api/name/rotateCamera">&nbsp;&nbsp;&nbsp;&nbsp;- rotateCamera</option>
+	
+	<option value="//api/name/startCameraCapture">&nbsp;&nbsp;&nbsp;&nbsp;- startCameraCapture</option>
+	
+	<option value="//api/name/stopCameraCapture">&nbsp;&nbsp;&nbsp;&nbsp;- stopCameraCapture</option>
+	
+	<option value="//api/name/videoCaptureConnection">&nbsp;&nbsp;&nbsp;&nbsp;- videoCaptureConnection</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization and teardown">Initialization and teardown</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Manage the camera video stream">Manage the camera video stream</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Benchmarking">Benchmarking</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/captureSession">captureSession</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/captureSessionPreset">captureSessionPreset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/frameRate">frameRate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/frontFacingCameraPresent">frontFacingCameraPresent</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/horizontallyMirrorRearFacingCamera">horizontallyMirrorRearFacingCamera</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/inputCamera">inputCamera</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/runBenchmark">runBenchmark</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/connectedCameraDevices">connectedCameraDevices</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/averageFrameDurationDuringCapture">averageFrameDurationDuringCapture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cameraPosition">cameraPosition</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithDeviceUniqueID:">initWithDeviceUniqueID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithSessionPreset:cameraDevice:">initWithSessionPreset:cameraDevice:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithSessionPreset:deviceUniqueID:">initWithSessionPreset:deviceUniqueID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseCameraCapture">pauseCameraCapture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printSupportedPixelFormats">printSupportedPixelFormats</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/processAudioSampleBuffer:">processAudioSampleBuffer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/processVideoSampleBuffer:">processVideoSampleBuffer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeInputsAndOutputs">removeInputsAndOutputs</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resumeCameraCapture">resumeCameraCapture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rotateCamera">rotateCamera</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startCameraCapture">startCameraCapture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopCameraCapture">stopCameraCapture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/videoCaptureConnection">videoCaptureConnection</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GPUImageAVCamera Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GPUImageAVCamera Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/GPUImageOutput.html">GPUImageOutput</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">AVCaptureAudioDataOutputSampleBufferDelegate<br />AVCaptureVideoDataOutputSampleBufferDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GPUImageAVCamera.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A <a href="../Classes/GPUImageOutput.html">GPUImageOutput</a> that provides frames from either camera</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/captureSession">&nbsp;&nbsp;captureSession</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/captureSessionPreset">&nbsp;&nbsp;captureSessionPreset</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/frameRate">&nbsp;&nbsp;frameRate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/frontFacingCameraPresent">&nbsp;&nbsp;frontFacingCameraPresent</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/runBenchmark">&nbsp;&nbsp;runBenchmark</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/inputCamera">&nbsp;&nbsp;inputCamera</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/horizontallyMirrorRearFacingCamera">&nbsp;&nbsp;horizontallyMirrorRearFacingCamera</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization and teardown" name="task_Initialization and teardown"></a>
+						<h3 class="subsubtitle task-title">Initialization and teardown</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/connectedCameraDevices">+&nbsp;connectedCameraDevices</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithDeviceUniqueID:">&ndash;&nbsp;initWithDeviceUniqueID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithSessionPreset:deviceUniqueID:">&ndash;&nbsp;initWithSessionPreset:deviceUniqueID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithSessionPreset:cameraDevice:">&ndash;&nbsp;initWithSessionPreset:cameraDevice:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeInputsAndOutputs">&ndash;&nbsp;removeInputsAndOutputs</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Manage the camera video stream" name="task_Manage the camera video stream"></a>
+						<h3 class="subsubtitle task-title">Manage the camera video stream</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startCameraCapture">&ndash;&nbsp;startCameraCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopCameraCapture">&ndash;&nbsp;stopCameraCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseCameraCapture">&ndash;&nbsp;pauseCameraCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resumeCameraCapture">&ndash;&nbsp;resumeCameraCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/processVideoSampleBuffer:">&ndash;&nbsp;processVideoSampleBuffer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/processAudioSampleBuffer:">&ndash;&nbsp;processAudioSampleBuffer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cameraPosition">&ndash;&nbsp;cameraPosition</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/videoCaptureConnection">&ndash;&nbsp;videoCaptureConnection</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rotateCamera">&ndash;&nbsp;rotateCamera</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Benchmarking" name="task_Benchmarking"></a>
+						<h3 class="subsubtitle task-title">Benchmarking</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/averageFrameDurationDuringCapture">&ndash;&nbsp;averageFrameDurationDuringCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printSupportedPixelFormats">&ndash;&nbsp;printSupportedPixelFormats</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/captureSession" title="captureSession"></a>
+	<h3 class="subsubtitle method-title">captureSession</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The AVCaptureSession used to capture from the camera</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/captureSessionPreset" title="captureSessionPreset"></a>
+	<h3 class="subsubtitle method-title">captureSessionPreset</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This enables the capture session preset to be changed on the fly</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;GPUImageVideoCameraDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/frameRate" title="frameRate"></a>
+	<h3 class="subsubtitle method-title">frameRate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Setting this to 0 or below will set the frame rate back to the default setting for a particular preset.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite) NSInteger frameRate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/frontFacingCameraPresent" title="frontFacingCameraPresent"></a>
+	<h3 class="subsubtitle method-title">frontFacingCameraPresent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Easy way to tell if front-facing camera is present on device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/horizontallyMirrorRearFacingCamera" title="horizontallyMirrorRearFacingCamera"></a>
+	<h3 class="subsubtitle method-title">horizontallyMirrorRearFacingCamera</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>These properties determine whether or not the two camera orientations should be mirrored. By default, both are NO.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL horizontallyMirrorFrontFacingCamera , horizontallyMirrorRearFacingCamera</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/inputCamera" title="inputCamera"></a>
+	<h3 class="subsubtitle method-title">inputCamera</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this property to manage camera settings. Focus point, exposure point, etc.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) AVCaptureDevice *inputCamera</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/runBenchmark" title="runBenchmark"></a>
+	<h3 class="subsubtitle method-title">runBenchmark</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL runBenchmark</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/connectedCameraDevices" title="connectedCameraDevices"></a>
+	<h3 class="subsubtitle method-title">connectedCameraDevices</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSArray *)connectedCameraDevices</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/averageFrameDurationDuringCapture" title="averageFrameDurationDuringCapture"></a>
+	<h3 class="subsubtitle method-title">averageFrameDurationDuringCapture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When benchmarking is enabled, this will keep a running average of the time from uploading, processing, and final recording or display</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGFloat)averageFrameDurationDuringCapture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cameraPosition" title="cameraPosition"></a>
+	<h3 class="subsubtitle method-title">cameraPosition</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the position (front, rear) of the source camera</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AVCaptureDevicePosition)cameraPosition</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithDeviceUniqueID:" title="initWithDeviceUniqueID:"></a>
+	<h3 class="subsubtitle method-title">initWithDeviceUniqueID:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Begin a capture session</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithDeviceUniqueID:(NSString *)<em>deviceUniqueID</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sessionPreset</em></dt>
+			<dd><p>Session preset to use</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cameraPosition</em></dt>
+			<dd><p>Camera to capture from</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>See AVCaptureSession for acceptable values</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithSessionPreset:cameraDevice:" title="initWithSessionPreset:cameraDevice:"></a>
+	<h3 class="subsubtitle method-title">initWithSessionPreset:cameraDevice:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithSessionPreset:(NSString *)<em>sessionPreset</em> cameraDevice:(AVCaptureDevice *)<em>cameraDevice</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithSessionPreset:deviceUniqueID:" title="initWithSessionPreset:deviceUniqueID:"></a>
+	<h3 class="subsubtitle method-title">initWithSessionPreset:deviceUniqueID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithSessionPreset:(NSString *)<em>sessionPreset</em> deviceUniqueID:(NSString *)<em>deviceUniqueID</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseCameraCapture" title="pauseCameraCapture"></a>
+	<h3 class="subsubtitle method-title">pauseCameraCapture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Pause camera capturing</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseCameraCapture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printSupportedPixelFormats" title="printSupportedPixelFormats"></a>
+	<h3 class="subsubtitle method-title">printSupportedPixelFormats</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)printSupportedPixelFormats</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/processAudioSampleBuffer:" title="processAudioSampleBuffer:"></a>
+	<h3 class="subsubtitle method-title">processAudioSampleBuffer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Process an audio sample</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)processAudioSampleBuffer:(CMSampleBufferRef)<em>sampleBuffer</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sampleBuffer</em></dt>
+			<dd><p>Buffer to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/processVideoSampleBuffer:" title="processVideoSampleBuffer:"></a>
+	<h3 class="subsubtitle method-title">processVideoSampleBuffer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Process a video sample</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)processVideoSampleBuffer:(CMSampleBufferRef)<em>sampleBuffer</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sampleBuffer</em></dt>
+			<dd><p>Buffer to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeInputsAndOutputs" title="removeInputsAndOutputs"></a>
+	<h3 class="subsubtitle method-title">removeInputsAndOutputs</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tear down the capture session</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeInputsAndOutputs</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resumeCameraCapture" title="resumeCameraCapture"></a>
+	<h3 class="subsubtitle method-title">resumeCameraCapture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Resume camera capturing</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)resumeCameraCapture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rotateCamera" title="rotateCamera"></a>
+	<h3 class="subsubtitle method-title">rotateCamera</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This flips between the front and rear cameras</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)rotateCamera</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startCameraCapture" title="startCameraCapture"></a>
+	<h3 class="subsubtitle method-title">startCameraCapture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Start camera capturing</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)startCameraCapture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopCameraCapture" title="stopCameraCapture"></a>
+	<h3 class="subsubtitle method-title">stopCameraCapture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Stop camera capturing</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopCameraCapture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/videoCaptureConnection" title="videoCaptureConnection"></a>
+	<h3 class="subsubtitle method-title">videoCaptureConnection</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the AVCaptureConnection of the source camera</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AVCaptureConnection *)videoCaptureConnection</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageAVCamera.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Sunset Lake Software. All rights reserved. (Last updated: 2014-06-09)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

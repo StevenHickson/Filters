@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageThreeInputFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageThreeInputFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageThreeInputFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="141"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageThreeInputFilter/disableThirdFrameCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageThreeInputFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)disableThirdFrameCheck</Declaration>
+			
+			
+			<Anchor>//api/name/disableThirdFrameCheck</Anchor>
+            <NodeRef refid="141"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

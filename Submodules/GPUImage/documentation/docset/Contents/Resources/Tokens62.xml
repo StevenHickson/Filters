@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHistogramFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHistogramFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHistogramFilter/setDownsamplingFactor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger downsamplingFactor</Declaration>
+			
+			
+			<Anchor>//api/name/downsamplingFactor</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHistogramFilter/downsamplingFactor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger downsamplingFactor</Declaration>
+			
+			
+			<Anchor>//api/name/downsamplingFactor</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHistogramFilter/downsamplingFactor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger downsamplingFactor</Declaration>
+			
+			
+			<Anchor>//api/name/downsamplingFactor</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHistogramFilter/initWithHistogramType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithHistogramType:(GPUImageHistogramType)newHistogramType</Declaration>
+			
+			
+			<Anchor>//api/name/initWithHistogramType:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHistogramFilter/initializeSecondaryAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)initializeSecondaryAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/initializeSecondaryAttributes</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHistogramFilter/generatePointCoordinates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHistogramFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)generatePointCoordinates</Declaration>
+			
+			
+			<Anchor>//api/name/generatePointCoordinates</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

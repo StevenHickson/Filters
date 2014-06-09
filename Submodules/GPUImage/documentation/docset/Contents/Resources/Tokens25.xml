@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageColorMatrixFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageColorMatrixFilter</TokenIdentifier>
+			<Abstract type="html">Transforms the colors of an image by applying a matrix to them</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageColorMatrixFilter/setColorMatrix:</TokenIdentifier>
+			<Abstract type="html">A 4x4 matrix used to transform each color in an image</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix4x4 colorMatrix</Declaration>
+			
+			
+			<Anchor>//api/name/colorMatrix</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageColorMatrixFilter/colorMatrix</TokenIdentifier>
+			<Abstract type="html">A 4x4 matrix used to transform each color in an image</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix4x4 colorMatrix</Declaration>
+			
+			
+			<Anchor>//api/name/colorMatrix</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageColorMatrixFilter/colorMatrix</TokenIdentifier>
+			<Abstract type="html">A 4x4 matrix used to transform each color in an image</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix4x4 colorMatrix</Declaration>
+			
+			
+			<Anchor>//api/name/colorMatrix</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageColorMatrixFilter/setIntensity:</TokenIdentifier>
+			<Abstract type="html">The degree to which the new transformed color replaces the original color for each pixel</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageColorMatrixFilter/intensity</TokenIdentifier>
+			<Abstract type="html">The degree to which the new transformed color replaces the original color for each pixel</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageColorMatrixFilter/intensity</TokenIdentifier>
+			<Abstract type="html">The degree to which the new transformed color replaces the original color for each pixel</Abstract>
+			<DeclaredIn>GPUImageColorMatrixFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

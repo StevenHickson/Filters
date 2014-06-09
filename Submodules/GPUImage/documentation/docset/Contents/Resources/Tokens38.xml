@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageEmbossFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageEmbossFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageEmbossFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageEmbossFilter/setIntensity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageEmbossFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageEmbossFilter/intensity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageEmbossFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageEmbossFilter/intensity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageEmbossFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

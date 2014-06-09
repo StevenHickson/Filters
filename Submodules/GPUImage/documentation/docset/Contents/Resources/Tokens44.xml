@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFilter</TokenIdentifier>
+			<Abstract type="html">GPUImage&apos;s base filter class</Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setRenderTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVPixelBufferRef renderTarget</Declaration>
+			
+			
+			<Anchor>//api/name/renderTarget</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/renderTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVPixelBufferRef renderTarget</Declaration>
+			
+			
+			<Anchor>//api/name/renderTarget</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilter/renderTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVPixelBufferRef renderTarget</Declaration>
+			
+			
+			<Anchor>//api/name/renderTarget</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setPreventRendering:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL preventRendering</Declaration>
+			
+			
+			<Anchor>//api/name/preventRendering</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/preventRendering</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL preventRendering</Declaration>
+			
+			
+			<Anchor>//api/name/preventRendering</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilter/preventRendering</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL preventRendering</Declaration>
+			
+			
+			<Anchor>//api/name/preventRendering</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setCurrentlyReceivingMonochromeInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL currentlyReceivingMonochromeInput</Declaration>
+			
+			
+			<Anchor>//api/name/currentlyReceivingMonochromeInput</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/currentlyReceivingMonochromeInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL currentlyReceivingMonochromeInput</Declaration>
+			
+			
+			<Anchor>//api/name/currentlyReceivingMonochromeInput</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilter/currentlyReceivingMonochromeInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL currentlyReceivingMonochromeInput</Declaration>
+			
+			
+			<Anchor>//api/name/currentlyReceivingMonochromeInput</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/initWithVertexShaderFromString:fragmentShaderFromString:</TokenIdentifier>
+			<Abstract type="html">Initialize with vertex and fragment shaders</Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderFromString:(NSString *)vertexShaderString fragmentShaderFromString:(NSString *)fragmentShaderString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>vertexShaderString</Name>
+					<Abstract type="html">Source code of the vertex shader to use</Abstract>
+				</Parameter><Parameter>
+					<Name>fragmentShaderString</Name>
+					<Abstract type="html">Source code of the fragment shader to use</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithVertexShaderFromString:fragmentShaderFromString:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/initWithFragmentShaderFromString:</TokenIdentifier>
+			<Abstract type="html">Initialize with a fragment shader</Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFragmentShaderFromString:(NSString *)fragmentShaderString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fragmentShaderString</Name>
+					<Abstract type="html">Source code of fragment shader to use</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFragmentShaderFromString:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/initWithFragmentShaderFromFile:</TokenIdentifier>
+			<Abstract type="html">Initialize with a fragment shader</Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFragmentShaderFromFile:(NSString *)fragmentShaderFilename</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fragmentShaderFilename</Name>
+					<Abstract type="html">Filename of fragment shader to load</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFragmentShaderFromFile:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/initializeAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)initializeAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/initializeAttributes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setupFilterForSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setupFilterForSize:(CGSize)filterFrameSize</Declaration>
+			
+			
+			<Anchor>//api/name/setupFilterForSize:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/rotatedSize:forIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)rotatedSize:(CGSize)sizeToRotate forIndex:(NSInteger)textureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/rotatedSize:forIndex:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/rotatedPoint:forRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)rotatedPoint:(CGPoint)pointToRotate forRotation:(GPUImageRotationMode)rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotatedPoint:forRotation:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/sizeOfFBO</TokenIdentifier>
+			<Abstract type="html">Size of the frame buffer object</Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)sizeOfFBO</Declaration>
+			
+			
+			<Anchor>//api/name/sizeOfFBO</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageFilter/textureCoordinatesForRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>+ (const GLfloat *)textureCoordinatesForRotation:(GPUImageRotationMode)rotationMode</Declaration>
+			
+			
+			<Anchor>//api/name/textureCoordinatesForRotation:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/renderToTextureWithVertices:textureCoordinates:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)renderToTextureWithVertices:(const GLfloat *)vertices textureCoordinates:(const GLfloat *)textureCoordinates</Declaration>
+			
+			
+			<Anchor>//api/name/renderToTextureWithVertices:textureCoordinates:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/informTargetsAboutNewFrameAtTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)informTargetsAboutNewFrameAtTime:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/informTargetsAboutNewFrameAtTime:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/outputFrameSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)outputFrameSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputFrameSize</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setBackgroundColorRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackgroundColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent alpha:(GLfloat)alphaComponent</Declaration>
+			
+			
+			<Anchor>//api/name/setBackgroundColorRed:green:blue:alpha:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setInteger:forUniformName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setInteger:(GLint)newInteger forUniformName:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setInteger:forUniformName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloat:forUniformName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloat:(GLfloat)newFloat forUniformName:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setFloat:forUniformName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setSize:forUniformName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setSize:(CGSize)newSize forUniformName:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setSize:forUniformName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setPoint:forUniformName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setPoint:(CGPoint)newPoint forUniformName:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setPoint:forUniformName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloatVec3:forUniformName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloatVec3:(GPUVector3)newVec3 forUniformName:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setFloatVec3:forUniformName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloatVec4:forUniform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloatVec4:(GPUVector4)newVec4 forUniform:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setFloatVec4:forUniform:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloatArray:length:forUniform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloatArray:(GLfloat *)array length:(GLsizei)count forUniform:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/setFloatArray:length:forUniform:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setMatrix3f:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setMatrix3f:(GPUMatrix3x3)matrix forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setMatrix3f:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setMatrix4f:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setMatrix4f:(GPUMatrix4x4)matrix forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setMatrix4f:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloat:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloat:(GLfloat)floatValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setFloat:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setPoint:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setPoint:(CGPoint)pointValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setPoint:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setSize:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setSize:(CGSize)sizeValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setSize:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setVec3:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setVec3:(GPUVector3)vectorValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setVec3:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setVec4:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setVec4:(GPUVector4)vectorValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setVec4:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setFloatArray:length:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloatArray:(GLfloat *)arrayValue length:(GLsizei)arrayLength forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setFloatArray:length:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setInteger:forUniform:program:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setInteger:(GLint)intValue forUniform:(GLint)uniform program:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setInteger:forUniform:program:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setAndExecuteUniformStateCallbackAtIndex:(GLint)uniform forProgram:(GLProgram *)shaderProgram toBlock:(dispatch_block_t)uniformStateBlock</Declaration>
+			
+			
+			<Anchor>//api/name/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilter/setUniformsForProgramAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformsForProgramAtIndex:(NSUInteger)programIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformsForProgramAtIndex:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

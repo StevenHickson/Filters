@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePixellateFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePixellateFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePixellateFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="105"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePixellateFilter/setFractionalWidthOfAPixel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat fractionalWidthOfAPixel</Declaration>
+			
+			
+			<Anchor>//api/name/fractionalWidthOfAPixel</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePixellateFilter/fractionalWidthOfAPixel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat fractionalWidthOfAPixel</Declaration>
+			
+			
+			<Anchor>//api/name/fractionalWidthOfAPixel</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePixellateFilter/fractionalWidthOfAPixel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat fractionalWidthOfAPixel</Declaration>
+			
+			
+			<Anchor>//api/name/fractionalWidthOfAPixel</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

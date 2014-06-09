@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GPUImageInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GPUImageInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+            
+			
+			<NodeRef refid="165"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/newFrameReadyAtTime:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)newFrameReadyAtTime:(CMTime)frameTime atIndex:(NSInteger)textureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/newFrameReadyAtTime:atIndex:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/setInputFramebuffer:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)setInputFramebuffer:(GPUImageFramebuffer *)newInputFramebuffer atIndex:(NSInteger)textureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setInputFramebuffer:atIndex:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/nextAvailableTextureIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)nextAvailableTextureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/nextAvailableTextureIndex</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/setInputSize:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)setInputSize:(CGSize)newSize atIndex:(NSInteger)textureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setInputSize:atIndex:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/setInputRotation:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)setInputRotation:(GPUImageRotationMode)newInputRotation atIndex:(NSInteger)textureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setInputRotation:atIndex:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/maximumOutputSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)maximumOutputSize</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOutputSize</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/endProcessing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)endProcessing</Declaration>
+			
+			
+			<Anchor>//api/name/endProcessing</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/shouldIgnoreUpdatesToThisTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)shouldIgnoreUpdatesToThisTarget</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreUpdatesToThisTarget</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/wantsMonochromeInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)wantsMonochromeInput</Declaration>
+			
+			
+			<Anchor>//api/name/wantsMonochromeInput</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageInput/setCurrentlyReceivingMonochromeInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)setCurrentlyReceivingMonochromeInput:(BOOL)newValue</Declaration>
+			
+			
+			<Anchor>//api/name/setCurrentlyReceivingMonochromeInput:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

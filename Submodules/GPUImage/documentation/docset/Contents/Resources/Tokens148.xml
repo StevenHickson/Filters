@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageTransformFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageTransformFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="148"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/setAffineTransform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGAffineTransform affineTransform</Declaration>
+			
+			
+			<Anchor>//api/name/affineTransform</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/affineTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGAffineTransform affineTransform</Declaration>
+			
+			
+			<Anchor>//api/name/affineTransform</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTransformFilter/affineTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGAffineTransform affineTransform</Declaration>
+			
+			
+			<Anchor>//api/name/affineTransform</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/setTransform3D:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CATransform3D transform3D</Declaration>
+			
+			
+			<Anchor>//api/name/transform3D</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/transform3D</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CATransform3D transform3D</Declaration>
+			
+			
+			<Anchor>//api/name/transform3D</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTransformFilter/transform3D</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CATransform3D transform3D</Declaration>
+			
+			
+			<Anchor>//api/name/transform3D</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/setIgnoreAspectRatio:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL ignoreAspectRatio</Declaration>
+			
+			
+			<Anchor>//api/name/ignoreAspectRatio</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/ignoreAspectRatio</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL ignoreAspectRatio</Declaration>
+			
+			
+			<Anchor>//api/name/ignoreAspectRatio</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTransformFilter/ignoreAspectRatio</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL ignoreAspectRatio</Declaration>
+			
+			
+			<Anchor>//api/name/ignoreAspectRatio</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/setAnchorTopLeft:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL anchorTopLeft</Declaration>
+			
+			
+			<Anchor>//api/name/anchorTopLeft</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTransformFilter/anchorTopLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL anchorTopLeft</Declaration>
+			
+			
+			<Anchor>//api/name/anchorTopLeft</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTransformFilter/anchorTopLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTransformFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL anchorTopLeft</Declaration>
+			
+			
+			<Anchor>//api/name/anchorTopLeft</Anchor>
+            <NodeRef refid="148"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

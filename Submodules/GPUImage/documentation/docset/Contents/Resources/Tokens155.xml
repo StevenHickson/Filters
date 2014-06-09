@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageVideoCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageVideoCamera</TokenIdentifier>
+			<Abstract type="html">A GPUImageOutput that provides frames from either camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="155"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setCaptureSession:</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/captureSession</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/captureSession</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setCaptureSessionPreset:</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/captureSessionPreset</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/captureSessionPreset</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setFrameRate:</TokenIdentifier>
+			<Abstract type="html">Setting this to 0 or below will set the frame rate back to the default setting for a particular preset.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/frameRate</TokenIdentifier>
+			<Abstract type="html">Setting this to 0 or below will set the frame rate back to the default setting for a particular preset.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/frameRate</TokenIdentifier>
+			<Abstract type="html">Setting this to 0 or below will set the frame rate back to the default setting for a particular preset.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setFrontFacingCameraPresent:</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/isFrontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/frontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setBackFacingCameraPresent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/isBackFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/backFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setRunBenchmark:</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/runBenchmark</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/runBenchmark</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setInputCamera:</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/inputCamera</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/inputCamera</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setOutputImageOrientation:</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/outputImageOrientation</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/outputImageOrientation</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setHorizontallyMirrorRearFacingCamera:</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, both are NO.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL horizontallyMirrorFrontFacingCamera , horizontallyMirrorRearFacingCamera</Declaration>
+			
+			
+			<Anchor>//api/name/horizontallyMirrorRearFacingCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/horizontallyMirrorRearFacingCamera</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, both are NO.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL horizontallyMirrorFrontFacingCamera , horizontallyMirrorRearFacingCamera</Declaration>
+			
+			
+			<Anchor>//api/name/horizontallyMirrorRearFacingCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/horizontallyMirrorRearFacingCamera</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, both are NO.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL horizontallyMirrorFrontFacingCamera , horizontallyMirrorRearFacingCamera</Declaration>
+			
+			
+			<Anchor>//api/name/horizontallyMirrorRearFacingCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageVideoCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageVideoCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVideoCamera/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageVideoCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/initWithSessionPreset:cameraPosition:</TokenIdentifier>
+			<Abstract type="html">Begin a capture session</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSessionPreset:(NSString *)sessionPreset cameraPosition:(AVCaptureDevicePosition)cameraPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionPreset</Name>
+					<Abstract type="html">Session preset to use</Abstract>
+				</Parameter><Parameter>
+					<Name>cameraPosition</Name>
+					<Abstract type="html">Camera to capture from</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSessionPreset:cameraPosition:</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/addAudioInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Add audio capture to the session. Adding inputs and outputs freezes the capture session momentarily, so you
+    can use this method to add the audio inputs and outputs early, if you&apos;re going to set the audioEncodingTarget 
+    later. Returns YES is the audio inputs and outputs were added, or NO if they had already been added.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)addAudioInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/addAudioInputsAndOutputs</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/removeAudioInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Remove the audio capture inputs and outputs from this session. Returns YES if the audio inputs and outputs
+    were removed, or NO is they hadn&apos;t already been added.</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeAudioInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/removeAudioInputsAndOutputs</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/removeInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Tear down the capture session</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)removeInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/removeInputsAndOutputs</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/startCameraCapture</TokenIdentifier>
+			<Abstract type="html">Start camera capturing</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)startCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/startCameraCapture</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/stopCameraCapture</TokenIdentifier>
+			<Abstract type="html">Stop camera capturing</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)stopCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/stopCameraCapture</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/pauseCameraCapture</TokenIdentifier>
+			<Abstract type="html">Pause camera capturing</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/pauseCameraCapture</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/resumeCameraCapture</TokenIdentifier>
+			<Abstract type="html">Resume camera capturing</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/resumeCameraCapture</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/processVideoSampleBuffer:</TokenIdentifier>
+			<Abstract type="html">Process a video sample</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)processVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">Buffer to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processVideoSampleBuffer:</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/processAudioSampleBuffer:</TokenIdentifier>
+			<Abstract type="html">Process an audio sample</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)processAudioSampleBuffer:(CMSampleBufferRef)sampleBuffer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">Buffer to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processAudioSampleBuffer:</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/cameraPosition</TokenIdentifier>
+			<Abstract type="html">Get the position (front, rear) of the source camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureDevicePosition)cameraPosition</Declaration>
+			
+			
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/videoCaptureConnection</TokenIdentifier>
+			<Abstract type="html">Get the AVCaptureConnection of the source camera</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureConnection *)videoCaptureConnection</Declaration>
+			
+			
+			<Anchor>//api/name/videoCaptureConnection</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/rotateCamera</TokenIdentifier>
+			<Abstract type="html">This flips between the front and rear cameras</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateCamera</Declaration>
+			
+			
+			<Anchor>//api/name/rotateCamera</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/averageFrameDurationDuringCapture</TokenIdentifier>
+			<Abstract type="html">When benchmarking is enabled, this will keep a running average of the time from uploading, processing, and final recording or display</Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)averageFrameDurationDuringCapture</Declaration>
+			
+			
+			<Anchor>//api/name/averageFrameDurationDuringCapture</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVideoCamera/resetBenchmarkAverage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)resetBenchmarkAverage</Declaration>
+			
+			
+			<Anchor>//api/name/resetBenchmarkAverage</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageVideoCamera/isBackFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isBackFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/isBackFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageVideoCamera/isFrontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVideoCamera.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isFrontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/isFrontFacingCameraPresent</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

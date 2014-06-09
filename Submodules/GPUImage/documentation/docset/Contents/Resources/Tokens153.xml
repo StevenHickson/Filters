@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageUIElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageUIElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+            
+			
+			<NodeRef refid="153"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/initWithView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithView:(UIView *)inputView</Declaration>
+			
+			
+			<Anchor>//api/name/initWithView:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/initWithLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayer:(CALayer *)inputLayer</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLayer:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/layerSizeInPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)layerSizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/layerSizeInPixels</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/update</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)update</Declaration>
+			
+			
+			<Anchor>//api/name/update</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/updateUsingCurrentTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)updateUsingCurrentTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateUsingCurrentTime</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageUIElement/updateWithTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)updateWithTimestamp:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateWithTimestamp:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

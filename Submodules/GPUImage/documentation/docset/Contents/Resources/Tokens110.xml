@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePosterizeFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePosterizeFilter</TokenIdentifier>
+			<Abstract type="html">This reduces the color dynamic range into the number of steps specified, leading to a cartoon-like simple shading of the image.</Abstract>
+			<DeclaredIn>GPUImagePosterizeFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePosterizeFilter/setColorLevels:</TokenIdentifier>
+			<Abstract type="html">The number of color levels to reduce the image space to. This ranges from 1 to 256, with a default of 10.</Abstract>
+			<DeclaredIn>GPUImagePosterizeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger colorLevels</Declaration>
+			
+			
+			<Anchor>//api/name/colorLevels</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePosterizeFilter/colorLevels</TokenIdentifier>
+			<Abstract type="html">The number of color levels to reduce the image space to. This ranges from 1 to 256, with a default of 10.</Abstract>
+			<DeclaredIn>GPUImagePosterizeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger colorLevels</Declaration>
+			
+			
+			<Anchor>//api/name/colorLevels</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePosterizeFilter/colorLevels</TokenIdentifier>
+			<Abstract type="html">The number of color levels to reduce the image space to. This ranges from 1 to 256, with a default of 10.</Abstract>
+			<DeclaredIn>GPUImagePosterizeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger colorLevels</Declaration>
+			
+			
+			<Anchor>//api/name/colorLevels</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

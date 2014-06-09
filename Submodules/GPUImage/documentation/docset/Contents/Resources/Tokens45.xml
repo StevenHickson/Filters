@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFilterGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFilterGroup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/setTerminalFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *terminalFilter</Declaration>
+			
+			
+			<Anchor>//api/name/terminalFilter</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/terminalFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *terminalFilter</Declaration>
+			
+			
+			<Anchor>//api/name/terminalFilter</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterGroup/terminalFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *terminalFilter</Declaration>
+			
+			
+			<Anchor>//api/name/terminalFilter</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/setInitialFilters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) NSArray *initialFilters</Declaration>
+			
+			
+			<Anchor>//api/name/initialFilters</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/initialFilters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) NSArray *initialFilters</Declaration>
+			
+			
+			<Anchor>//api/name/initialFilters</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterGroup/initialFilters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) NSArray *initialFilters</Declaration>
+			
+			
+			<Anchor>//api/name/initialFilters</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/setInputFilterToIgnoreForUpdates:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *inputFilterToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/inputFilterToIgnoreForUpdates</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/inputFilterToIgnoreForUpdates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *inputFilterToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/inputFilterToIgnoreForUpdates</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterGroup/inputFilterToIgnoreForUpdates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, strong) GPUImageOutput&lt;GPUImageInput&gt; *inputFilterToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/inputFilterToIgnoreForUpdates</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/addFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>- (void)addFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)newFilter</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/filterAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>- (GPUImageOutput&lt;GPUImageInput&gt; *)filterAtIndex:(NSUInteger)filterIndex</Declaration>
+			
+			
+			<Anchor>//api/name/filterAtIndex:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterGroup/filterCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterGroup.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)filterCount</Declaration>
+			
+			
+			<Anchor>//api/name/filterCount</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

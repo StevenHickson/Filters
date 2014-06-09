@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePerlinNoiseFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePerlinNoiseFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="102"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/setColorStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorStart</Declaration>
+			
+			
+			<Anchor>//api/name/colorStart</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/colorStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorStart</Declaration>
+			
+			
+			<Anchor>//api/name/colorStart</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePerlinNoiseFilter/colorStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorStart</Declaration>
+			
+			
+			<Anchor>//api/name/colorStart</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/setColorFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorFinish</Declaration>
+			
+			
+			<Anchor>//api/name/colorFinish</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/colorFinish</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorFinish</Declaration>
+			
+			
+			<Anchor>//api/name/colorFinish</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePerlinNoiseFilter/colorFinish</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 colorFinish</Declaration>
+			
+			
+			<Anchor>//api/name/colorFinish</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/setScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePerlinNoiseFilter/scale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePerlinNoiseFilter/scale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePerlinNoiseFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

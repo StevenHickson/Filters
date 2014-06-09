@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GPUImageTextureOutputDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GPUImageTextureOutputDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTextureOutput.h</DeclaredIn>
+            
+			
+			<NodeRef refid="168"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageTextureOutputDelegate/newFrameReadyFromTextureOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTextureOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)newFrameReadyFromTextureOutput:(GPUImageTextureOutput *)callbackTextureOutput</Declaration>
+			
+			
+			<Anchor>//api/name/newFrameReadyFromTextureOutput:</Anchor>
+            <NodeRef refid="168"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

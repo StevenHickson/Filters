@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageRawDataOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageRawDataOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+            
+			
+			<NodeRef refid="118"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/setRawBytesForImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLubyte *rawBytesForImage</Declaration>
+			
+			
+			<Anchor>//api/name/rawBytesForImage</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/rawBytesForImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLubyte *rawBytesForImage</Declaration>
+			
+			
+			<Anchor>//api/name/rawBytesForImage</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageRawDataOutput/rawBytesForImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLubyte *rawBytesForImage</Declaration>
+			
+			
+			<Anchor>//api/name/rawBytesForImage</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/setNewFrameAvailableBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) newFrameAvailableBlock</Declaration>
+			
+			
+			<Anchor>//api/name/newFrameAvailableBlock</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/newFrameAvailableBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) newFrameAvailableBlock</Declaration>
+			
+			
+			<Anchor>//api/name/newFrameAvailableBlock</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageRawDataOutput/newFrameAvailableBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) newFrameAvailableBlock</Declaration>
+			
+			
+			<Anchor>//api/name/newFrameAvailableBlock</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageRawDataOutput/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/initWithImageSize:resultsInBGRAFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImageSize:(CGSize)newImageSize resultsInBGRAFormat:(BOOL)resultsInBGRAFormat</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImageSize:resultsInBGRAFormat:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/colorAtLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (GPUByteColorVector)colorAtLocation:(CGPoint)locationInImage</Declaration>
+			
+			
+			<Anchor>//api/name/colorAtLocation:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/bytesPerRowInOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)bytesPerRowInOutput</Declaration>
+			
+			
+			<Anchor>//api/name/bytesPerRowInOutput</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/setImageSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)setImageSize:(CGSize)newImageSize</Declaration>
+			
+			
+			<Anchor>//api/name/setImageSize:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/lockFramebufferForReading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)lockFramebufferForReading</Declaration>
+			
+			
+			<Anchor>//api/name/lockFramebufferForReading</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataOutput/unlockFramebufferAfterReading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)unlockFramebufferAfterReading</Declaration>
+			
+			
+			<Anchor>//api/name/unlockFramebufferAfterReading</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

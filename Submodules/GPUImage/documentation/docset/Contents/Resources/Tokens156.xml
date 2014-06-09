@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageView</TokenIdentifier>
+			<Abstract type="html">UIView subclass to use as an endpoint for displaying GPUImage outputs</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="156"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/setFillMode:</TokenIdentifier>
+			<Abstract type="html">The fill mode dictates how images are fit in the view, with the default being kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/fillMode</TokenIdentifier>
+			<Abstract type="html">The fill mode dictates how images are fit in the view, with the default being kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageView/fillMode</TokenIdentifier>
+			<Abstract type="html">The fill mode dictates how images are fit in the view, with the default being kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/setSizeInPixels:</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/sizeInPixels</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageView/sizeInPixels</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageView/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/setBackgroundColorRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html">Handling fill mode</Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackgroundColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent alpha:(GLfloat)alphaComponent</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>redComponent</Name>
+					<Abstract type="html">Red component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>greenComponent</Name>
+					<Abstract type="html">Green component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>blueComponent</Name>
+					<Abstract type="html">Blue component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>alphaComponent</Name>
+					<Abstract type="html">Alpha component for background color</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBackgroundColorRed:green:blue:alpha:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageView/setCurrentlyReceivingMonochromeInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCurrentlyReceivingMonochromeInput:(BOOL)newValue</Declaration>
+			
+			
+			<Anchor>//api/name/setCurrentlyReceivingMonochromeInput:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageToneCurveFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageToneCurveFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="146"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setRedControlPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *redControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/redControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/redControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *redControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/redControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageToneCurveFilter/redControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *redControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/redControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setGreenControlPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *greenControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/greenControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/greenControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *greenControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/greenControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageToneCurveFilter/greenControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *greenControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/greenControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setBlueControlPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *blueControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/blueControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/blueControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *blueControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/blueControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageToneCurveFilter/blueControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *blueControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/blueControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setRgbCompositeControlPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *rgbCompositeControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/rgbCompositeControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/rgbCompositeControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *rgbCompositeControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/rgbCompositeControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageToneCurveFilter/rgbCompositeControlPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSArray *rgbCompositeControlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/rgbCompositeControlPoints</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/initWithACVData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithACVData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/initWithACVData:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/initWithACV:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithACV:(NSString *)curveFilename</Declaration>
+			
+			
+			<Anchor>//api/name/initWithACV:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/initWithACVURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithACVURL:(NSURL *)curveFileURL</Declaration>
+			
+			
+			<Anchor>//api/name/initWithACVURL:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setRGBControlPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setRGBControlPoints:(NSArray *)points</Declaration>
+			
+			
+			<Anchor>//api/name/setRGBControlPoints:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setPointsWithACV:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setPointsWithACV:(NSString *)curveFilename</Declaration>
+			
+			
+			<Anchor>//api/name/setPointsWithACV:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/setPointsWithACVURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setPointsWithACVURL:(NSURL *)curveFileURL</Declaration>
+			
+			
+			<Anchor>//api/name/setPointsWithACVURL:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/getPreparedSplineCurve:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableArray *)getPreparedSplineCurve:(NSArray *)points</Declaration>
+			
+			
+			<Anchor>//api/name/getPreparedSplineCurve:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/splineCurve:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableArray *)splineCurve:(NSArray *)points</Declaration>
+			
+			
+			<Anchor>//api/name/splineCurve:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/secondDerivative:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableArray *)secondDerivative:(NSArray *)cgPoints</Declaration>
+			
+			
+			<Anchor>//api/name/secondDerivative:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageToneCurveFilter/updateToneCurveTexture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageToneCurveFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)updateToneCurveTexture</Declaration>
+			
+			
+			<Anchor>//api/name/updateToneCurveTexture</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

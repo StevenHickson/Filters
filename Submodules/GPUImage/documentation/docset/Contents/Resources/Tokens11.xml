@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageBilateralFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageBilateralFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBilateralFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageBilateralFilter/setDistanceNormalizationFactor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBilateralFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat distanceNormalizationFactor</Declaration>
+			
+			
+			<Anchor>//api/name/distanceNormalizationFactor</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageBilateralFilter/distanceNormalizationFactor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBilateralFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat distanceNormalizationFactor</Declaration>
+			
+			
+			<Anchor>//api/name/distanceNormalizationFactor</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageBilateralFilter/distanceNormalizationFactor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBilateralFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat distanceNormalizationFactor</Declaration>
+			
+			
+			<Anchor>//api/name/distanceNormalizationFactor</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

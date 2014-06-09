@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImage3x3TextureSamplingFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImage3x3TextureSamplingFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3TextureSamplingFilter/setTexelWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3TextureSamplingFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImage3x3TextureSamplingFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3TextureSamplingFilter/setTexelHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3TextureSamplingFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImage3x3TextureSamplingFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImage3x3TextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

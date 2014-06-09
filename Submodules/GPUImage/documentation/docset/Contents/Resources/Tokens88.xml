@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageMotionBlurFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageMotionBlurFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionBlurFilter/setBlurSize:</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionBlurFilter/blurSize</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMotionBlurFilter/blurSize</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionBlurFilter/setBlurAngle:</TokenIdentifier>
+			<Abstract type="html">The angular direction of the blur, in degrees. 0 degrees by default</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurAngle</Declaration>
+			
+			
+			<Anchor>//api/name/blurAngle</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionBlurFilter/blurAngle</TokenIdentifier>
+			<Abstract type="html">The angular direction of the blur, in degrees. 0 degrees by default</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurAngle</Declaration>
+			
+			
+			<Anchor>//api/name/blurAngle</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMotionBlurFilter/blurAngle</TokenIdentifier>
+			<Abstract type="html">The angular direction of the blur, in degrees. 0 degrees by default</Abstract>
+			<DeclaredIn>GPUImageMotionBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurAngle</Declaration>
+			
+			
+			<Anchor>//api/name/blurAngle</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

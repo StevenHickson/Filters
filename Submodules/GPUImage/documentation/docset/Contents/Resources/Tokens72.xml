@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageLevelsFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageLevelsFilter</TokenIdentifier>
+			<Abstract type="html">Levels like Photoshop.</Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setRedMin:gamma:max:minOut:maxOut:</TokenIdentifier>
+			<Abstract type="html">Set levels for the red channel</Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setRedMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max minOut:(CGFloat)minOut maxOut:(CGFloat)maxOut</Declaration>
+			
+			
+			<Anchor>//api/name/setRedMin:gamma:max:minOut:maxOut:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setRedMin:gamma:max:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setRedMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max</Declaration>
+			
+			
+			<Anchor>//api/name/setRedMin:gamma:max:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setGreenMin:gamma:max:minOut:maxOut:</TokenIdentifier>
+			<Abstract type="html">Set levels for the green channel</Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setGreenMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max minOut:(CGFloat)minOut maxOut:(CGFloat)maxOut</Declaration>
+			
+			
+			<Anchor>//api/name/setGreenMin:gamma:max:minOut:maxOut:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setGreenMin:gamma:max:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setGreenMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max</Declaration>
+			
+			
+			<Anchor>//api/name/setGreenMin:gamma:max:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setBlueMin:gamma:max:minOut:maxOut:</TokenIdentifier>
+			<Abstract type="html">Set levels for the blue channel</Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setBlueMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max minOut:(CGFloat)minOut maxOut:(CGFloat)maxOut</Declaration>
+			
+			
+			<Anchor>//api/name/setBlueMin:gamma:max:minOut:maxOut:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setBlueMin:gamma:max:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setBlueMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max</Declaration>
+			
+			
+			<Anchor>//api/name/setBlueMin:gamma:max:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setMin:gamma:max:minOut:maxOut:</TokenIdentifier>
+			<Abstract type="html">Set levels for all channels at once</Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max minOut:(CGFloat)minOut maxOut:(CGFloat)maxOut</Declaration>
+			
+			
+			<Anchor>//api/name/setMin:gamma:max:minOut:maxOut:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLevelsFilter/setMin:gamma:max:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLevelsFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setMin:(CGFloat)min gamma:(CGFloat)mid max:(CGFloat)max</Declaration>
+			
+			
+			<Anchor>//api/name/setMin:gamma:max:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

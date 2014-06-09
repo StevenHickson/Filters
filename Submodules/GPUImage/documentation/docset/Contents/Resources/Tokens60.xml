@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHighPassFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHighPassFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHighPassFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighPassFilter/setFilterStrength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHighPassFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat filterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/filterStrength</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHighPassFilter/filterStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHighPassFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat filterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/filterStrength</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHighPassFilter/filterStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHighPassFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat filterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/filterStrength</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

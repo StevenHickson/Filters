@@ -1,0 +1,1027 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GPUImageOutput Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GPUImage </a></h1>
+				<a id="developerHome" href="../index.html">Sunset Lake Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GPUImageOutput Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/audioEncodingTarget">&nbsp;&nbsp;&nbsp;&nbsp;audioEncodingTarget</option>
+	
+	<option value="//api/name/enabled">&nbsp;&nbsp;&nbsp;&nbsp;enabled</option>
+	
+	<option value="//api/name/frameProcessingCompletionBlock">&nbsp;&nbsp;&nbsp;&nbsp;frameProcessingCompletionBlock</option>
+	
+	<option value="//api/name/outputTextureOptions">&nbsp;&nbsp;&nbsp;&nbsp;outputTextureOptions</option>
+	
+	<option value="//api/name/shouldIgnoreUpdatesToThisTarget">&nbsp;&nbsp;&nbsp;&nbsp;shouldIgnoreUpdatesToThisTarget</option>
+	
+	<option value="//api/name/shouldSmoothlyScaleOutput">&nbsp;&nbsp;&nbsp;&nbsp;shouldSmoothlyScaleOutput</option>
+	
+	<option value="//api/name/targetToIgnoreForUpdates">&nbsp;&nbsp;&nbsp;&nbsp;targetToIgnoreForUpdates</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addTarget:">&nbsp;&nbsp;&nbsp;&nbsp;- addTarget:</option>
+	
+	<option value="//api/name/addTarget:atTextureLocation:">&nbsp;&nbsp;&nbsp;&nbsp;- addTarget:atTextureLocation:</option>
+	
+	<option value="//api/name/forceProcessingAtSize:">&nbsp;&nbsp;&nbsp;&nbsp;- forceProcessingAtSize:</option>
+	
+	<option value="//api/name/forceProcessingAtSizeRespectingAspectRatio:">&nbsp;&nbsp;&nbsp;&nbsp;- forceProcessingAtSizeRespectingAspectRatio:</option>
+	
+	<option value="//api/name/framebufferForOutput">&nbsp;&nbsp;&nbsp;&nbsp;- framebufferForOutput</option>
+	
+	<option value="//api/name/imageByFilteringImage:">&nbsp;&nbsp;&nbsp;&nbsp;- imageByFilteringImage:</option>
+	
+	<option value="//api/name/imageFromCurrentFramebuffer">&nbsp;&nbsp;&nbsp;&nbsp;- imageFromCurrentFramebuffer</option>
+	
+	<option value="//api/name/imageFromCurrentFramebufferWithOrientation:">&nbsp;&nbsp;&nbsp;&nbsp;- imageFromCurrentFramebufferWithOrientation:</option>
+	
+	<option value="//api/name/newCGImageByFilteringCGImage:">&nbsp;&nbsp;&nbsp;&nbsp;- newCGImageByFilteringCGImage:</option>
+	
+	<option value="//api/name/newCGImageByFilteringImage:">&nbsp;&nbsp;&nbsp;&nbsp;- newCGImageByFilteringImage:</option>
+	
+	<option value="//api/name/newCGImageFromCurrentlyProcessedOutput">&nbsp;&nbsp;&nbsp;&nbsp;- newCGImageFromCurrentlyProcessedOutput</option>
+	
+	<option value="//api/name/notifyTargetsAboutNewOutputTexture">&nbsp;&nbsp;&nbsp;&nbsp;- notifyTargetsAboutNewOutputTexture</option>
+	
+	<option value="//api/name/providesMonochromeOutput">&nbsp;&nbsp;&nbsp;&nbsp;- providesMonochromeOutput</option>
+	
+	<option value="//api/name/removeAllTargets">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllTargets</option>
+	
+	<option value="//api/name/removeOutputFramebuffer">&nbsp;&nbsp;&nbsp;&nbsp;- removeOutputFramebuffer</option>
+	
+	<option value="//api/name/removeTarget:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTarget:</option>
+	
+	<option value="//api/name/setInputFramebufferForTarget:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- setInputFramebufferForTarget:atIndex:</option>
+	
+	<option value="//api/name/targets">&nbsp;&nbsp;&nbsp;&nbsp;- targets</option>
+	
+	<option value="//api/name/useNextFrameForImageCapture">&nbsp;&nbsp;&nbsp;&nbsp;- useNextFrameForImageCapture</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing targets">Managing targets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Manage the output texture">Manage the output texture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Still image processing">Still image processing</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/audioEncodingTarget">audioEncodingTarget</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enabled">enabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/frameProcessingCompletionBlock">frameProcessingCompletionBlock</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outputTextureOptions">outputTextureOptions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldIgnoreUpdatesToThisTarget">shouldIgnoreUpdatesToThisTarget</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldSmoothlyScaleOutput">shouldSmoothlyScaleOutput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/targetToIgnoreForUpdates">targetToIgnoreForUpdates</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTarget:">addTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTarget:atTextureLocation:">addTarget:atTextureLocation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceProcessingAtSize:">forceProcessingAtSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceProcessingAtSizeRespectingAspectRatio:">forceProcessingAtSizeRespectingAspectRatio:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/framebufferForOutput">framebufferForOutput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageByFilteringImage:">imageByFilteringImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageFromCurrentFramebuffer">imageFromCurrentFramebuffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageFromCurrentFramebufferWithOrientation:">imageFromCurrentFramebufferWithOrientation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGImageByFilteringCGImage:">newCGImageByFilteringCGImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGImageByFilteringImage:">newCGImageByFilteringImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGImageFromCurrentlyProcessedOutput">newCGImageFromCurrentlyProcessedOutput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/notifyTargetsAboutNewOutputTexture">notifyTargetsAboutNewOutputTexture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/providesMonochromeOutput">providesMonochromeOutput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllTargets">removeAllTargets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeOutputFramebuffer">removeOutputFramebuffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTarget:">removeTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInputFramebufferForTarget:atIndex:">setInputFramebufferForTarget:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/targets">targets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/useNextFrameForImageCapture">useNextFrameForImageCapture</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GPUImageOutput Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GPUImageOutput Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GPUImageOutput.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>GPUImage&rsquo;s base source object</p>
+
+<p>Images or frames of video are uploaded from source objects, which are subclasses of GPUImageOutput. These include:</p>
+
+<ul>
+<li><a href="../Classes/GPUImageVideoCamera.html">GPUImageVideoCamera</a> (for live video from an iOS camera)</li>
+<li><a href="../Classes/GPUImageStillCamera.html">GPUImageStillCamera</a> (for taking photos with the camera)</li>
+<li><a href="../Classes/GPUImagePicture.html">GPUImagePicture</a> (for still images)</li>
+<li><a href="../Classes/GPUImageMovie.html">GPUImageMovie</a> (for movies)</li>
+</ul>
+
+
+<p>Source objects upload still image frames to OpenGL ES as textures, then hand those textures off to the next objects in the processing chain.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldSmoothlyScaleOutput">&nbsp;&nbsp;shouldSmoothlyScaleOutput</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldIgnoreUpdatesToThisTarget">&nbsp;&nbsp;shouldIgnoreUpdatesToThisTarget</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/audioEncodingTarget">&nbsp;&nbsp;audioEncodingTarget</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/targetToIgnoreForUpdates">&nbsp;&nbsp;targetToIgnoreForUpdates</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/frameProcessingCompletionBlock">&nbsp;&nbsp;frameProcessingCompletionBlock</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enabled">&nbsp;&nbsp;enabled</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outputTextureOptions">&nbsp;&nbsp;outputTextureOptions</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Managing targets" name="task_Managing targets"></a>
+						<h3 class="subsubtitle task-title">Managing targets</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInputFramebufferForTarget:atIndex:">&ndash;&nbsp;setInputFramebufferForTarget:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/framebufferForOutput">&ndash;&nbsp;framebufferForOutput</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeOutputFramebuffer">&ndash;&nbsp;removeOutputFramebuffer</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/notifyTargetsAboutNewOutputTexture">&ndash;&nbsp;notifyTargetsAboutNewOutputTexture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/targets">&ndash;&nbsp;targets</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTarget:">&ndash;&nbsp;addTarget:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTarget:atTextureLocation:">&ndash;&nbsp;addTarget:atTextureLocation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTarget:">&ndash;&nbsp;removeTarget:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllTargets">&ndash;&nbsp;removeAllTargets</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Manage the output texture" name="task_Manage the output texture"></a>
+						<h3 class="subsubtitle task-title">Manage the output texture</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceProcessingAtSize:">&ndash;&nbsp;forceProcessingAtSize:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceProcessingAtSizeRespectingAspectRatio:">&ndash;&nbsp;forceProcessingAtSizeRespectingAspectRatio:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Still image processing" name="task_Still image processing"></a>
+						<h3 class="subsubtitle task-title">Still image processing</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/useNextFrameForImageCapture">&ndash;&nbsp;useNextFrameForImageCapture</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGImageFromCurrentlyProcessedOutput">&ndash;&nbsp;newCGImageFromCurrentlyProcessedOutput</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGImageByFilteringCGImage:">&ndash;&nbsp;newCGImageByFilteringCGImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageFromCurrentFramebuffer">&ndash;&nbsp;imageFromCurrentFramebuffer</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageFromCurrentFramebufferWithOrientation:">&ndash;&nbsp;imageFromCurrentFramebufferWithOrientation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageByFilteringImage:">&ndash;&nbsp;imageByFilteringImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGImageByFilteringImage:">&ndash;&nbsp;newCGImageByFilteringImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/providesMonochromeOutput">&ndash;&nbsp;providesMonochromeOutput</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/audioEncodingTarget" title="audioEncodingTarget"></a>
+	<h3 class="subsubtitle method-title">audioEncodingTarget</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic, retain) GPUImageMovieWriter *audioEncodingTarget</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enabled" title="enabled"></a>
+	<h3 class="subsubtitle method-title">enabled</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL enabled</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/frameProcessingCompletionBlock" title="frameProcessingCompletionBlock"></a>
+	<h3 class="subsubtitle method-title">frameProcessingCompletionBlock</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( GPUImageOutput *, CMTime ) frameProcessingCompletionBlock</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outputTextureOptions" title="outputTextureOptions"></a>
+	<h3 class="subsubtitle method-title">outputTextureOptions</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) GPUTextureOptions outputTextureOptions</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldIgnoreUpdatesToThisTarget" title="shouldIgnoreUpdatesToThisTarget"></a>
+	<h3 class="subsubtitle method-title">shouldIgnoreUpdatesToThisTarget</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL shouldIgnoreUpdatesToThisTarget</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldSmoothlyScaleOutput" title="shouldSmoothlyScaleOutput"></a>
+	<h3 class="subsubtitle method-title">shouldSmoothlyScaleOutput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL shouldSmoothlyScaleOutput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/targetToIgnoreForUpdates" title="targetToIgnoreForUpdates"></a>
+	<h3 class="subsubtitle method-title">targetToIgnoreForUpdates</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic, unsafe_unretained) id&lt;GPUImageInput&gt; targetToIgnoreForUpdates</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addTarget:" title="addTarget:"></a>
+	<h3 class="subsubtitle method-title">addTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a target to receive notifications when new frames are available.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTarget:(id&lt;GPUImageInput&gt;)<em>newTarget</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newTarget</em></dt>
+			<dd><p>Target to be added</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The target will be asked for its next available texture.</p>
+
+<p>See [GPUImageInput newFrameReadyAtTime:]</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageOutput.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTarget:atTextureLocation:" title="addTarget:atTextureLocation:"></a>
+	<h3 class="subsubtitle method-title">addTarget:atTextureLocation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a target to receive notifications when new frames are available.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTarget:(id&lt;GPUImageInput&gt;)<em>newTarget</em> atTextureLocation:(NSInteger)<em>textureLocation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newTarget</em></dt>
+			<dd><p>Target to be added</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>See [GPUImageInput newFrameReadyAtTime:]</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageOutput.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceProcessingAtSize:" title="forceProcessingAtSize:"></a>
+	<h3 class="subsubtitle method-title">forceProcessingAtSize:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)forceProcessingAtSize:(CGSize)<em>frameSize</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceProcessingAtSizeRespectingAspectRatio:" title="forceProcessingAtSizeRespectingAspectRatio:"></a>
+	<h3 class="subsubtitle method-title">forceProcessingAtSizeRespectingAspectRatio:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)forceProcessingAtSizeRespectingAspectRatio:(CGSize)<em>frameSize</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/framebufferForOutput" title="framebufferForOutput"></a>
+	<h3 class="subsubtitle method-title">framebufferForOutput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GPUImageFramebuffer *)framebufferForOutput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageByFilteringImage:" title="imageByFilteringImage:"></a>
+	<h3 class="subsubtitle method-title">imageByFilteringImage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIImage *)imageByFilteringImage:(UIImage *)<em>imageToFilter</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageFromCurrentFramebuffer" title="imageFromCurrentFramebuffer"></a>
+	<h3 class="subsubtitle method-title">imageFromCurrentFramebuffer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIImage *)imageFromCurrentFramebuffer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageFromCurrentFramebufferWithOrientation:" title="imageFromCurrentFramebufferWithOrientation:"></a>
+	<h3 class="subsubtitle method-title">imageFromCurrentFramebufferWithOrientation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIImage *)imageFromCurrentFramebufferWithOrientation:(UIImageOrientation)<em>imageOrientation</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGImageByFilteringCGImage:" title="newCGImageByFilteringCGImage:"></a>
+	<h3 class="subsubtitle method-title">newCGImageByFilteringCGImage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGImageRef)newCGImageByFilteringCGImage:(CGImageRef)<em>imageToFilter</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGImageByFilteringImage:" title="newCGImageByFilteringImage:"></a>
+	<h3 class="subsubtitle method-title">newCGImageByFilteringImage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGImageRef)newCGImageByFilteringImage:(UIImage *)<em>imageToFilter</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGImageFromCurrentlyProcessedOutput" title="newCGImageFromCurrentlyProcessedOutput"></a>
+	<h3 class="subsubtitle method-title">newCGImageFromCurrentlyProcessedOutput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGImageRef)newCGImageFromCurrentlyProcessedOutput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/notifyTargetsAboutNewOutputTexture" title="notifyTargetsAboutNewOutputTexture"></a>
+	<h3 class="subsubtitle method-title">notifyTargetsAboutNewOutputTexture</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)notifyTargetsAboutNewOutputTexture</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/providesMonochromeOutput" title="providesMonochromeOutput"></a>
+	<h3 class="subsubtitle method-title">providesMonochromeOutput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)providesMonochromeOutput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllTargets" title="removeAllTargets"></a>
+	<h3 class="subsubtitle method-title">removeAllTargets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes all <a href="#//api/name/targets">targets</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllTargets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageOutput.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeOutputFramebuffer" title="removeOutputFramebuffer"></a>
+	<h3 class="subsubtitle method-title">removeOutputFramebuffer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeOutputFramebuffer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTarget:" title="removeTarget:"></a>
+	<h3 class="subsubtitle method-title">removeTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a target. The target will no longer receive notifications when new frames are available.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTarget:(id&lt;GPUImageInput&gt;)<em>targetToRemove</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>targetToRemove</em></dt>
+			<dd><p>Target to be removed</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageOutput.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInputFramebufferForTarget:atIndex:" title="setInputFramebufferForTarget:atIndex:"></a>
+	<h3 class="subsubtitle method-title">setInputFramebufferForTarget:atIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setInputFramebufferForTarget:(id&lt;GPUImageInput&gt;)<em>target</em> atIndex:(NSInteger)<em>inputTextureIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/targets" title="targets"></a>
+	<h3 class="subsubtitle method-title">targets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array of the current targets.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)targets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageOutput.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/useNextFrameForImageCapture" title="useNextFrameForImageCapture"></a>
+	<h3 class="subsubtitle method-title">useNextFrameForImageCapture</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)useNextFrameForImageCapture</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Sunset Lake Software. All rights reserved. (Last updated: 2014-06-09)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

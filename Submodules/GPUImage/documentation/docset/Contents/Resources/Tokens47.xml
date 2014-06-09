@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFramebuffer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFramebuffer/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/setTextureOptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUTextureOptions textureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/textureOptions</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/textureOptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUTextureOptions textureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/textureOptions</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFramebuffer/textureOptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUTextureOptions textureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/textureOptions</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/setTexture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLuint texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/texture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLuint texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFramebuffer/texture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GLuint texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/setMissingFramebuffer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL missingFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/missingFramebuffer</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/missingFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL missingFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/missingFramebuffer</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFramebuffer/missingFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL missingFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/missingFramebuffer</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/initWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSize:(CGSize)framebufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSize:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/initWithSize:textureOptions:onlyTexture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSize:(CGSize)framebufferSize textureOptions:(GPUTextureOptions)fboTextureOptions onlyTexture:(BOOL)onlyGenerateTexture</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSize:textureOptions:onlyTexture:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/initWithSize:overriddenTexture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSize:(CGSize)framebufferSize overriddenTexture:(GLuint)inputTexture</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSize:overriddenTexture:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/activateFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)activateFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/activateFramebuffer</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/lock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)lock</Declaration>
+			
+			
+			<Anchor>//api/name/lock</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/unlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)unlock</Declaration>
+			
+			
+			<Anchor>//api/name/unlock</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/clearAllLocks</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)clearAllLocks</Declaration>
+			
+			
+			<Anchor>//api/name/clearAllLocks</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/disableReferenceCounting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)disableReferenceCounting</Declaration>
+			
+			
+			<Anchor>//api/name/disableReferenceCounting</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/enableReferenceCounting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)enableReferenceCounting</Declaration>
+			
+			
+			<Anchor>//api/name/enableReferenceCounting</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/newCGImageFromFramebufferContents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (CGImageRef)newCGImageFromFramebufferContents</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageFromFramebufferContents</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/restoreRenderTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)restoreRenderTarget</Declaration>
+			
+			
+			<Anchor>//api/name/restoreRenderTarget</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/lockForReading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)lockForReading</Declaration>
+			
+			
+			<Anchor>//api/name/lockForReading</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/unlockAfterReading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (void)unlockAfterReading</Declaration>
+			
+			
+			<Anchor>//api/name/unlockAfterReading</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/bytesPerRow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)bytesPerRow</Declaration>
+			
+			
+			<Anchor>//api/name/bytesPerRow</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebuffer/byteBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebuffer.h</DeclaredIn>
+			
+			<Declaration>- (GLubyte *)byteBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/byteBuffer</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

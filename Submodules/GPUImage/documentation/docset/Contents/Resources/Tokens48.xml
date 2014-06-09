@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFramebufferCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFramebufferCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/fetchFramebufferForSize:textureOptions:onlyTexture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (GPUImageFramebuffer *)fetchFramebufferForSize:(CGSize)framebufferSize textureOptions:(GPUTextureOptions)textureOptions onlyTexture:(BOOL)onlyTexture</Declaration>
+			
+			
+			<Anchor>//api/name/fetchFramebufferForSize:textureOptions:onlyTexture:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/fetchFramebufferForSize:onlyTexture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (GPUImageFramebuffer *)fetchFramebufferForSize:(CGSize)framebufferSize onlyTexture:(BOOL)onlyTexture</Declaration>
+			
+			
+			<Anchor>//api/name/fetchFramebufferForSize:onlyTexture:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/returnFramebufferToCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (void)returnFramebufferToCache:(GPUImageFramebuffer *)framebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/returnFramebufferToCache:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/purgeAllUnassignedFramebuffers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (void)purgeAllUnassignedFramebuffers</Declaration>
+			
+			
+			<Anchor>//api/name/purgeAllUnassignedFramebuffers</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/addFramebufferToActiveImageCaptureList:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addFramebufferToActiveImageCaptureList:(GPUImageFramebuffer *)framebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/addFramebufferToActiveImageCaptureList:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFramebufferCache/removeFramebufferFromActiveImageCaptureList:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFramebufferCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeFramebufferFromActiveImageCaptureList:(GPUImageFramebuffer *)framebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/removeFramebufferFromActiveImageCaptureList:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

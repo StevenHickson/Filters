@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSwirlFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSwirlFilter</TokenIdentifier>
+			<Abstract type="html">Creates a swirl distortion on the image</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="137"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/setCenter:</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSwirlFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/setRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSwirlFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/setAngle:</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, with a minimum of 0.0 and a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSwirlFilter/angle</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, with a minimum of 0.0 and a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSwirlFilter/angle</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, with a minimum of 0.0 and a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageSwirlFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

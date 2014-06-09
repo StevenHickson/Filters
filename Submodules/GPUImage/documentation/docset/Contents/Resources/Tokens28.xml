@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageContrastFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageContrastFilter</TokenIdentifier>
+			<Abstract type="html">Adjusts the contrast of the image</Abstract>
+			<DeclaredIn>GPUImageContrastFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContrastFilter/setContrast:</TokenIdentifier>
+			<Abstract type="html">Contrast ranges from 0.0 to 4.0 (max contrast), with 1.0 as the normal level</Abstract>
+			<DeclaredIn>GPUImageContrastFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat contrast</Declaration>
+			
+			
+			<Anchor>//api/name/contrast</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContrastFilter/contrast</TokenIdentifier>
+			<Abstract type="html">Contrast ranges from 0.0 to 4.0 (max contrast), with 1.0 as the normal level</Abstract>
+			<DeclaredIn>GPUImageContrastFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat contrast</Declaration>
+			
+			
+			<Anchor>//api/name/contrast</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContrastFilter/contrast</TokenIdentifier>
+			<Abstract type="html">Contrast ranges from 0.0 to 4.0 (max contrast), with 1.0 as the normal level</Abstract>
+			<DeclaredIn>GPUImageContrastFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat contrast</Declaration>
+			
+			
+			<Anchor>//api/name/contrast</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

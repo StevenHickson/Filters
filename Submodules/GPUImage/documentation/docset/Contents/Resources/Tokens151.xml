@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageTwoPassFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageTwoPassFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="151"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoPassFilter/initWithFirstStageVertexShaderFromString:firstStageFragmentShaderFromString:secondStageVertexShaderFromString:secondStageFragmentShaderFromString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFirstStageVertexShaderFromString:(NSString *)firstStageVertexShaderString firstStageFragmentShaderFromString:(NSString *)firstStageFragmentShaderString secondStageVertexShaderFromString:(NSString *)secondStageVertexShaderString secondStageFragmentShaderFromString:(NSString *)secondStageFragmentShaderString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFirstStageVertexShaderFromString:firstStageFragmentShaderFromString:secondStageVertexShaderFromString:secondStageFragmentShaderFromString:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoPassFilter/initWithFirstStageFragmentShaderFromString:secondStageFragmentShaderFromString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFirstStageFragmentShaderFromString:(NSString *)firstStageFragmentShaderString secondStageFragmentShaderFromString:(NSString *)secondStageFragmentShaderString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFirstStageFragmentShaderFromString:secondStageFragmentShaderFromString:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoPassFilter/initializeSecondaryAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)initializeSecondaryAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/initializeSecondaryAttributes</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

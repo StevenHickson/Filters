@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageStillCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageStillCamera</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="134"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/setJpegCompressionQuality:</TokenIdentifier>
+			<Abstract type="html">The JPEG compression quality to use when capturing a photo as a JPEG.</Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property CGFloat jpegCompressionQuality</Declaration>
+			
+			
+			<Anchor>//api/name/jpegCompressionQuality</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/jpegCompressionQuality</TokenIdentifier>
+			<Abstract type="html">The JPEG compression quality to use when capturing a photo as a JPEG.</Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property CGFloat jpegCompressionQuality</Declaration>
+			
+			
+			<Anchor>//api/name/jpegCompressionQuality</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageStillCamera/jpegCompressionQuality</TokenIdentifier>
+			<Abstract type="html">The JPEG compression quality to use when capturing a photo as a JPEG.</Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property CGFloat jpegCompressionQuality</Declaration>
+			
+			
+			<Anchor>//api/name/jpegCompressionQuality</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/setCurrentCaptureMetadata:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary *currentCaptureMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptureMetadata</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/currentCaptureMetadata</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary *currentCaptureMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptureMetadata</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageStillCamera/currentCaptureMetadata</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary *currentCaptureMetadata</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptureMetadata</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsSampleBufferWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsSampleBufferWithCompletionHandler:(void ( ^ ) ( CMSampleBufferRef imageSampleBuffer , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsSampleBufferWithCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsImageProcessedUpToFilter:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withCompletionHandler:(void ( ^ ) ( UIImage *processedImage , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsImageProcessedUpToFilter:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsImageProcessedUpToFilter:withOrientation:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void ( ^ ) ( UIImage *processedImage , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsImageProcessedUpToFilter:withOrientation:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsJPEGProcessedUpToFilter:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsJPEGProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withCompletionHandler:(void ( ^ ) ( NSData *processedJPEG , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsJPEGProcessedUpToFilter:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsJPEGProcessedUpToFilter:withOrientation:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsJPEGProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void ( ^ ) ( NSData *processedJPEG , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsJPEGProcessedUpToFilter:withOrientation:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsPNGProcessedUpToFilter:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsPNGProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withCompletionHandler:(void ( ^ ) ( NSData *processedPNG , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsPNGProcessedUpToFilter:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageStillCamera/capturePhotoAsPNGProcessedUpToFilter:withOrientation:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageStillCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)capturePhotoAsPNGProcessedUpToFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void ( ^ ) ( NSData *processedPNG , NSError *error ))block</Declaration>
+			
+			
+			<Anchor>//api/name/capturePhotoAsPNGProcessedUpToFilter:withOrientation:withCompletionHandler:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

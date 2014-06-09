@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageContext.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setContextQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) dispatch_queue_t contextQueue</Declaration>
+			
+			
+			<Anchor>//api/name/contextQueue</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/contextQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) dispatch_queue_t contextQueue</Declaration>
+			
+			
+			<Anchor>//api/name/contextQueue</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContext/contextQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) dispatch_queue_t contextQueue</Declaration>
+			
+			
+			<Anchor>//api/name/contextQueue</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setCurrentShaderProgram:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain, nonatomic) GLProgram *currentShaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/currentShaderProgram</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/currentShaderProgram</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain, nonatomic) GLProgram *currentShaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/currentShaderProgram</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContext/currentShaderProgram</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain, nonatomic) GLProgram *currentShaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/currentShaderProgram</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/context</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContext/context</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setCoreVideoTextureCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVOpenGLESTextureCacheRef coreVideoTextureCache</Declaration>
+			
+			
+			<Anchor>//api/name/coreVideoTextureCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/coreVideoTextureCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVOpenGLESTextureCacheRef coreVideoTextureCache</Declaration>
+			
+			
+			<Anchor>//api/name/coreVideoTextureCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContext/coreVideoTextureCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CVOpenGLESTextureCacheRef coreVideoTextureCache</Declaration>
+			
+			
+			<Anchor>//api/name/coreVideoTextureCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setFramebufferCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUImageFramebufferCache *framebufferCache</Declaration>
+			
+			
+			<Anchor>//api/name/framebufferCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/framebufferCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUImageFramebufferCache *framebufferCache</Declaration>
+			
+			
+			<Anchor>//api/name/framebufferCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageContext/framebufferCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GPUImageFramebufferCache *framebufferCache</Declaration>
+			
+			
+			<Anchor>//api/name/framebufferCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/contextKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (void *)contextKey</Declaration>
+			
+			
+			<Anchor>//api/name/contextKey</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/sharedImageProcessingContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (GPUImageContext *)sharedImageProcessingContext</Declaration>
+			
+			
+			<Anchor>//api/name/sharedImageProcessingContext</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/sharedContextQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (dispatch_queue_t)sharedContextQueue</Declaration>
+			
+			
+			<Anchor>//api/name/sharedContextQueue</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/sharedFramebufferCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (GPUImageFramebufferCache *)sharedFramebufferCache</Declaration>
+			
+			
+			<Anchor>//api/name/sharedFramebufferCache</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/useImageProcessingContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (void)useImageProcessingContext</Declaration>
+			
+			
+			<Anchor>//api/name/useImageProcessingContext</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/useAsCurrentContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)useAsCurrentContext</Declaration>
+			
+			
+			<Anchor>//api/name/useAsCurrentContext</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/setActiveShaderProgram:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (void)setActiveShaderProgram:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setActiveShaderProgram:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/setContextShaderProgram:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)setContextShaderProgram:(GLProgram *)shaderProgram</Declaration>
+			
+			
+			<Anchor>//api/name/setContextShaderProgram:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/maximumTextureSizeForThisDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (GLint)maximumTextureSizeForThisDevice</Declaration>
+			
+			
+			<Anchor>//api/name/maximumTextureSizeForThisDevice</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/maximumTextureUnitsForThisDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (GLint)maximumTextureUnitsForThisDevice</Declaration>
+			
+			
+			<Anchor>//api/name/maximumTextureUnitsForThisDevice</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/maximumVaryingVectorsForThisDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (GLint)maximumVaryingVectorsForThisDevice</Declaration>
+			
+			
+			<Anchor>//api/name/maximumVaryingVectorsForThisDevice</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/deviceSupportsOpenGLESExtension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)deviceSupportsOpenGLESExtension:(NSString *)extension</Declaration>
+			
+			
+			<Anchor>//api/name/deviceSupportsOpenGLESExtension:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/deviceSupportsRedTextures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)deviceSupportsRedTextures</Declaration>
+			
+			
+			<Anchor>//api/name/deviceSupportsRedTextures</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/deviceSupportsFramebufferReads</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)deviceSupportsFramebufferReads</Declaration>
+			
+			
+			<Anchor>//api/name/deviceSupportsFramebufferReads</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/sizeThatFitsWithinATextureForSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (CGSize)sizeThatFitsWithinATextureForSize:(CGSize)inputSize</Declaration>
+			
+			
+			<Anchor>//api/name/sizeThatFitsWithinATextureForSize:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/presentBufferForDisplay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)presentBufferForDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/presentBufferForDisplay</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/programForVertexShaderString:fragmentShaderString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (GLProgram *)programForVertexShaderString:(NSString *)vertexShaderString fragmentShaderString:(NSString *)fragmentShaderString</Declaration>
+			
+			
+			<Anchor>//api/name/programForVertexShaderString:fragmentShaderString:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageContext/useSharegroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>- (void)useSharegroup:(EAGLSharegroup *)sharegroup</Declaration>
+			
+			
+			<Anchor>//api/name/useSharegroup:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageContext/supportsFastTextureUpload</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageContext.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)supportsFastTextureUpload</Declaration>
+			
+			
+			<Anchor>//api/name/supportsFastTextureUpload</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

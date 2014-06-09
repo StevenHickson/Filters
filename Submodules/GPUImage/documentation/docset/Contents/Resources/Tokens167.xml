@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GPUImageMovieWriterDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GPUImageMovieWriterDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="167"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageMovieWriterDelegate/movieRecordingCompleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)movieRecordingCompleted</Declaration>
+			
+			
+			<Anchor>//api/name/movieRecordingCompleted</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageMovieWriterDelegate/movieRecordingFailedWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)movieRecordingFailedWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/movieRecordingFailedWithError:</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

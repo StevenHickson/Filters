@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GLProgram.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GLProgram</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/setInitialized:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/initialized</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GLProgram/initialized</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL initialized</Declaration>
+			
+			
+			<Anchor>//api/name/initialized</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/initWithVertexShaderString:fragmentShaderString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderString:(NSString *)vShaderString fragmentShaderString:(NSString *)fShaderString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVertexShaderString:fragmentShaderString:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/initWithVertexShaderString:fragmentShaderFilename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderString:(NSString *)vShaderString fragmentShaderFilename:(NSString *)fShaderFilename</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVertexShaderString:fragmentShaderFilename:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/initWithVertexShaderFilename:fragmentShaderFilename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderFilename:(NSString *)vShaderFilename fragmentShaderFilename:(NSString *)fShaderFilename</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVertexShaderFilename:fragmentShaderFilename:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/addAttribute:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)addAttribute:(NSString *)attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/addAttribute:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/attributeIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (GLuint)attributeIndex:(NSString *)attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeIndex:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/uniformIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (GLuint)uniformIndex:(NSString *)uniformName</Declaration>
+			
+			
+			<Anchor>//api/name/uniformIndex:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/link</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)link</Declaration>
+			
+			
+			<Anchor>//api/name/link</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/use</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)use</Declaration>
+			
+			
+			<Anchor>//api/name/use</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/vertexShaderLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)vertexShaderLog</Declaration>
+			
+			
+			<Anchor>//api/name/vertexShaderLog</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/fragmentShaderLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fragmentShaderLog</Declaration>
+			
+			
+			<Anchor>//api/name/fragmentShaderLog</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/programLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)programLog</Declaration>
+			
+			
+			<Anchor>//api/name/programLog</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GLProgram/validate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)validate</Declaration>
+			
+			
+			<Anchor>//api/name/validate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

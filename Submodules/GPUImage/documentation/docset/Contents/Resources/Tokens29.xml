@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageCropFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageCropFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCropFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCropFilter/setCropRegion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCropFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCropFilter/cropRegion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCropFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageCropFilter/cropRegion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCropFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCropFilter/initWithCropRegion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCropFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCropRegion:(CGRect)newCropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCropRegion:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

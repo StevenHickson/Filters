@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GPUImageMovieDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GPUImageMovieDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for getting Movie played callback.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+            
+			
+			<NodeRef refid="166"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageMovieDelegate/didCompletePlayingMovie</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)didCompletePlayingMovie</Declaration>
+			
+			
+			<Anchor>//api/name/didCompletePlayingMovie</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

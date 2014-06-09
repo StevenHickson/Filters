@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageRGBClosingFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageRGBClosingFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRGBClosingFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="112"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRGBClosingFilter/initWithRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRGBClosingFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRadius:(NSUInteger)radius</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRadius:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

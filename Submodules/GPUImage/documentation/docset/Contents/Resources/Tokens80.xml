@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageLuminanceThresholdFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageLuminanceThresholdFilter</TokenIdentifier>
+			<Abstract type="html">Pixels with a luminance above the threshold will appear white, and those below will be black</Abstract>
+			<DeclaredIn>GPUImageLuminanceThresholdFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminanceThresholdFilter/setThreshold:</TokenIdentifier>
+			<Abstract type="html">Anything above this luminance will be white, and anything below black. Ranges from 0.0 to 1.0, with 0.5 as the default</Abstract>
+			<DeclaredIn>GPUImageLuminanceThresholdFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminanceThresholdFilter/threshold</TokenIdentifier>
+			<Abstract type="html">Anything above this luminance will be white, and anything below black. Ranges from 0.0 to 1.0, with 0.5 as the default</Abstract>
+			<DeclaredIn>GPUImageLuminanceThresholdFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageLuminanceThresholdFilter/threshold</TokenIdentifier>
+			<Abstract type="html">Anything above this luminance will be white, and anything below black. Ranges from 0.0 to 1.0, with 0.5 as the default</Abstract>
+			<DeclaredIn>GPUImageLuminanceThresholdFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

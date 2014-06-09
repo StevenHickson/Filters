@@ -1,0 +1,1189 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GPUImageFilter Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GPUImage </a></h1>
+				<a id="developerHome" href="../index.html">Sunset Lake Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GPUImageFilter Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/currentlyReceivingMonochromeInput">&nbsp;&nbsp;&nbsp;&nbsp;currentlyReceivingMonochromeInput</option>
+	
+	<option value="//api/name/preventRendering">&nbsp;&nbsp;&nbsp;&nbsp;preventRendering</option>
+	
+	<option value="//api/name/renderTarget">&nbsp;&nbsp;&nbsp;&nbsp;renderTarget</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/textureCoordinatesForRotation:">&nbsp;&nbsp;&nbsp;&nbsp;+ textureCoordinatesForRotation:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/informTargetsAboutNewFrameAtTime:">&nbsp;&nbsp;&nbsp;&nbsp;- informTargetsAboutNewFrameAtTime:</option>
+	
+	<option value="//api/name/initWithFragmentShaderFromFile:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFragmentShaderFromFile:</option>
+	
+	<option value="//api/name/initWithFragmentShaderFromString:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFragmentShaderFromString:</option>
+	
+	<option value="//api/name/initWithVertexShaderFromString:fragmentShaderFromString:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderFromString:fragmentShaderFromString:</option>
+	
+	<option value="//api/name/initializeAttributes">&nbsp;&nbsp;&nbsp;&nbsp;- initializeAttributes</option>
+	
+	<option value="//api/name/outputFrameSize">&nbsp;&nbsp;&nbsp;&nbsp;- outputFrameSize</option>
+	
+	<option value="//api/name/renderToTextureWithVertices:textureCoordinates:">&nbsp;&nbsp;&nbsp;&nbsp;- renderToTextureWithVertices:textureCoordinates:</option>
+	
+	<option value="//api/name/rotatedPoint:forRotation:">&nbsp;&nbsp;&nbsp;&nbsp;- rotatedPoint:forRotation:</option>
+	
+	<option value="//api/name/rotatedSize:forIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- rotatedSize:forIndex:</option>
+	
+	<option value="//api/name/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</option>
+	
+	<option value="//api/name/setBackgroundColorRed:green:blue:alpha:">&nbsp;&nbsp;&nbsp;&nbsp;- setBackgroundColorRed:green:blue:alpha:</option>
+	
+	<option value="//api/name/setFloat:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloat:forUniform:program:</option>
+	
+	<option value="//api/name/setFloat:forUniformName:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloat:forUniformName:</option>
+	
+	<option value="//api/name/setFloatArray:length:forUniform:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloatArray:length:forUniform:</option>
+	
+	<option value="//api/name/setFloatArray:length:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloatArray:length:forUniform:program:</option>
+	
+	<option value="//api/name/setFloatVec3:forUniformName:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloatVec3:forUniformName:</option>
+	
+	<option value="//api/name/setFloatVec4:forUniform:">&nbsp;&nbsp;&nbsp;&nbsp;- setFloatVec4:forUniform:</option>
+	
+	<option value="//api/name/setInteger:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setInteger:forUniform:program:</option>
+	
+	<option value="//api/name/setInteger:forUniformName:">&nbsp;&nbsp;&nbsp;&nbsp;- setInteger:forUniformName:</option>
+	
+	<option value="//api/name/setMatrix3f:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setMatrix3f:forUniform:program:</option>
+	
+	<option value="//api/name/setMatrix4f:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setMatrix4f:forUniform:program:</option>
+	
+	<option value="//api/name/setPoint:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setPoint:forUniform:program:</option>
+	
+	<option value="//api/name/setPoint:forUniformName:">&nbsp;&nbsp;&nbsp;&nbsp;- setPoint:forUniformName:</option>
+	
+	<option value="//api/name/setSize:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setSize:forUniform:program:</option>
+	
+	<option value="//api/name/setSize:forUniformName:">&nbsp;&nbsp;&nbsp;&nbsp;- setSize:forUniformName:</option>
+	
+	<option value="//api/name/setUniformsForProgramAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformsForProgramAtIndex:</option>
+	
+	<option value="//api/name/setVec3:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setVec3:forUniform:program:</option>
+	
+	<option value="//api/name/setVec4:forUniform:program:">&nbsp;&nbsp;&nbsp;&nbsp;- setVec4:forUniform:program:</option>
+	
+	<option value="//api/name/setupFilterForSize:">&nbsp;&nbsp;&nbsp;&nbsp;- setupFilterForSize:</option>
+	
+	<option value="//api/name/sizeOfFBO">&nbsp;&nbsp;&nbsp;&nbsp;- sizeOfFBO</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization and teardown">Initialization and teardown</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing the display FBOs">Managing the display FBOs</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Rendering">Rendering</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Input parameters">Input parameters</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentlyReceivingMonochromeInput">currentlyReceivingMonochromeInput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preventRendering">preventRendering</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderTarget">renderTarget</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textureCoordinatesForRotation:">textureCoordinatesForRotation:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/informTargetsAboutNewFrameAtTime:">informTargetsAboutNewFrameAtTime:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFragmentShaderFromFile:">initWithFragmentShaderFromFile:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFragmentShaderFromString:">initWithFragmentShaderFromString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderFromString:fragmentShaderFromString:">initWithVertexShaderFromString:fragmentShaderFromString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initializeAttributes">initializeAttributes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outputFrameSize">outputFrameSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderToTextureWithVertices:textureCoordinates:">renderToTextureWithVertices:textureCoordinates:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rotatedPoint:forRotation:">rotatedPoint:forRotation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rotatedSize:forIndex:">rotatedSize:forIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:">setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBackgroundColorRed:green:blue:alpha:">setBackgroundColorRed:green:blue:alpha:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloat:forUniform:program:">setFloat:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloat:forUniformName:">setFloat:forUniformName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloatArray:length:forUniform:">setFloatArray:length:forUniform:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloatArray:length:forUniform:program:">setFloatArray:length:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloatVec3:forUniformName:">setFloatVec3:forUniformName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFloatVec4:forUniform:">setFloatVec4:forUniform:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInteger:forUniform:program:">setInteger:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInteger:forUniformName:">setInteger:forUniformName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMatrix3f:forUniform:program:">setMatrix3f:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMatrix4f:forUniform:program:">setMatrix4f:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPoint:forUniform:program:">setPoint:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPoint:forUniformName:">setPoint:forUniformName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSize:forUniform:program:">setSize:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSize:forUniformName:">setSize:forUniformName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformsForProgramAtIndex:">setUniformsForProgramAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setVec3:forUniform:program:">setVec3:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setVec4:forUniform:program:">setVec4:forUniform:program:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setupFilterForSize:">setupFilterForSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sizeOfFBO">sizeOfFBO</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GPUImageFilter Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GPUImageFilter Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/GPUImageOutput.html">GPUImageOutput</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/GPUImageInput.html">GPUImageInput</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GPUImageFilter.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>GPUImage&rsquo;s base filter class</p>
+
+<p>Filters and other subsequent elements in the chain conform to the <a href="../Protocols/GPUImageInput.html">GPUImageInput</a> protocol, which lets them take in the supplied or processed texture from the previous link in the chain and do something with it. Objects one step further down the chain are considered targets, and processing can be branched by adding multiple targets to a single output or filter.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderTarget">&nbsp;&nbsp;renderTarget</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preventRendering">&nbsp;&nbsp;preventRendering</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentlyReceivingMonochromeInput">&nbsp;&nbsp;currentlyReceivingMonochromeInput</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization and teardown" name="task_Initialization and teardown"></a>
+						<h3 class="subsubtitle task-title">Initialization and teardown</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderFromString:fragmentShaderFromString:">&ndash;&nbsp;initWithVertexShaderFromString:fragmentShaderFromString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFragmentShaderFromString:">&ndash;&nbsp;initWithFragmentShaderFromString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFragmentShaderFromFile:">&ndash;&nbsp;initWithFragmentShaderFromFile:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initializeAttributes">&ndash;&nbsp;initializeAttributes</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setupFilterForSize:">&ndash;&nbsp;setupFilterForSize:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rotatedSize:forIndex:">&ndash;&nbsp;rotatedSize:forIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rotatedPoint:forRotation:">&ndash;&nbsp;rotatedPoint:forRotation:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Managing the display FBOs" name="task_Managing the display FBOs"></a>
+						<h3 class="subsubtitle task-title">Managing the display FBOs</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sizeOfFBO">&ndash;&nbsp;sizeOfFBO</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Rendering" name="task_Rendering"></a>
+						<h3 class="subsubtitle task-title">Rendering</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textureCoordinatesForRotation:">+&nbsp;textureCoordinatesForRotation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderToTextureWithVertices:textureCoordinates:">&ndash;&nbsp;renderToTextureWithVertices:textureCoordinates:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/informTargetsAboutNewFrameAtTime:">&ndash;&nbsp;informTargetsAboutNewFrameAtTime:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outputFrameSize">&ndash;&nbsp;outputFrameSize</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Input parameters" name="task_Input parameters"></a>
+						<h3 class="subsubtitle task-title">Input parameters</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBackgroundColorRed:green:blue:alpha:">&ndash;&nbsp;setBackgroundColorRed:green:blue:alpha:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInteger:forUniformName:">&ndash;&nbsp;setInteger:forUniformName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloat:forUniformName:">&ndash;&nbsp;setFloat:forUniformName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSize:forUniformName:">&ndash;&nbsp;setSize:forUniformName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPoint:forUniformName:">&ndash;&nbsp;setPoint:forUniformName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloatVec3:forUniformName:">&ndash;&nbsp;setFloatVec3:forUniformName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloatVec4:forUniform:">&ndash;&nbsp;setFloatVec4:forUniform:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloatArray:length:forUniform:">&ndash;&nbsp;setFloatArray:length:forUniform:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMatrix3f:forUniform:program:">&ndash;&nbsp;setMatrix3f:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMatrix4f:forUniform:program:">&ndash;&nbsp;setMatrix4f:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloat:forUniform:program:">&ndash;&nbsp;setFloat:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPoint:forUniform:program:">&ndash;&nbsp;setPoint:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSize:forUniform:program:">&ndash;&nbsp;setSize:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setVec3:forUniform:program:">&ndash;&nbsp;setVec3:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setVec4:forUniform:program:">&ndash;&nbsp;setVec4:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFloatArray:length:forUniform:program:">&ndash;&nbsp;setFloatArray:length:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInteger:forUniform:program:">&ndash;&nbsp;setInteger:forUniform:program:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:">&ndash;&nbsp;setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformsForProgramAtIndex:">&ndash;&nbsp;setUniformsForProgramAtIndex:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/currentlyReceivingMonochromeInput" title="currentlyReceivingMonochromeInput"></a>
+	<h3 class="subsubtitle method-title">currentlyReceivingMonochromeInput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL currentlyReceivingMonochromeInput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preventRendering" title="preventRendering"></a>
+	<h3 class="subsubtitle method-title">preventRendering</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL preventRendering</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/renderTarget" title="renderTarget"></a>
+	<h3 class="subsubtitle method-title">renderTarget</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) CVPixelBufferRef renderTarget</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/textureCoordinatesForRotation:" title="textureCoordinatesForRotation:"></a>
+	<h3 class="subsubtitle method-title">textureCoordinatesForRotation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (const GLfloat *)textureCoordinatesForRotation:(GPUImageRotationMode)<em>rotationMode</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/informTargetsAboutNewFrameAtTime:" title="informTargetsAboutNewFrameAtTime:"></a>
+	<h3 class="subsubtitle method-title">informTargetsAboutNewFrameAtTime:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)informTargetsAboutNewFrameAtTime:(CMTime)<em>frameTime</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFragmentShaderFromFile:" title="initWithFragmentShaderFromFile:"></a>
+	<h3 class="subsubtitle method-title">initWithFragmentShaderFromFile:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize with a fragment shader</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFragmentShaderFromFile:(NSString *)<em>fragmentShaderFilename</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fragmentShaderFilename</em></dt>
+			<dd><p>Filename of fragment shader to load</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFragmentShaderFromString:" title="initWithFragmentShaderFromString:"></a>
+	<h3 class="subsubtitle method-title">initWithFragmentShaderFromString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize with a fragment shader</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFragmentShaderFromString:(NSString *)<em>fragmentShaderString</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fragmentShaderString</em></dt>
+			<dd><p>Source code of fragment shader to use</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>You may take advantage of the SHADER_STRING macro to write your shader in-line.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderFromString:fragmentShaderFromString:" title="initWithVertexShaderFromString:fragmentShaderFromString:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderFromString:fragmentShaderFromString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize with vertex and fragment shaders</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderFromString:(NSString *)<em>vertexShaderString</em> fragmentShaderFromString:(NSString *)<em>fragmentShaderString</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>vertexShaderString</em></dt>
+			<dd><p>Source code of the vertex shader to use</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fragmentShaderString</em></dt>
+			<dd><p>Source code of the fragment shader to use</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>You make take advantage of the SHADER_STRING macro to write your shaders in-line.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initializeAttributes" title="initializeAttributes"></a>
+	<h3 class="subsubtitle method-title">initializeAttributes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)initializeAttributes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outputFrameSize" title="outputFrameSize"></a>
+	<h3 class="subsubtitle method-title">outputFrameSize</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGSize)outputFrameSize</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/renderToTextureWithVertices:textureCoordinates:" title="renderToTextureWithVertices:textureCoordinates:"></a>
+	<h3 class="subsubtitle method-title">renderToTextureWithVertices:textureCoordinates:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)renderToTextureWithVertices:(const GLfloat *)<em>vertices</em> textureCoordinates:(const GLfloat *)<em>textureCoordinates</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rotatedPoint:forRotation:" title="rotatedPoint:forRotation:"></a>
+	<h3 class="subsubtitle method-title">rotatedPoint:forRotation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)rotatedPoint:(CGPoint)<em>pointToRotate</em> forRotation:(GPUImageRotationMode)<em>rotation</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rotatedSize:forIndex:" title="rotatedSize:forIndex:"></a>
+	<h3 class="subsubtitle method-title">rotatedSize:forIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGSize)rotatedSize:(CGSize)<em>sizeToRotate</em> forIndex:(NSInteger)<em>textureIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:" title="setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:"></a>
+	<h3 class="subsubtitle method-title">setAndExecuteUniformStateCallbackAtIndex:forProgram:toBlock:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setAndExecuteUniformStateCallbackAtIndex:(GLint)<em>uniform</em> forProgram:(GLProgram *)<em>shaderProgram</em> toBlock:(dispatch_block_t)<em>uniformStateBlock</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBackgroundColorRed:green:blue:alpha:" title="setBackgroundColorRed:green:blue:alpha:"></a>
+	<h3 class="subsubtitle method-title">setBackgroundColorRed:green:blue:alpha:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setBackgroundColorRed:(GLfloat)<em>redComponent</em> green:(GLfloat)<em>greenComponent</em> blue:(GLfloat)<em>blueComponent</em> alpha:(GLfloat)<em>alphaComponent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloat:forUniform:program:" title="setFloat:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setFloat:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloat:(GLfloat)<em>floatValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloat:forUniformName:" title="setFloat:forUniformName:"></a>
+	<h3 class="subsubtitle method-title">setFloat:forUniformName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloat:(GLfloat)<em>newFloat</em> forUniformName:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloatArray:length:forUniform:" title="setFloatArray:length:forUniform:"></a>
+	<h3 class="subsubtitle method-title">setFloatArray:length:forUniform:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloatArray:(GLfloat *)<em>array</em> length:(GLsizei)<em>count</em> forUniform:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloatArray:length:forUniform:program:" title="setFloatArray:length:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setFloatArray:length:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloatArray:(GLfloat *)<em>arrayValue</em> length:(GLsizei)<em>arrayLength</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloatVec3:forUniformName:" title="setFloatVec3:forUniformName:"></a>
+	<h3 class="subsubtitle method-title">setFloatVec3:forUniformName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloatVec3:(GPUVector3)<em>newVec3</em> forUniformName:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFloatVec4:forUniform:" title="setFloatVec4:forUniform:"></a>
+	<h3 class="subsubtitle method-title">setFloatVec4:forUniform:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setFloatVec4:(GPUVector4)<em>newVec4</em> forUniform:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInteger:forUniform:program:" title="setInteger:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setInteger:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setInteger:(GLint)<em>intValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInteger:forUniformName:" title="setInteger:forUniformName:"></a>
+	<h3 class="subsubtitle method-title">setInteger:forUniformName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setInteger:(GLint)<em>newInteger</em> forUniformName:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMatrix3f:forUniform:program:" title="setMatrix3f:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setMatrix3f:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setMatrix3f:(GPUMatrix3x3)<em>matrix</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMatrix4f:forUniform:program:" title="setMatrix4f:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setMatrix4f:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setMatrix4f:(GPUMatrix4x4)<em>matrix</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPoint:forUniform:program:" title="setPoint:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setPoint:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPoint:(CGPoint)<em>pointValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPoint:forUniformName:" title="setPoint:forUniformName:"></a>
+	<h3 class="subsubtitle method-title">setPoint:forUniformName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPoint:(CGPoint)<em>newPoint</em> forUniformName:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSize:forUniform:program:" title="setSize:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setSize:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSize:(CGSize)<em>sizeValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSize:forUniformName:" title="setSize:forUniformName:"></a>
+	<h3 class="subsubtitle method-title">setSize:forUniformName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSize:(CGSize)<em>newSize</em> forUniformName:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformsForProgramAtIndex:" title="setUniformsForProgramAtIndex:"></a>
+	<h3 class="subsubtitle method-title">setUniformsForProgramAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformsForProgramAtIndex:(NSUInteger)<em>programIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setVec3:forUniform:program:" title="setVec3:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setVec3:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setVec3:(GPUVector3)<em>vectorValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setVec4:forUniform:program:" title="setVec4:forUniform:program:"></a>
+	<h3 class="subsubtitle method-title">setVec4:forUniform:program:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setVec4:(GPUVector4)<em>vectorValue</em> forUniform:(GLint)<em>uniform</em> program:(GLProgram *)<em>shaderProgram</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setupFilterForSize:" title="setupFilterForSize:"></a>
+	<h3 class="subsubtitle method-title">setupFilterForSize:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setupFilterForSize:(CGSize)<em>filterFrameSize</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sizeOfFBO" title="sizeOfFBO"></a>
+	<h3 class="subsubtitle method-title">sizeOfFBO</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Size of the frame buffer object</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGSize)sizeOfFBO</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GPUImageFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Sunset Lake Software. All rights reserved. (Last updated: 2014-06-09)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

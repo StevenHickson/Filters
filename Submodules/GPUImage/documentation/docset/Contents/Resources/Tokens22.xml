@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageColorBurnBlendFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageColorBurnBlendFilter</TokenIdentifier>
+			<Abstract type="html">Applies a color burn blend of two images</Abstract>
+			<DeclaredIn>GPUImageColorBurnBlendFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

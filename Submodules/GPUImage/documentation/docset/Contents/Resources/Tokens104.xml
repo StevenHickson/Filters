@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePinchDistortionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePinchDistortionFilter</TokenIdentifier>
+			<Abstract type="html">Creates a pinch distortion of the image</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="104"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/setCenter:</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePinchDistortionFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/setRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 2.0, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 2.0, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePinchDistortionFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 2.0, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/setScale:</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, from -2.0 to 2.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePinchDistortionFilter/scale</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, from -2.0 to 2.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePinchDistortionFilter/scale</TokenIdentifier>
+			<Abstract type="html">The amount of distortion to apply, from -2.0 to 2.0, with a default of 0.5</Abstract>
+			<DeclaredIn>GPUImagePinchDistortionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

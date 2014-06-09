@@ -1,0 +1,533 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GLProgram Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GPUImage </a></h1>
+				<a id="developerHome" href="../index.html">Sunset Lake Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GLProgram Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/initialized">&nbsp;&nbsp;&nbsp;&nbsp;initialized</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAttribute:">&nbsp;&nbsp;&nbsp;&nbsp;- addAttribute:</option>
+	
+	<option value="//api/name/attributeIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- attributeIndex:</option>
+	
+	<option value="//api/name/fragmentShaderLog">&nbsp;&nbsp;&nbsp;&nbsp;- fragmentShaderLog</option>
+	
+	<option value="//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderFilename:fragmentShaderFilename:</option>
+	
+	<option value="//api/name/initWithVertexShaderString:fragmentShaderFilename:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderString:fragmentShaderFilename:</option>
+	
+	<option value="//api/name/initWithVertexShaderString:fragmentShaderString:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderString:fragmentShaderString:</option>
+	
+	<option value="//api/name/link">&nbsp;&nbsp;&nbsp;&nbsp;- link</option>
+	
+	<option value="//api/name/programLog">&nbsp;&nbsp;&nbsp;&nbsp;- programLog</option>
+	
+	<option value="//api/name/uniformIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- uniformIndex:</option>
+	
+	<option value="//api/name/use">&nbsp;&nbsp;&nbsp;&nbsp;- use</option>
+	
+	<option value="//api/name/validate">&nbsp;&nbsp;&nbsp;&nbsp;- validate</option>
+	
+	<option value="//api/name/vertexShaderLog">&nbsp;&nbsp;&nbsp;&nbsp;- vertexShaderLog</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initialized">initialized</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAttribute:">addAttribute:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributeIndex:">attributeIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fragmentShaderLog">fragmentShaderLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">initWithVertexShaderFilename:fragmentShaderFilename:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderString:fragmentShaderFilename:">initWithVertexShaderString:fragmentShaderFilename:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderString:fragmentShaderString:">initWithVertexShaderString:fragmentShaderString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/link">link</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/programLog">programLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/uniformIndex:">uniformIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/use">use</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/validate">validate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/vertexShaderLog">vertexShaderLog</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GLProgram Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GLProgram Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GLProgram.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initialized">&nbsp;&nbsp;initialized</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderString:fragmentShaderString:">&ndash;&nbsp;initWithVertexShaderString:fragmentShaderString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderString:fragmentShaderFilename:">&ndash;&nbsp;initWithVertexShaderString:fragmentShaderFilename:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">&ndash;&nbsp;initWithVertexShaderFilename:fragmentShaderFilename:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAttribute:">&ndash;&nbsp;addAttribute:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributeIndex:">&ndash;&nbsp;attributeIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/uniformIndex:">&ndash;&nbsp;uniformIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/link">&ndash;&nbsp;link</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/use">&ndash;&nbsp;use</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/vertexShaderLog">&ndash;&nbsp;vertexShaderLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fragmentShaderLog">&ndash;&nbsp;fragmentShaderLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/programLog">&ndash;&nbsp;programLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/validate">&ndash;&nbsp;validate</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initialized" title="initialized"></a>
+	<h3 class="subsubtitle method-title">initialized</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL initialized</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAttribute:" title="addAttribute:"></a>
+	<h3 class="subsubtitle method-title">addAttribute:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addAttribute:(NSString *)<em>attributeName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributeIndex:" title="attributeIndex:"></a>
+	<h3 class="subsubtitle method-title">attributeIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GLuint)attributeIndex:(NSString *)<em>attributeName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fragmentShaderLog" title="fragmentShaderLog"></a>
+	<h3 class="subsubtitle method-title">fragmentShaderLog</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)fragmentShaderLog</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderFilename:fragmentShaderFilename:" title="initWithVertexShaderFilename:fragmentShaderFilename:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderFilename:fragmentShaderFilename:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderFilename:(NSString *)<em>vShaderFilename</em> fragmentShaderFilename:(NSString *)<em>fShaderFilename</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderString:fragmentShaderFilename:" title="initWithVertexShaderString:fragmentShaderFilename:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderString:fragmentShaderFilename:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderString:(NSString *)<em>vShaderString</em> fragmentShaderFilename:(NSString *)<em>fShaderFilename</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderString:fragmentShaderString:" title="initWithVertexShaderString:fragmentShaderString:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderString:fragmentShaderString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderString:(NSString *)<em>vShaderString</em> fragmentShaderString:(NSString *)<em>fShaderString</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/link" title="link"></a>
+	<h3 class="subsubtitle method-title">link</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)link</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/programLog" title="programLog"></a>
+	<h3 class="subsubtitle method-title">programLog</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)programLog</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/uniformIndex:" title="uniformIndex:"></a>
+	<h3 class="subsubtitle method-title">uniformIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GLuint)uniformIndex:(NSString *)<em>uniformName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/use" title="use"></a>
+	<h3 class="subsubtitle method-title">use</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)use</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/validate" title="validate"></a>
+	<h3 class="subsubtitle method-title">validate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)validate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/vertexShaderLog" title="vertexShaderLog"></a>
+	<h3 class="subsubtitle method-title">vertexShaderLog</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)vertexShaderLog</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Sunset Lake Software. All rights reserved. (Last updated: 2014-06-09)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

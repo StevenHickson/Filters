@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageLanczosResamplingFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageLanczosResamplingFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLanczosResamplingFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLanczosResamplingFilter/setOriginalImageSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLanczosResamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize originalImageSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalImageSize</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLanczosResamplingFilter/originalImageSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLanczosResamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize originalImageSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalImageSize</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageLanczosResamplingFilter/originalImageSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLanczosResamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize originalImageSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalImageSize</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,3903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>GPUImage</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						<NodeRef refid="77"/>
+						<NodeRef refid="78"/>
+						<NodeRef refid="79"/>
+						<NodeRef refid="80"/>
+						<NodeRef refid="81"/>
+						<NodeRef refid="82"/>
+						<NodeRef refid="83"/>
+						<NodeRef refid="84"/>
+						<NodeRef refid="85"/>
+						<NodeRef refid="86"/>
+						<NodeRef refid="87"/>
+						<NodeRef refid="88"/>
+						<NodeRef refid="89"/>
+						<NodeRef refid="90"/>
+						<NodeRef refid="91"/>
+						<NodeRef refid="92"/>
+						<NodeRef refid="93"/>
+						<NodeRef refid="94"/>
+						<NodeRef refid="95"/>
+						<NodeRef refid="96"/>
+						<NodeRef refid="97"/>
+						<NodeRef refid="98"/>
+						<NodeRef refid="99"/>
+						<NodeRef refid="100"/>
+						<NodeRef refid="101"/>
+						<NodeRef refid="102"/>
+						<NodeRef refid="103"/>
+						<NodeRef refid="104"/>
+						<NodeRef refid="105"/>
+						<NodeRef refid="106"/>
+						<NodeRef refid="107"/>
+						<NodeRef refid="108"/>
+						<NodeRef refid="109"/>
+						<NodeRef refid="110"/>
+						<NodeRef refid="111"/>
+						<NodeRef refid="112"/>
+						<NodeRef refid="113"/>
+						<NodeRef refid="114"/>
+						<NodeRef refid="115"/>
+						<NodeRef refid="116"/>
+						<NodeRef refid="117"/>
+						<NodeRef refid="118"/>
+						<NodeRef refid="119"/>
+						<NodeRef refid="120"/>
+						<NodeRef refid="121"/>
+						<NodeRef refid="122"/>
+						<NodeRef refid="123"/>
+						<NodeRef refid="124"/>
+						<NodeRef refid="125"/>
+						<NodeRef refid="126"/>
+						<NodeRef refid="127"/>
+						<NodeRef refid="128"/>
+						<NodeRef refid="129"/>
+						<NodeRef refid="130"/>
+						<NodeRef refid="131"/>
+						<NodeRef refid="132"/>
+						<NodeRef refid="133"/>
+						<NodeRef refid="134"/>
+						<NodeRef refid="135"/>
+						<NodeRef refid="136"/>
+						<NodeRef refid="137"/>
+						<NodeRef refid="138"/>
+						<NodeRef refid="139"/>
+						<NodeRef refid="140"/>
+						<NodeRef refid="141"/>
+						<NodeRef refid="142"/>
+						<NodeRef refid="143"/>
+						<NodeRef refid="144"/>
+						<NodeRef refid="145"/>
+						<NodeRef refid="146"/>
+						<NodeRef refid="147"/>
+						<NodeRef refid="148"/>
+						<NodeRef refid="149"/>
+						<NodeRef refid="150"/>
+						<NodeRef refid="151"/>
+						<NodeRef refid="152"/>
+						<NodeRef refid="153"/>
+						<NodeRef refid="154"/>
+						<NodeRef refid="155"/>
+						<NodeRef refid="156"/>
+						<NodeRef refid="157"/>
+						<NodeRef refid="158"/>
+						<NodeRef refid="159"/>
+						<NodeRef refid="160"/>
+						<NodeRef refid="161"/>
+						<NodeRef refid="162"/>
+						<NodeRef refid="163"/>
+						<NodeRef refid="164"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="165"/>
+						<NodeRef refid="166"/>
+						<NodeRef refid="167"/>
+						<NodeRef refid="168"/>
+						<NodeRef refid="169"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="170"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>GLProgram</Name>
+            <Path>Classes/GLProgram.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GLProgram.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GLProgram.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GLProgram.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GLProgram.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>GPUImage3x3ConvolutionFilter</Name>
+            <Path>Classes/GPUImage3x3ConvolutionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3ConvolutionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3ConvolutionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3ConvolutionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>GPUImage3x3TextureSamplingFilter</Name>
+            <Path>Classes/GPUImage3x3TextureSamplingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3TextureSamplingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3TextureSamplingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImage3x3TextureSamplingFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>GPUImageAVCamera</Name>
+            <Path>Classes/GPUImageAVCamera.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageAVCamera.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageAVCamera.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAVCamera.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAVCamera.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAVCamera.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>GPUImageAdaptiveThresholdFilter</Name>
+            <Path>Classes/GPUImageAdaptiveThresholdFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageAdaptiveThresholdFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageAdaptiveThresholdFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAdaptiveThresholdFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>GPUImageAddBlendFilter</Name>
+            <Path>Classes/GPUImageAddBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>GPUImageAlphaBlendFilter</Name>
+            <Path>Classes/GPUImageAlphaBlendFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageAlphaBlendFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageAlphaBlendFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAlphaBlendFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>GPUImageAmatorkaFilter</Name>
+            <Path>Classes/GPUImageAmatorkaFilter.html</Path>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>GPUImageAverageColor</Name>
+            <Path>Classes/GPUImageAverageColor.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageColor.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageColor.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageColor.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageColor.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>GPUImageAverageLuminanceThresholdFilter</Name>
+            <Path>Classes/GPUImageAverageLuminanceThresholdFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageLuminanceThresholdFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageLuminanceThresholdFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageAverageLuminanceThresholdFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>GPUImageBilateralFilter</Name>
+            <Path>Classes/GPUImageBilateralFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageBilateralFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageBilateralFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageBilateralFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>GPUImageBoxBlurFilter</Name>
+            <Path>Classes/GPUImageBoxBlurFilter.html</Path>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>GPUImageBrightnessFilter</Name>
+            <Path>Classes/GPUImageBrightnessFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageBrightnessFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageBrightnessFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageBrightnessFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>GPUImageBuffer</Name>
+            <Path>Classes/GPUImageBuffer.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageBuffer.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageBuffer.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageBuffer.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>GPUImageBulgeDistortionFilter</Name>
+            <Path>Classes/GPUImageBulgeDistortionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageBulgeDistortionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageBulgeDistortionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageBulgeDistortionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>GPUImageCGAColorspaceFilter</Name>
+            <Path>Classes/GPUImageCGAColorspaceFilter.html</Path>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>GPUImageCannyEdgeDetectionFilter</Name>
+            <Path>Classes/GPUImageCannyEdgeDetectionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageCannyEdgeDetectionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageCannyEdgeDetectionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCannyEdgeDetectionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>GPUImageChromaKeyBlendFilter</Name>
+            <Path>Classes/GPUImageChromaKeyBlendFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyBlendFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyBlendFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyBlendFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyBlendFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>GPUImageChromaKeyFilter</Name>
+            <Path>Classes/GPUImageChromaKeyFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageChromaKeyFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>GPUImageClosingFilter</Name>
+            <Path>Classes/GPUImageClosingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageClosingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageClosingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageClosingFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageClosingFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>GPUImageColorBlendFilter</Name>
+            <Path>Classes/GPUImageColorBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>GPUImageColorBurnBlendFilter</Name>
+            <Path>Classes/GPUImageColorBurnBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>GPUImageColorDodgeBlendFilter</Name>
+            <Path>Classes/GPUImageColorDodgeBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>GPUImageColorInvertFilter</Name>
+            <Path>Classes/GPUImageColorInvertFilter.html</Path>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>GPUImageColorMatrixFilter</Name>
+            <Path>Classes/GPUImageColorMatrixFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageColorMatrixFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageColorMatrixFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageColorMatrixFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>GPUImageColorPackingFilter</Name>
+            <Path>Classes/GPUImageColorPackingFilter.html</Path>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>GPUImageContext</Name>
+            <Path>Classes/GPUImageContext.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageContext.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageContext.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageContext.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageContext.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageContext.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="28" type="file" documentType="reference">
+            <Name>GPUImageContrastFilter</Name>
+            <Path>Classes/GPUImageContrastFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageContrastFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageContrastFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageContrastFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>GPUImageCropFilter</Name>
+            <Path>Classes/GPUImageCropFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageCropFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageCropFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCropFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCropFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>GPUImageCrosshairGenerator</Name>
+            <Path>Classes/GPUImageCrosshairGenerator.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshairGenerator.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshairGenerator.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshairGenerator.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshairGenerator.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>GPUImageCrosshatchFilter</Name>
+            <Path>Classes/GPUImageCrosshatchFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshatchFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshatchFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageCrosshatchFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>GPUImageDarkenBlendFilter</Name>
+            <Path>Classes/GPUImageDarkenBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>GPUImageDifferenceBlendFilter</Name>
+            <Path>Classes/GPUImageDifferenceBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>GPUImageDilationFilter</Name>
+            <Path>Classes/GPUImageDilationFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageDilationFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageDilationFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageDilationFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="35" type="file" documentType="reference">
+            <Name>GPUImageDirectionalNonMaximumSuppressionFilter</Name>
+            <Path>Classes/GPUImageDirectionalNonMaximumSuppressionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageDirectionalNonMaximumSuppressionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageDirectionalNonMaximumSuppressionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageDirectionalNonMaximumSuppressionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="36" type="file" documentType="reference">
+            <Name>GPUImageDissolveBlendFilter</Name>
+            <Path>Classes/GPUImageDissolveBlendFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageDissolveBlendFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageDissolveBlendFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageDissolveBlendFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="37" type="file" documentType="reference">
+            <Name>GPUImageDivideBlendFilter</Name>
+            <Path>Classes/GPUImageDivideBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="38" type="file" documentType="reference">
+            <Name>GPUImageEmbossFilter</Name>
+            <Path>Classes/GPUImageEmbossFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageEmbossFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageEmbossFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageEmbossFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="39" type="file" documentType="reference">
+            <Name>GPUImageErosionFilter</Name>
+            <Path>Classes/GPUImageErosionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageErosionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageErosionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageErosionFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="40" type="file" documentType="reference">
+            <Name>GPUImageExclusionBlendFilter</Name>
+            <Path>Classes/GPUImageExclusionBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="41" type="file" documentType="reference">
+            <Name>GPUImageExposureFilter</Name>
+            <Path>Classes/GPUImageExposureFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageExposureFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageExposureFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageExposureFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="42" type="file" documentType="reference">
+            <Name>GPUImageFASTCornerDetectionFilter</Name>
+            <Path>Classes/GPUImageFASTCornerDetectionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFASTCornerDetectionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFASTCornerDetectionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFASTCornerDetectionFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="43" type="file" documentType="reference">
+            <Name>GPUImageFalseColorFilter</Name>
+            <Path>Classes/GPUImageFalseColorFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFalseColorFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFalseColorFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFalseColorFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFalseColorFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="44" type="file" documentType="reference">
+            <Name>GPUImageFilter</Name>
+            <Path>Classes/GPUImageFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilter.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="45" type="file" documentType="reference">
+            <Name>GPUImageFilterGroup</Name>
+            <Path>Classes/GPUImageFilterGroup.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterGroup.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterGroup.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterGroup.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterGroup.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="46" type="file" documentType="reference">
+            <Name>GPUImageFilterPipeline</Name>
+            <Path>Classes/GPUImageFilterPipeline.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterPipeline.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterPipeline.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterPipeline.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFilterPipeline.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="47" type="file" documentType="reference">
+            <Name>GPUImageFramebuffer</Name>
+            <Path>Classes/GPUImageFramebuffer.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebuffer.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebuffer.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebuffer.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebuffer.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="48" type="file" documentType="reference">
+            <Name>GPUImageFramebufferCache</Name>
+            <Path>Classes/GPUImageFramebufferCache.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebufferCache.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebufferCache.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageFramebufferCache.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="49" type="file" documentType="reference">
+            <Name>GPUImageGammaFilter</Name>
+            <Path>Classes/GPUImageGammaFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageGammaFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageGammaFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGammaFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="50" type="file" documentType="reference">
+            <Name>GPUImageGaussianBlurFilter</Name>
+            <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="51" type="file" documentType="reference">
+            <Name>GPUImageGaussianBlurPositionFilter</Name>
+            <Path>Classes/GPUImageGaussianBlurPositionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurPositionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurPositionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianBlurPositionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="52" type="file" documentType="reference">
+            <Name>GPUImageGaussianSelectiveBlurFilter</Name>
+            <Path>Classes/GPUImageGaussianSelectiveBlurFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianSelectiveBlurFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianSelectiveBlurFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageGaussianSelectiveBlurFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="53" type="file" documentType="reference">
+            <Name>GPUImageGlassSphereFilter</Name>
+            <Path>Classes/GPUImageGlassSphereFilter.html</Path>
+            
+        </Node>
+		<Node id="54" type="file" documentType="reference">
+            <Name>GPUImageGrayscaleFilter</Name>
+            <Path>Classes/GPUImageGrayscaleFilter.html</Path>
+            
+        </Node>
+		<Node id="55" type="file" documentType="reference">
+            <Name>GPUImageHSBFilter</Name>
+            <Path>Classes/GPUImageHSBFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHSBFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHSBFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHSBFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="56" type="file" documentType="reference">
+            <Name>GPUImageHalftoneFilter</Name>
+            <Path>Classes/GPUImageHalftoneFilter.html</Path>
+            
+        </Node>
+		<Node id="57" type="file" documentType="reference">
+            <Name>GPUImageHardLightBlendFilter</Name>
+            <Path>Classes/GPUImageHardLightBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="58" type="file" documentType="reference">
+            <Name>GPUImageHarrisCornerDetectionFilter</Name>
+            <Path>Classes/GPUImageHarrisCornerDetectionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHarrisCornerDetectionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHarrisCornerDetectionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHarrisCornerDetectionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHarrisCornerDetectionFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="59" type="file" documentType="reference">
+            <Name>GPUImageHazeFilter</Name>
+            <Path>Classes/GPUImageHazeFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHazeFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHazeFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHazeFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="60" type="file" documentType="reference">
+            <Name>GPUImageHighPassFilter</Name>
+            <Path>Classes/GPUImageHighPassFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHighPassFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHighPassFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHighPassFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="61" type="file" documentType="reference">
+            <Name>GPUImageHighlightShadowFilter</Name>
+            <Path>Classes/GPUImageHighlightShadowFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHighlightShadowFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHighlightShadowFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHighlightShadowFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="62" type="file" documentType="reference">
+            <Name>GPUImageHistogramFilter</Name>
+            <Path>Classes/GPUImageHistogramFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHistogramFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHistogramFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHistogramFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHistogramFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="63" type="file" documentType="reference">
+            <Name>GPUImageHistogramGenerator</Name>
+            <Path>Classes/GPUImageHistogramGenerator.html</Path>
+            
+        </Node>
+		<Node id="64" type="file" documentType="reference">
+            <Name>GPUImageHoughTransformLineDetector</Name>
+            <Path>Classes/GPUImageHoughTransformLineDetector.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHoughTransformLineDetector.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHoughTransformLineDetector.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHoughTransformLineDetector.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="65" type="file" documentType="reference">
+            <Name>GPUImageHueBlendFilter</Name>
+            <Path>Classes/GPUImageHueBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="66" type="file" documentType="reference">
+            <Name>GPUImageHueFilter</Name>
+            <Path>Classes/GPUImageHueFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageHueFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageHueFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageHueFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="67" type="file" documentType="reference">
+            <Name>GPUImageJFAVoronoiFilter</Name>
+            <Path>Classes/GPUImageJFAVoronoiFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageJFAVoronoiFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageJFAVoronoiFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageJFAVoronoiFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="68" type="file" documentType="reference">
+            <Name>GPUImageKuwaharaFilter</Name>
+            <Path>Classes/GPUImageKuwaharaFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageKuwaharaFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageKuwaharaFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageKuwaharaFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="69" type="file" documentType="reference">
+            <Name>GPUImageKuwaharaRadius3Filter</Name>
+            <Path>Classes/GPUImageKuwaharaRadius3Filter.html</Path>
+            
+        </Node>
+		<Node id="70" type="file" documentType="reference">
+            <Name>GPUImageLanczosResamplingFilter</Name>
+            <Path>Classes/GPUImageLanczosResamplingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLanczosResamplingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLanczosResamplingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLanczosResamplingFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="71" type="file" documentType="reference">
+            <Name>GPUImageLaplacianFilter</Name>
+            <Path>Classes/GPUImageLaplacianFilter.html</Path>
+            
+        </Node>
+		<Node id="72" type="file" documentType="reference">
+            <Name>GPUImageLevelsFilter</Name>
+            <Path>Classes/GPUImageLevelsFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLevelsFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLevelsFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLevelsFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="73" type="file" documentType="reference">
+            <Name>GPUImageLightenBlendFilter</Name>
+            <Path>Classes/GPUImageLightenBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="74" type="file" documentType="reference">
+            <Name>GPUImageLineGenerator</Name>
+            <Path>Classes/GPUImageLineGenerator.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLineGenerator.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLineGenerator.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLineGenerator.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLineGenerator.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="75" type="file" documentType="reference">
+            <Name>GPUImageLinearBurnBlendFilter</Name>
+            <Path>Classes/GPUImageLinearBurnBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="76" type="file" documentType="reference">
+            <Name>GPUImageLocalBinaryPatternFilter</Name>
+            <Path>Classes/GPUImageLocalBinaryPatternFilter.html</Path>
+            
+        </Node>
+		<Node id="77" type="file" documentType="reference">
+            <Name>GPUImageLookupFilter</Name>
+            <Path>Classes/GPUImageLookupFilter.html</Path>
+            
+        </Node>
+		<Node id="78" type="file" documentType="reference">
+            <Name>GPUImageLowPassFilter</Name>
+            <Path>Classes/GPUImageLowPassFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLowPassFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLowPassFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLowPassFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="79" type="file" documentType="reference">
+            <Name>GPUImageLuminanceRangeFilter</Name>
+            <Path>Classes/GPUImageLuminanceRangeFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceRangeFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceRangeFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceRangeFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="80" type="file" documentType="reference">
+            <Name>GPUImageLuminanceThresholdFilter</Name>
+            <Path>Classes/GPUImageLuminanceThresholdFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceThresholdFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceThresholdFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminanceThresholdFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="81" type="file" documentType="reference">
+            <Name>GPUImageLuminosity</Name>
+            <Path>Classes/GPUImageLuminosity.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminosity.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminosity.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminosity.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageLuminosity.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="82" type="file" documentType="reference">
+            <Name>GPUImageLuminosityBlendFilter</Name>
+            <Path>Classes/GPUImageLuminosityBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="83" type="file" documentType="reference">
+            <Name>GPUImageMaskFilter</Name>
+            <Path>Classes/GPUImageMaskFilter.html</Path>
+            
+        </Node>
+		<Node id="84" type="file" documentType="reference">
+            <Name>GPUImageMedianFilter</Name>
+            <Path>Classes/GPUImageMedianFilter.html</Path>
+            
+        </Node>
+		<Node id="85" type="file" documentType="reference">
+            <Name>GPUImageMissEtikateFilter</Name>
+            <Path>Classes/GPUImageMissEtikateFilter.html</Path>
+            
+        </Node>
+		<Node id="86" type="file" documentType="reference">
+            <Name>GPUImageMonochromeFilter</Name>
+            <Path>Classes/GPUImageMonochromeFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMonochromeFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMonochromeFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMonochromeFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMonochromeFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="87" type="file" documentType="reference">
+            <Name>GPUImageMosaicFilter</Name>
+            <Path>Classes/GPUImageMosaicFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMosaicFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMosaicFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMosaicFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMosaicFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="88" type="file" documentType="reference">
+            <Name>GPUImageMotionBlurFilter</Name>
+            <Path>Classes/GPUImageMotionBlurFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionBlurFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionBlurFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionBlurFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="89" type="file" documentType="reference">
+            <Name>GPUImageMotionDetector</Name>
+            <Path>Classes/GPUImageMotionDetector.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionDetector.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionDetector.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMotionDetector.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="90" type="file" documentType="reference">
+            <Name>GPUImageMovie</Name>
+            <Path>Classes/GPUImageMovie.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovie.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovie.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovie.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovie.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="91" type="file" documentType="reference">
+            <Name>GPUImageMovieComposition</Name>
+            <Path>Classes/GPUImageMovieComposition.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieComposition.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieComposition.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieComposition.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieComposition.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="92" type="file" documentType="reference">
+            <Name>GPUImageMovieWriter</Name>
+            <Path>Classes/GPUImageMovieWriter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieWriter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieWriter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieWriter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageMovieWriter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="93" type="file" documentType="reference">
+            <Name>GPUImageMultiplyBlendFilter</Name>
+            <Path>Classes/GPUImageMultiplyBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="94" type="file" documentType="reference">
+            <Name>GPUImageNobleCornerDetectionFilter</Name>
+            <Path>Classes/GPUImageNobleCornerDetectionFilter.html</Path>
+            
+        </Node>
+		<Node id="95" type="file" documentType="reference">
+            <Name>GPUImageNonMaximumSuppressionFilter</Name>
+            <Path>Classes/GPUImageNonMaximumSuppressionFilter.html</Path>
+            
+        </Node>
+		<Node id="96" type="file" documentType="reference">
+            <Name>GPUImageNormalBlendFilter</Name>
+            <Path>Classes/GPUImageNormalBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="97" type="file" documentType="reference">
+            <Name>GPUImageOpacityFilter</Name>
+            <Path>Classes/GPUImageOpacityFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageOpacityFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageOpacityFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageOpacityFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="98" type="file" documentType="reference">
+            <Name>GPUImageOpeningFilter</Name>
+            <Path>Classes/GPUImageOpeningFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageOpeningFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageOpeningFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageOpeningFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageOpeningFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="99" type="file" documentType="reference">
+            <Name>GPUImageOutput</Name>
+            <Path>Classes/GPUImageOutput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageOutput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageOutput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageOutput.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageOutput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="100" type="file" documentType="reference">
+            <Name>GPUImageOverlayBlendFilter</Name>
+            <Path>Classes/GPUImageOverlayBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="101" type="file" documentType="reference">
+            <Name>GPUImageParallelCoordinateLineTransformFilter</Name>
+            <Path>Classes/GPUImageParallelCoordinateLineTransformFilter.html</Path>
+            
+        </Node>
+		<Node id="102" type="file" documentType="reference">
+            <Name>GPUImagePerlinNoiseFilter</Name>
+            <Path>Classes/GPUImagePerlinNoiseFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePerlinNoiseFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePerlinNoiseFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePerlinNoiseFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="103" type="file" documentType="reference">
+            <Name>GPUImagePicture</Name>
+            <Path>Classes/GPUImagePicture.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePicture.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePicture.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePicture.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="104" type="file" documentType="reference">
+            <Name>GPUImagePinchDistortionFilter</Name>
+            <Path>Classes/GPUImagePinchDistortionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePinchDistortionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePinchDistortionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePinchDistortionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="105" type="file" documentType="reference">
+            <Name>GPUImagePixellateFilter</Name>
+            <Path>Classes/GPUImagePixellateFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellateFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellateFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellateFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="106" type="file" documentType="reference">
+            <Name>GPUImagePixellatePositionFilter</Name>
+            <Path>Classes/GPUImagePixellatePositionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellatePositionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellatePositionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePixellatePositionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="107" type="file" documentType="reference">
+            <Name>GPUImagePoissonBlendFilter</Name>
+            <Path>Classes/GPUImagePoissonBlendFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePoissonBlendFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePoissonBlendFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePoissonBlendFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="108" type="file" documentType="reference">
+            <Name>GPUImagePolarPixellateFilter</Name>
+            <Path>Classes/GPUImagePolarPixellateFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePolarPixellateFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePolarPixellateFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePolarPixellateFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="109" type="file" documentType="reference">
+            <Name>GPUImagePolkaDotFilter</Name>
+            <Path>Classes/GPUImagePolkaDotFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePolkaDotFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePolkaDotFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePolkaDotFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="110" type="file" documentType="reference">
+            <Name>GPUImagePosterizeFilter</Name>
+            <Path>Classes/GPUImagePosterizeFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImagePosterizeFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImagePosterizeFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImagePosterizeFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="111" type="file" documentType="reference">
+            <Name>GPUImagePrewittEdgeDetectionFilter</Name>
+            <Path>Classes/GPUImagePrewittEdgeDetectionFilter.html</Path>
+            
+        </Node>
+		<Node id="112" type="file" documentType="reference">
+            <Name>GPUImageRGBClosingFilter</Name>
+            <Path>Classes/GPUImageRGBClosingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBClosingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBClosingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBClosingFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="113" type="file" documentType="reference">
+            <Name>GPUImageRGBDilationFilter</Name>
+            <Path>Classes/GPUImageRGBDilationFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBDilationFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBDilationFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBDilationFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="114" type="file" documentType="reference">
+            <Name>GPUImageRGBErosionFilter</Name>
+            <Path>Classes/GPUImageRGBErosionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBErosionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBErosionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBErosionFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="115" type="file" documentType="reference">
+            <Name>GPUImageRGBFilter</Name>
+            <Path>Classes/GPUImageRGBFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="116" type="file" documentType="reference">
+            <Name>GPUImageRGBOpeningFilter</Name>
+            <Path>Classes/GPUImageRGBOpeningFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBOpeningFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBOpeningFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRGBOpeningFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="117" type="file" documentType="reference">
+            <Name>GPUImageRawDataInput</Name>
+            <Path>Classes/GPUImageRawDataInput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataInput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataInput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataInput.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataInput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="118" type="file" documentType="reference">
+            <Name>GPUImageRawDataOutput</Name>
+            <Path>Classes/GPUImageRawDataOutput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataOutput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataOutput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataOutput.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageRawDataOutput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="119" type="file" documentType="reference">
+            <Name>GPUImageSaturationBlendFilter</Name>
+            <Path>Classes/GPUImageSaturationBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="120" type="file" documentType="reference">
+            <Name>GPUImageSaturationFilter</Name>
+            <Path>Classes/GPUImageSaturationFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSaturationFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSaturationFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSaturationFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="121" type="file" documentType="reference">
+            <Name>GPUImageScreenBlendFilter</Name>
+            <Path>Classes/GPUImageScreenBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="122" type="file" documentType="reference">
+            <Name>GPUImageSepiaFilter</Name>
+            <Path>Classes/GPUImageSepiaFilter.html</Path>
+            
+        </Node>
+		<Node id="123" type="file" documentType="reference">
+            <Name>GPUImageSharpenFilter</Name>
+            <Path>Classes/GPUImageSharpenFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSharpenFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSharpenFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSharpenFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="124" type="file" documentType="reference">
+            <Name>GPUImageShiTomasiFeatureDetectionFilter</Name>
+            <Path>Classes/GPUImageShiTomasiFeatureDetectionFilter.html</Path>
+            
+        </Node>
+		<Node id="125" type="file" documentType="reference">
+            <Name>GPUImageSingleComponentGaussianBlurFilter</Name>
+            <Path>Classes/GPUImageSingleComponentGaussianBlurFilter.html</Path>
+            
+        </Node>
+		<Node id="126" type="file" documentType="reference">
+            <Name>GPUImageSketchFilter</Name>
+            <Path>Classes/GPUImageSketchFilter.html</Path>
+            
+        </Node>
+		<Node id="127" type="file" documentType="reference">
+            <Name>GPUImageSmoothToonFilter</Name>
+            <Path>Classes/GPUImageSmoothToonFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSmoothToonFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSmoothToonFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSmoothToonFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="128" type="file" documentType="reference">
+            <Name>GPUImageSobelEdgeDetectionFilter</Name>
+            <Path>Classes/GPUImageSobelEdgeDetectionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSobelEdgeDetectionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSobelEdgeDetectionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSobelEdgeDetectionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="129" type="file" documentType="reference">
+            <Name>GPUImageSoftEleganceFilter</Name>
+            <Path>Classes/GPUImageSoftEleganceFilter.html</Path>
+            
+        </Node>
+		<Node id="130" type="file" documentType="reference">
+            <Name>GPUImageSoftLightBlendFilter</Name>
+            <Path>Classes/GPUImageSoftLightBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="131" type="file" documentType="reference">
+            <Name>GPUImageSolidColorGenerator</Name>
+            <Path>Classes/GPUImageSolidColorGenerator.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSolidColorGenerator.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSolidColorGenerator.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSolidColorGenerator.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSolidColorGenerator.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="132" type="file" documentType="reference">
+            <Name>GPUImageSourceOverBlendFilter</Name>
+            <Path>Classes/GPUImageSourceOverBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="133" type="file" documentType="reference">
+            <Name>GPUImageSphereRefractionFilter</Name>
+            <Path>Classes/GPUImageSphereRefractionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSphereRefractionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSphereRefractionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSphereRefractionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="134" type="file" documentType="reference">
+            <Name>GPUImageStillCamera</Name>
+            <Path>Classes/GPUImageStillCamera.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageStillCamera.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageStillCamera.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageStillCamera.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageStillCamera.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="135" type="file" documentType="reference">
+            <Name>GPUImageStretchDistortionFilter</Name>
+            <Path>Classes/GPUImageStretchDistortionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageStretchDistortionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageStretchDistortionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageStretchDistortionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="136" type="file" documentType="reference">
+            <Name>GPUImageSubtractBlendFilter</Name>
+            <Path>Classes/GPUImageSubtractBlendFilter.html</Path>
+            
+        </Node>
+		<Node id="137" type="file" documentType="reference">
+            <Name>GPUImageSwirlFilter</Name>
+            <Path>Classes/GPUImageSwirlFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageSwirlFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageSwirlFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageSwirlFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="138" type="file" documentType="reference">
+            <Name>GPUImageTests</Name>
+            <Path>Classes/GPUImageTests.html</Path>
+            
+        </Node>
+		<Node id="139" type="file" documentType="reference">
+            <Name>GPUImageTextureInput</Name>
+            <Path>Classes/GPUImageTextureInput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureInput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureInput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureInput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="140" type="file" documentType="reference">
+            <Name>GPUImageTextureOutput</Name>
+            <Path>Classes/GPUImageTextureOutput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureOutput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureOutput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureOutput.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTextureOutput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="141" type="file" documentType="reference">
+            <Name>GPUImageThreeInputFilter</Name>
+            <Path>Classes/GPUImageThreeInputFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageThreeInputFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageThreeInputFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageThreeInputFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="142" type="file" documentType="reference">
+            <Name>GPUImageThresholdEdgeDetectionFilter</Name>
+            <Path>Classes/GPUImageThresholdEdgeDetectionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdEdgeDetectionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdEdgeDetectionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdEdgeDetectionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="143" type="file" documentType="reference">
+            <Name>GPUImageThresholdSketchFilter</Name>
+            <Path>Classes/GPUImageThresholdSketchFilter.html</Path>
+            
+        </Node>
+		<Node id="144" type="file" documentType="reference">
+            <Name>GPUImageThresholdedNonMaximumSuppressionFilter</Name>
+            <Path>Classes/GPUImageThresholdedNonMaximumSuppressionFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdedNonMaximumSuppressionFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdedNonMaximumSuppressionFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdedNonMaximumSuppressionFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageThresholdedNonMaximumSuppressionFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="145" type="file" documentType="reference">
+            <Name>GPUImageTiltShiftFilter</Name>
+            <Path>Classes/GPUImageTiltShiftFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTiltShiftFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTiltShiftFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTiltShiftFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="146" type="file" documentType="reference">
+            <Name>GPUImageToneCurveFilter</Name>
+            <Path>Classes/GPUImageToneCurveFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageToneCurveFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageToneCurveFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageToneCurveFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageToneCurveFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="147" type="file" documentType="reference">
+            <Name>GPUImageToonFilter</Name>
+            <Path>Classes/GPUImageToonFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageToonFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageToonFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageToonFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="148" type="file" documentType="reference">
+            <Name>GPUImageTransformFilter</Name>
+            <Path>Classes/GPUImageTransformFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTransformFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTransformFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTransformFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="149" type="file" documentType="reference">
+            <Name>GPUImageTwoInputCrossTextureSamplingFilter</Name>
+            <Path>Classes/GPUImageTwoInputCrossTextureSamplingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputCrossTextureSamplingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputCrossTextureSamplingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputCrossTextureSamplingFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="150" type="file" documentType="reference">
+            <Name>GPUImageTwoInputFilter</Name>
+            <Path>Classes/GPUImageTwoInputFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoInputFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="151" type="file" documentType="reference">
+            <Name>GPUImageTwoPassFilter</Name>
+            <Path>Classes/GPUImageTwoPassFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassFilter.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="152" type="file" documentType="reference">
+            <Name>GPUImageTwoPassTextureSamplingFilter</Name>
+            <Path>Classes/GPUImageTwoPassTextureSamplingFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassTextureSamplingFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassTextureSamplingFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageTwoPassTextureSamplingFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="153" type="file" documentType="reference">
+            <Name>GPUImageUIElement</Name>
+            <Path>Classes/GPUImageUIElement.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageUIElement.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageUIElement.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageUIElement.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="154" type="file" documentType="reference">
+            <Name>GPUImageUnsharpMaskFilter</Name>
+            <Path>Classes/GPUImageUnsharpMaskFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageUnsharpMaskFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageUnsharpMaskFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageUnsharpMaskFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="155" type="file" documentType="reference">
+            <Name>GPUImageVideoCamera</Name>
+            <Path>Classes/GPUImageVideoCamera.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageVideoCamera.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageVideoCamera.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageVideoCamera.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageVideoCamera.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageVideoCamera.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="156" type="file" documentType="reference">
+            <Name>GPUImageView</Name>
+            <Path>Classes/GPUImageView.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageView.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageView.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageView.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageView.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="157" type="file" documentType="reference">
+            <Name>GPUImageVignetteFilter</Name>
+            <Path>Classes/GPUImageVignetteFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageVignetteFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageVignetteFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageVignetteFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="158" type="file" documentType="reference">
+            <Name>GPUImageVoronoiConsumerFilter</Name>
+            <Path>Classes/GPUImageVoronoiConsumerFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageVoronoiConsumerFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageVoronoiConsumerFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageVoronoiConsumerFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="159" type="file" documentType="reference">
+            <Name>GPUImageWeakPixelInclusionFilter</Name>
+            <Path>Classes/GPUImageWeakPixelInclusionFilter.html</Path>
+            
+        </Node>
+		<Node id="160" type="file" documentType="reference">
+            <Name>GPUImageWhiteBalanceFilter</Name>
+            <Path>Classes/GPUImageWhiteBalanceFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageWhiteBalanceFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageWhiteBalanceFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageWhiteBalanceFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="161" type="file" documentType="reference">
+            <Name>GPUImageXYDerivativeFilter</Name>
+            <Path>Classes/GPUImageXYDerivativeFilter.html</Path>
+            
+        </Node>
+		<Node id="162" type="file" documentType="reference">
+            <Name>GPUImageZoomBlurFilter</Name>
+            <Path>Classes/GPUImageZoomBlurFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageZoomBlurFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageZoomBlurFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageZoomBlurFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="163" type="file" documentType="reference">
+            <Name>GPUImageiOSBlurFilter</Name>
+            <Path>Classes/GPUImageiOSBlurFilter.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/GPUImageiOSBlurFilter.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/GPUImageiOSBlurFilter.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/GPUImageiOSBlurFilter.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="164" type="file" documentType="reference">
+            <Name>GPUimageDirectionalSobelEdgeDetectionFilter</Name>
+            <Path>Classes/GPUimageDirectionalSobelEdgeDetectionFilter.html</Path>
+            
+        </Node>
+		
+		
+        <Node id="165" type="file" documentType="reference">
+            <Name>GPUImageInput</Name>
+            <Path>Protocols/GPUImageInput.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/GPUImageInput.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/GPUImageInput.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/GPUImageInput.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="166" type="file" documentType="reference">
+            <Name>GPUImageMovieDelegate</Name>
+            <Path>Protocols/GPUImageMovieDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="167" type="file" documentType="reference">
+            <Name>GPUImageMovieWriterDelegate</Name>
+            <Path>Protocols/GPUImageMovieWriterDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieWriterDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieWriterDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/GPUImageMovieWriterDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="168" type="file" documentType="reference">
+            <Name>GPUImageTextureOutputDelegate</Name>
+            <Path>Protocols/GPUImageTextureOutputDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/GPUImageTextureOutputDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/GPUImageTextureOutputDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/GPUImageTextureOutputDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="169" type="file" documentType="reference">
+            <Name>GPUImageVideoCameraDelegate</Name>
+            <Path>Protocols/GPUImageVideoCameraDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/GPUImageVideoCameraDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/GPUImageVideoCameraDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/GPUImageVideoCameraDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="170" type="file" documentType="reference">
+            <Name>UIImageOrientation</Name>
+            <Path>Constants/UIImageOrientation.html</Path>
+            
+        </Node>
+		
+	</Library>
+</DocSetNodes>

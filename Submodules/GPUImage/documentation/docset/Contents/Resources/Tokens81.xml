@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageLuminosity.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageLuminosity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminosity/setLuminosityProcessingFinishedBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat luminosity , CMTime frameTime ) luminosityProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/luminosityProcessingFinishedBlock</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminosity/luminosityProcessingFinishedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat luminosity , CMTime frameTime ) luminosityProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/luminosityProcessingFinishedBlock</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageLuminosity/luminosityProcessingFinishedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat luminosity , CMTime frameTime ) luminosityProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/luminosityProcessingFinishedBlock</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminosity/extractLuminosityAtFrameTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+			
+			<Declaration>- (void)extractLuminosityAtFrameTime:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/extractLuminosityAtFrameTime:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageLuminosity/initializeSecondaryAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageLuminosity.h</DeclaredIn>
+			
+			<Declaration>- (void)initializeSecondaryAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/initializeSecondaryAttributes</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

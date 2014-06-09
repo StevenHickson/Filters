@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageVignetteFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageVignetteFilter</TokenIdentifier>
+			<Abstract type="html">Performs a vignetting effect, fading out the image at the edges</Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="157"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/setVignetteCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint vignetteCenter</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteCenter</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/vignetteCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint vignetteCenter</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteCenter</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVignetteFilter/vignetteCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint vignetteCenter</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteCenter</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/setVignetteColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUVector3 vignetteColor</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteColor</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/vignetteColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUVector3 vignetteColor</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteColor</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVignetteFilter/vignetteColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUVector3 vignetteColor</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteColor</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/setVignetteStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteStart</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteStart</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/vignetteStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteStart</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteStart</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVignetteFilter/vignetteStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteStart</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteStart</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/setVignetteEnd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteEnd</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteEnd</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVignetteFilter/vignetteEnd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteEnd</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteEnd</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVignetteFilter/vignetteEnd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVignetteFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat vignetteEnd</Declaration>
+			
+			
+			<Anchor>//api/name/vignetteEnd</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

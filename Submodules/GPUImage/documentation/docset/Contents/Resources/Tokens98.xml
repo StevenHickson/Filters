@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageOpeningFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageOpeningFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOpeningFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="98"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOpeningFilter/setHorizontalTexelSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOpeningFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOpeningFilter/horizontalTexelSpacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOpeningFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOpeningFilter/horizontalTexelSpacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOpeningFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOpeningFilter/initWithRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOpeningFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRadius:(NSUInteger)radius</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRadius:</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

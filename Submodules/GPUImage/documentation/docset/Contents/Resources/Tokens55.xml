@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHSBFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHSBFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHSBFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHSBFilter/reset</TokenIdentifier>
+			<Abstract type="html">Reset the filter to have no transformations.</Abstract>
+			<DeclaredIn>GPUImageHSBFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHSBFilter/rotateHue:</TokenIdentifier>
+			<Abstract type="html">Add a hue rotation to the filter.
+The hue rotation is in the range [-360, 360] with 0 being no-change.
+Note that this adjustment is additive, so use the reset method if you need to.</Abstract>
+			<DeclaredIn>GPUImageHSBFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateHue:(float)h</Declaration>
+			
+			
+			<Anchor>//api/name/rotateHue:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHSBFilter/adjustSaturation:</TokenIdentifier>
+			<Abstract type="html">Add a saturation adjustment to the filter.
+The saturation adjustment is in the range [0.0, 2.0] with 1.0 being no-change.
+Note that this adjustment is additive, so use the reset method if you need to.</Abstract>
+			<DeclaredIn>GPUImageHSBFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)adjustSaturation:(float)s</Declaration>
+			
+			
+			<Anchor>//api/name/adjustSaturation:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHSBFilter/adjustBrightness:</TokenIdentifier>
+			<Abstract type="html">Add a brightness adjustment to the filter.
+The brightness adjustment is in the range [0.0, 2.0] with 1.0 being no-change.
+Note that this adjustment is additive, so use the reset method if you need to.</Abstract>
+			<DeclaredIn>GPUImageHSBFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)adjustBrightness:(float)b</Declaration>
+			
+			
+			<Anchor>//api/name/adjustBrightness:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

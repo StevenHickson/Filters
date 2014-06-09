@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageJFAVoronoiFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageJFAVoronoiFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageJFAVoronoiFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageJFAVoronoiFilter/setSizeInPixels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageJFAVoronoiFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageJFAVoronoiFilter/sizeInPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageJFAVoronoiFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageJFAVoronoiFilter/sizeInPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageJFAVoronoiFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

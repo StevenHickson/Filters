@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageParallelCoordinateLineTransformFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageParallelCoordinateLineTransformFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageParallelCoordinateLineTransformFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageRawDataInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageRawDataInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+            
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/initWithBytes:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithBytes:(GLubyte *)bytesToUpload size:(CGSize)imageSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBytes:size:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/initWithBytes:size:pixelFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithBytes:(GLubyte *)bytesToUpload size:(CGSize)imageSize pixelFormat:(GPUPixelFormat)pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBytes:size:pixelFormat:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/initWithBytes:size:pixelFormat:type:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithBytes:(GLubyte *)bytesToUpload size:(CGSize)imageSize pixelFormat:(GPUPixelFormat)pixelFormat type:(GPUPixelType)pixelType</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBytes:size:pixelFormat:type:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/setPixelFormat:</TokenIdentifier>
+			<Abstract type="html">Input data pixel format</Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelFormat pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/pixelFormat</TokenIdentifier>
+			<Abstract type="html">Input data pixel format</Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelFormat pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageRawDataInput/pixelFormat</TokenIdentifier>
+			<Abstract type="html">Input data pixel format</Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelFormat pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/setPixelType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelType pixelType</Declaration>
+			
+			
+			<Anchor>//api/name/pixelType</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/pixelType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelType pixelType</Declaration>
+			
+			
+			<Anchor>//api/name/pixelType</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageRawDataInput/pixelType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUPixelType pixelType</Declaration>
+			
+			
+			<Anchor>//api/name/pixelType</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/updateDataFromBytes:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDataFromBytes:(GLubyte *)bytesToUpload size:(CGSize)imageSize</Declaration>
+			
+			
+			<Anchor>//api/name/updateDataFromBytes:size:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/processData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (void)processData</Declaration>
+			
+			
+			<Anchor>//api/name/processData</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/processDataForTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (void)processDataForTimestamp:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/processDataForTimestamp:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRawDataInput/outputImageSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRawDataInput.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)outputImageSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageSize</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

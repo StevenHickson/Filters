@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSubtractBlendFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSubtractBlendFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSubtractBlendFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="136"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

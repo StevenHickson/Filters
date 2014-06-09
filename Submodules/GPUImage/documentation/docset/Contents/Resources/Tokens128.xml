@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSobelEdgeDetectionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSobelEdgeDetectionFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="128"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/setTexelWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSobelEdgeDetectionFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/setTexelHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSobelEdgeDetectionFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/setEdgeStrength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeStrength</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStrength</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSobelEdgeDetectionFilter/edgeStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeStrength</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStrength</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSobelEdgeDetectionFilter/edgeStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSobelEdgeDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeStrength</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStrength</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

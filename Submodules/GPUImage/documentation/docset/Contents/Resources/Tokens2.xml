@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImage3x3ConvolutionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImage3x3ConvolutionFilter</TokenIdentifier>
+			<Abstract type="html">Runs a 3x3 convolution kernel against the image</Abstract>
+			<DeclaredIn>GPUImage3x3ConvolutionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3ConvolutionFilter/setConvolutionKernel:</TokenIdentifier>
+			<Abstract type="html">Convolution kernel to run against the image</Abstract>
+			<DeclaredIn>GPUImage3x3ConvolutionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix3x3 convolutionKernel</Declaration>
+			
+			
+			<Anchor>//api/name/convolutionKernel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImage3x3ConvolutionFilter/convolutionKernel</TokenIdentifier>
+			<Abstract type="html">Convolution kernel to run against the image</Abstract>
+			<DeclaredIn>GPUImage3x3ConvolutionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix3x3 convolutionKernel</Declaration>
+			
+			
+			<Anchor>//api/name/convolutionKernel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImage3x3ConvolutionFilter/convolutionKernel</TokenIdentifier>
+			<Abstract type="html">Convolution kernel to run against the image</Abstract>
+			<DeclaredIn>GPUImage3x3ConvolutionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUMatrix3x3 convolutionKernel</Declaration>
+			
+			
+			<Anchor>//api/name/convolutionKernel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

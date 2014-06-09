@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageCrosshairGenerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageCrosshairGenerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCrosshairGenerator/setCrosshairWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat crosshairWidth</Declaration>
+			
+			
+			<Anchor>//api/name/crosshairWidth</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCrosshairGenerator/crosshairWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat crosshairWidth</Declaration>
+			
+			
+			<Anchor>//api/name/crosshairWidth</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageCrosshairGenerator/crosshairWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat crosshairWidth</Declaration>
+			
+			
+			<Anchor>//api/name/crosshairWidth</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCrosshairGenerator/setCrosshairColorRed:green:blue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)setCrosshairColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent</Declaration>
+			
+			
+			<Anchor>//api/name/setCrosshairColorRed:green:blue:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageCrosshairGenerator/renderCrosshairsFromArray:count:frameTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageCrosshairGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)renderCrosshairsFromArray:(GLfloat *)crosshairCoordinates count:(NSUInteger)numberOfCrosshairs frameTime:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/renderCrosshairsFromArray:count:frameTime:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

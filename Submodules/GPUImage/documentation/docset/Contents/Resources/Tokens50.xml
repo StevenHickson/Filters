@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageGaussianBlurFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageGaussianBlurFilter</TokenIdentifier>
+			<Abstract type="html">A Gaussian blur filter
+    Interpolated optimization based on Daniel Rákos&apos; work at http://rastergrid.com/blog/2010/09/efficient-gaussian-blur-with-linear-sampling/</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/setTexelSpacingMultiplier:</TokenIdentifier>
+			<Abstract type="html">A multiplier for the spacing between texels, ranging from 0.0 on up, with a default of 1.0. Adjusting this may slightly increase the blur strength, but will introduce artifacts in the result.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelSpacingMultiplier</Declaration>
+			
+			
+			<Anchor>//api/name/texelSpacingMultiplier</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/texelSpacingMultiplier</TokenIdentifier>
+			<Abstract type="html">A multiplier for the spacing between texels, ranging from 0.0 on up, with a default of 1.0. Adjusting this may slightly increase the blur strength, but will introduce artifacts in the result.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelSpacingMultiplier</Declaration>
+			
+			
+			<Anchor>//api/name/texelSpacingMultiplier</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurFilter/texelSpacingMultiplier</TokenIdentifier>
+			<Abstract type="html">A multiplier for the spacing between texels, ranging from 0.0 on up, with a default of 1.0. Adjusting this may slightly increase the blur strength, but will introduce artifacts in the result.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelSpacingMultiplier</Declaration>
+			
+			
+			<Anchor>//api/name/texelSpacingMultiplier</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/setBlurRadiusInPixels:</TokenIdentifier>
+			<Abstract type="html">A radius in pixels to use for the blur, with a default of 2.0. This adjusts the sigma variable in the Gaussian distribution function.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">A radius in pixels to use for the blur, with a default of 2.0. This adjusts the sigma variable in the Gaussian distribution function.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">A radius in pixels to use for the blur, with a default of 2.0. This adjusts the sigma variable in the Gaussian distribution function.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/setBlurRadiusAsFractionOfImageWidth:</TokenIdentifier>
+			<Abstract type="html">Setting these properties will allow the blur radius to scale with the size of the image</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageWidth</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageWidth</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/blurRadiusAsFractionOfImageWidth</TokenIdentifier>
+			<Abstract type="html">Setting these properties will allow the blur radius to scale with the size of the image</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageWidth</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageWidth</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurFilter/blurRadiusAsFractionOfImageWidth</TokenIdentifier>
+			<Abstract type="html">Setting these properties will allow the blur radius to scale with the size of the image</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageWidth</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageWidth</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/setBlurRadiusAsFractionOfImageHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageHeight</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageHeight</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/blurRadiusAsFractionOfImageHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageHeight</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageHeight</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurFilter/blurRadiusAsFractionOfImageHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusAsFractionOfImageHeight</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusAsFractionOfImageHeight</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/setBlurPasses:</TokenIdentifier>
+			<Abstract type="html">The number of times to sequentially blur the incoming image. The more passes, the slower the filter.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger blurPasses</Declaration>
+			
+			
+			<Anchor>//api/name/blurPasses</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/blurPasses</TokenIdentifier>
+			<Abstract type="html">The number of times to sequentially blur the incoming image. The more passes, the slower the filter.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger blurPasses</Declaration>
+			
+			
+			<Anchor>//api/name/blurPasses</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurFilter/blurPasses</TokenIdentifier>
+			<Abstract type="html">The number of times to sequentially blur the incoming image. The more passes, the slower the filter.</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger blurPasses</Declaration>
+			
+			
+			<Anchor>//api/name/blurPasses</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageGaussianBlurFilter/vertexShaderForStandardBlurOfRadius:sigma:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)vertexShaderForStandardBlurOfRadius:(NSUInteger)blurRadius sigma:(CGFloat)sigma</Declaration>
+			
+			
+			<Anchor>//api/name/vertexShaderForStandardBlurOfRadius:sigma:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageGaussianBlurFilter/fragmentShaderForStandardBlurOfRadius:sigma:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)fragmentShaderForStandardBlurOfRadius:(NSUInteger)blurRadius sigma:(CGFloat)sigma</Declaration>
+			
+			
+			<Anchor>//api/name/fragmentShaderForStandardBlurOfRadius:sigma:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageGaussianBlurFilter/vertexShaderForOptimizedBlurOfRadius:sigma:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)vertexShaderForOptimizedBlurOfRadius:(NSUInteger)blurRadius sigma:(CGFloat)sigma</Declaration>
+			
+			
+			<Anchor>//api/name/vertexShaderForOptimizedBlurOfRadius:sigma:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GPUImageGaussianBlurFilter/fragmentShaderForOptimizedBlurOfRadius:sigma:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)fragmentShaderForOptimizedBlurOfRadius:(NSUInteger)blurRadius sigma:(CGFloat)sigma</Declaration>
+			
+			
+			<Anchor>//api/name/fragmentShaderForOptimizedBlurOfRadius:sigma:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurFilter/switchToVertexShader:fragmentShader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageGaussianBlurFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)switchToVertexShader:(NSString *)newVertexShader fragmentShader:(NSString *)newFragmentShader</Declaration>
+			
+			
+			<Anchor>//api/name/switchToVertexShader:fragmentShader:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

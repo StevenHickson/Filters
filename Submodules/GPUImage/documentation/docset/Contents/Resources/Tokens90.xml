@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageMovie.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageMovie</TokenIdentifier>
+			<Abstract type="html">Source object for filtering movies</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+            
+			
+			<NodeRef refid="90"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setAsset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVAsset *asset</Declaration>
+			
+			
+			<Anchor>//api/name/asset</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/asset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVAsset *asset</Declaration>
+			
+			
+			<Anchor>//api/name/asset</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/asset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVAsset *asset</Declaration>
+			
+			
+			<Anchor>//api/name/asset</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setPlayerItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVPlayerItem *playerItem</Declaration>
+			
+			
+			<Anchor>//api/name/playerItem</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/playerItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVPlayerItem *playerItem</Declaration>
+			
+			
+			<Anchor>//api/name/playerItem</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/playerItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) AVPlayerItem *playerItem</Declaration>
+			
+			
+			<Anchor>//api/name/playerItem</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, retain) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setRunBenchmark:</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/runBenchmark</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/runBenchmark</TokenIdentifier>
+			<Abstract type="html">This enables the benchmarking mode, which logs out instantaneous and average frame times to the console</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL runBenchmark</Declaration>
+			
+			
+			<Anchor>//api/name/runBenchmark</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setPlayAtActualSpeed:</TokenIdentifier>
+			<Abstract type="html">This determines whether to play back a movie as fast as the frames can be processed, or if the original speed of the movie should be respected. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL playAtActualSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/playAtActualSpeed</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/playAtActualSpeed</TokenIdentifier>
+			<Abstract type="html">This determines whether to play back a movie as fast as the frames can be processed, or if the original speed of the movie should be respected. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL playAtActualSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/playAtActualSpeed</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/playAtActualSpeed</TokenIdentifier>
+			<Abstract type="html">This determines whether to play back a movie as fast as the frames can be processed, or if the original speed of the movie should be respected. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL playAtActualSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/playAtActualSpeed</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setShouldRepeat:</TokenIdentifier>
+			<Abstract type="html">This determines whether the video should repeat (loop) at the end and restart from the beginning. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRepeat</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/shouldRepeat</TokenIdentifier>
+			<Abstract type="html">This determines whether the video should repeat (loop) at the end and restart from the beginning. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRepeat</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/shouldRepeat</TokenIdentifier>
+			<Abstract type="html">This determines whether the video should repeat (loop) at the end and restart from the beginning. Defaults to NO.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRepeat</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setProgress:</TokenIdentifier>
+			<Abstract type="html">This specifies the progress of the process on a scale from 0 to 1.0. A value of 0 means the process has not yet begun, A value of 1.0 means the conversaion is complete.
+    This property is not key-value observable.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/progress</TokenIdentifier>
+			<Abstract type="html">This specifies the progress of the process on a scale from 0 to 1.0. A value of 0 means the process has not yet begun, A value of 1.0 means the conversaion is complete.
+    This property is not key-value observable.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/progress</TokenIdentifier>
+			<Abstract type="html">This specifies the progress of the process on a scale from 0 to 1.0. A value of 0 means the process has not yet begun, A value of 1.0 means the conversaion is complete.
+    This property is not key-value observable.</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setDelegate:</TokenIdentifier>
+			<Abstract type="html">This is used to send the delete Movie did complete playing alert</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) id&lt;GPUImageMovieDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/delegate</TokenIdentifier>
+			<Abstract type="html">This is used to send the delete Movie did complete playing alert</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) id&lt;GPUImageMovieDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/delegate</TokenIdentifier>
+			<Abstract type="html">This is used to send the delete Movie did complete playing alert</Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) id&lt;GPUImageMovieDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setAssetReader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) AVAssetReader *assetReader</Declaration>
+			
+			
+			<Anchor>//api/name/assetReader</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/assetReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) AVAssetReader *assetReader</Declaration>
+			
+			
+			<Anchor>//api/name/assetReader</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/assetReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) AVAssetReader *assetReader</Declaration>
+			
+			
+			<Anchor>//api/name/assetReader</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setAudioEncodingIsFinished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL audioEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/audioEncodingIsFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL audioEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/audioEncodingIsFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL audioEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/setVideoEncodingIsFinished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL videoEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/videoEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/videoEncodingIsFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL videoEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/videoEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovie/videoEncodingIsFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL videoEncodingIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/videoEncodingIsFinished</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/initWithAsset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithAsset:(AVAsset *)asset</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAsset:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/initWithPlayerItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPlayerItem:(AVPlayerItem *)playerItem</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPlayerItem:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/initWithURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithURL:(NSURL *)url</Declaration>
+			
+			
+			<Anchor>//api/name/initWithURL:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/yuvConversionSetup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)yuvConversionSetup</Declaration>
+			
+			
+			<Anchor>//api/name/yuvConversionSetup</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/enableSynchronizedEncodingUsingMovieWriter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)enableSynchronizedEncodingUsingMovieWriter:(GPUImageMovieWriter *)movieWriter</Declaration>
+			
+			
+			<Anchor>//api/name/enableSynchronizedEncodingUsingMovieWriter:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/readNextVideoFrameFromOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)readNextVideoFrameFromOutput:(AVAssetReaderOutput *)readerVideoTrackOutput</Declaration>
+			
+			
+			<Anchor>//api/name/readNextVideoFrameFromOutput:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/readNextAudioSampleFromOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)readNextAudioSampleFromOutput:(AVAssetReaderOutput *)readerAudioTrackOutput</Declaration>
+			
+			
+			<Anchor>//api/name/readNextAudioSampleFromOutput:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/startProcessing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)startProcessing</Declaration>
+			
+			
+			<Anchor>//api/name/startProcessing</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/endProcessing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)endProcessing</Declaration>
+			
+			
+			<Anchor>//api/name/endProcessing</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/cancelProcessing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelProcessing</Declaration>
+			
+			
+			<Anchor>//api/name/cancelProcessing</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovie/processMovieFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovie.h</DeclaredIn>
+			
+			<Declaration>- (void)processMovieFrame:(CMSampleBufferRef)movieSampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/processMovieFrame:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

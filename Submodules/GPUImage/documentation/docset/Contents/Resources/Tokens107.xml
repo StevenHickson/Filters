@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePoissonBlendFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePoissonBlendFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePoissonBlendFilter/setMix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat mix</Declaration>
+			
+			
+			<Anchor>//api/name/mix</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePoissonBlendFilter/mix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat mix</Declaration>
+			
+			
+			<Anchor>//api/name/mix</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePoissonBlendFilter/mix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat mix</Declaration>
+			
+			
+			<Anchor>//api/name/mix</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePoissonBlendFilter/setNumIterations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger numIterations</Declaration>
+			
+			
+			<Anchor>//api/name/numIterations</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePoissonBlendFilter/numIterations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger numIterations</Declaration>
+			
+			
+			<Anchor>//api/name/numIterations</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePoissonBlendFilter/numIterations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePoissonBlendFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger numIterations</Declaration>
+			
+			
+			<Anchor>//api/name/numIterations</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

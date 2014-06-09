@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GPUImageVideoCameraDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GPUImageVideoCameraDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAVCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="169"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GPUImageVideoCameraDelegate/willOutputSampleBuffer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAVCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)willOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/willOutputSampleBuffer:</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHazeFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHazeFilter</TokenIdentifier>
+			<Abstract type="html">The haze filter can be used to add or remove haze</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHazeFilter/setDistance:</TokenIdentifier>
+			<Abstract type="html">Strength of the color applied. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHazeFilter/distance</TokenIdentifier>
+			<Abstract type="html">Strength of the color applied. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHazeFilter/distance</TokenIdentifier>
+			<Abstract type="html">Strength of the color applied. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHazeFilter/setSlope:</TokenIdentifier>
+			<Abstract type="html">Amount of color change. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat slope</Declaration>
+			
+			
+			<Anchor>//api/name/slope</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHazeFilter/slope</TokenIdentifier>
+			<Abstract type="html">Amount of color change. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat slope</Declaration>
+			
+			
+			<Anchor>//api/name/slope</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHazeFilter/slope</TokenIdentifier>
+			<Abstract type="html">Amount of color change. Default 0. Values between -.3 and .3 are best</Abstract>
+			<DeclaredIn>GPUImageHazeFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat slope</Declaration>
+			
+			
+			<Anchor>//api/name/slope</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

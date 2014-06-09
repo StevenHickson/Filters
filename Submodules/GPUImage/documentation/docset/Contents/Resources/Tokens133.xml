@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSphereRefractionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSphereRefractionFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="133"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/setCenter:</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSphereRefractionFilter/center</TokenIdentifier>
+			<Abstract type="html">The center about which to apply the distortion, with a default of (0.5, 0.5)</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/setRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.25</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.25</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSphereRefractionFilter/radius</TokenIdentifier>
+			<Abstract type="html">The radius of the distortion, ranging from 0.0 to 1.0, with a default of 0.25</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/setRefractiveIndex:</TokenIdentifier>
+			<Abstract type="html">The index of refraction for the sphere, with a default of 0.71</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat refractiveIndex</Declaration>
+			
+			
+			<Anchor>//api/name/refractiveIndex</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSphereRefractionFilter/refractiveIndex</TokenIdentifier>
+			<Abstract type="html">The index of refraction for the sphere, with a default of 0.71</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat refractiveIndex</Declaration>
+			
+			
+			<Anchor>//api/name/refractiveIndex</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSphereRefractionFilter/refractiveIndex</TokenIdentifier>
+			<Abstract type="html">The index of refraction for the sphere, with a default of 0.71</Abstract>
+			<DeclaredIn>GPUImageSphereRefractionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat refractiveIndex</Declaration>
+			
+			
+			<Anchor>//api/name/refractiveIndex</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

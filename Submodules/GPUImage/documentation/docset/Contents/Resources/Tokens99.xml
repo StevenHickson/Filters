@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageOutput</TokenIdentifier>
+			<Abstract type="html">GPUImage&apos;s base source object</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+            
+			
+			<NodeRef refid="99"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setShouldSmoothlyScaleOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldSmoothlyScaleOutput</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothlyScaleOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/shouldSmoothlyScaleOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldSmoothlyScaleOutput</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothlyScaleOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/shouldSmoothlyScaleOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldSmoothlyScaleOutput</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothlyScaleOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setShouldIgnoreUpdatesToThisTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldIgnoreUpdatesToThisTarget</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreUpdatesToThisTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/shouldIgnoreUpdatesToThisTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldIgnoreUpdatesToThisTarget</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreUpdatesToThisTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/shouldIgnoreUpdatesToThisTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldIgnoreUpdatesToThisTarget</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreUpdatesToThisTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setAudioEncodingTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) GPUImageMovieWriter *audioEncodingTarget</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/audioEncodingTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) GPUImageMovieWriter *audioEncodingTarget</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/audioEncodingTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) GPUImageMovieWriter *audioEncodingTarget</Declaration>
+			
+			
+			<Anchor>//api/name/audioEncodingTarget</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setTargetToIgnoreForUpdates:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, unsafe_unretained) id&lt;GPUImageInput&gt; targetToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/targetToIgnoreForUpdates</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/targetToIgnoreForUpdates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, unsafe_unretained) id&lt;GPUImageInput&gt; targetToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/targetToIgnoreForUpdates</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/targetToIgnoreForUpdates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, unsafe_unretained) id&lt;GPUImageInput&gt; targetToIgnoreForUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/targetToIgnoreForUpdates</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setFrameProcessingCompletionBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GPUImageOutput *, CMTime ) frameProcessingCompletionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/frameProcessingCompletionBlock</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/frameProcessingCompletionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GPUImageOutput *, CMTime ) frameProcessingCompletionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/frameProcessingCompletionBlock</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/frameProcessingCompletionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GPUImageOutput *, CMTime ) frameProcessingCompletionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/frameProcessingCompletionBlock</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setOutputTextureOptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUTextureOptions outputTextureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/outputTextureOptions</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/outputTextureOptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUTextureOptions outputTextureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/outputTextureOptions</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageOutput/outputTextureOptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUTextureOptions outputTextureOptions</Declaration>
+			
+			
+			<Anchor>//api/name/outputTextureOptions</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/setInputFramebufferForTarget:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)setInputFramebufferForTarget:(id&lt;GPUImageInput&gt;)target atIndex:(NSInteger)inputTextureIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setInputFramebufferForTarget:atIndex:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/framebufferForOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (GPUImageFramebuffer *)framebufferForOutput</Declaration>
+			
+			
+			<Anchor>//api/name/framebufferForOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/removeOutputFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)removeOutputFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/removeOutputFramebuffer</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/notifyTargetsAboutNewOutputTexture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyTargetsAboutNewOutputTexture</Declaration>
+			
+			
+			<Anchor>//api/name/notifyTargetsAboutNewOutputTexture</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/targets</TokenIdentifier>
+			<Abstract type="html">Returns an array of the current targets.</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)targets</Declaration>
+			
+			
+			<Anchor>//api/name/targets</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/addTarget:</TokenIdentifier>
+			<Abstract type="html">Adds a target to receive notifications when new frames are available.</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)addTarget:(id&lt;GPUImageInput&gt;)newTarget</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newTarget</Name>
+					<Abstract type="html">Target to be added</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addTarget:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/addTarget:atTextureLocation:</TokenIdentifier>
+			<Abstract type="html">Adds a target to receive notifications when new frames are available.</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)addTarget:(id&lt;GPUImageInput&gt;)newTarget atTextureLocation:(NSInteger)textureLocation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newTarget</Name>
+					<Abstract type="html">Target to be added</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addTarget:atTextureLocation:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/removeTarget:</TokenIdentifier>
+			<Abstract type="html">Removes a target. The target will no longer receive notifications when new frames are available.</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)removeTarget:(id&lt;GPUImageInput&gt;)targetToRemove</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>targetToRemove</Name>
+					<Abstract type="html">Target to be removed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeTarget:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/removeAllTargets</TokenIdentifier>
+			<Abstract type="html">Removes all targets.</Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllTargets</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllTargets</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/forceProcessingAtSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)forceProcessingAtSize:(CGSize)frameSize</Declaration>
+			
+			
+			<Anchor>//api/name/forceProcessingAtSize:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/forceProcessingAtSizeRespectingAspectRatio:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)forceProcessingAtSizeRespectingAspectRatio:(CGSize)frameSize</Declaration>
+			
+			
+			<Anchor>//api/name/forceProcessingAtSizeRespectingAspectRatio:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/useNextFrameForImageCapture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (void)useNextFrameForImageCapture</Declaration>
+			
+			
+			<Anchor>//api/name/useNextFrameForImageCapture</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/newCGImageFromCurrentlyProcessedOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (CGImageRef)newCGImageFromCurrentlyProcessedOutput</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageFromCurrentlyProcessedOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/newCGImageByFilteringCGImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (CGImageRef)newCGImageByFilteringCGImage:(CGImageRef)imageToFilter</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageByFilteringCGImage:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/imageFromCurrentFramebuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)imageFromCurrentFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/imageFromCurrentFramebuffer</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/imageFromCurrentFramebufferWithOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)imageFromCurrentFramebufferWithOrientation:(UIImageOrientation)imageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/imageFromCurrentFramebufferWithOrientation:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/imageByFilteringImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)imageByFilteringImage:(UIImage *)imageToFilter</Declaration>
+			
+			
+			<Anchor>//api/name/imageByFilteringImage:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/newCGImageByFilteringImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (CGImageRef)newCGImageByFilteringImage:(UIImage *)imageToFilter</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageByFilteringImage:</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageOutput/providesMonochromeOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageOutput.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)providesMonochromeOutput</Declaration>
+			
+			
+			<Anchor>//api/name/providesMonochromeOutput</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

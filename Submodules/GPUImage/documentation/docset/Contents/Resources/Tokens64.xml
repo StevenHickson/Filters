@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHoughTransformLineDetector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHoughTransformLineDetector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/setEdgeThreshold:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/edgeThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/edgeThreshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/edgeThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHoughTransformLineDetector/edgeThreshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat edgeThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/edgeThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/setLineDetectionThreshold:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lineDetectionThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/lineDetectionThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/lineDetectionThreshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lineDetectionThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/lineDetectionThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHoughTransformLineDetector/lineDetectionThreshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lineDetectionThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/lineDetectionThreshold</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/setLinesDetectedBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *lineArray , NSUInteger linesDetected , CMTime frameTime ) linesDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/linesDetectedBlock</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/linesDetectedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *lineArray , NSUInteger linesDetected , CMTime frameTime ) linesDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/linesDetectedBlock</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHoughTransformLineDetector/linesDetectedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *lineArray , NSUInteger linesDetected , CMTime frameTime ) linesDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/linesDetectedBlock</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/setIntermediateImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHoughTransformLineDetector/intermediateImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHoughTransformLineDetector/intermediateImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHoughTransformLineDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

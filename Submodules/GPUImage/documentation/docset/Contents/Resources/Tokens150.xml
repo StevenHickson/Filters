@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageTwoInputFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageTwoInputFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="150"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputFilter/disableFirstFrameCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)disableFirstFrameCheck</Declaration>
+			
+			
+			<Anchor>//api/name/disableFirstFrameCheck</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputFilter/disableSecondFrameCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)disableSecondFrameCheck</Declaration>
+			
+			
+			<Anchor>//api/name/disableSecondFrameCheck</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

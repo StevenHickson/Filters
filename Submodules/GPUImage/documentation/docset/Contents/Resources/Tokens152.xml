@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageTwoPassTextureSamplingFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageTwoPassTextureSamplingFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassTextureSamplingFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="152"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoPassTextureSamplingFilter/setHorizontalTexelSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoPassTextureSamplingFilter/horizontalTexelSpacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTwoPassTextureSamplingFilter/horizontalTexelSpacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoPassTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat verticalTexelSpacing , horizontalTexelSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalTexelSpacing</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

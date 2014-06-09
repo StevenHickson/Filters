@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageMotionDetector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageMotionDetector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+            
+			
+			<NodeRef refid="89"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionDetector/setLowPassFilterStrength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lowPassFilterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/lowPassFilterStrength</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionDetector/lowPassFilterStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lowPassFilterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/lowPassFilterStrength</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMotionDetector/lowPassFilterStrength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat lowPassFilterStrength</Declaration>
+			
+			
+			<Anchor>//api/name/lowPassFilterStrength</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionDetector/setMotionDetectionBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGPoint motionCentroid , CGFloat motionIntensity , CMTime frameTime ) motionDetectionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/motionDetectionBlock</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMotionDetector/motionDetectionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGPoint motionCentroid , CGFloat motionIntensity , CMTime frameTime ) motionDetectionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/motionDetectionBlock</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMotionDetector/motionDetectionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMotionDetector.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGPoint motionCentroid , CGFloat motionIntensity , CMTime frameTime ) motionDetectionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/motionDetectionBlock</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

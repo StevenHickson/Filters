@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageHarrisCornerDetectionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageHarrisCornerDetectionFilter</TokenIdentifier>
+			<Abstract type="html">Harris corner detector</Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/setBlurRadiusInPixels:</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHarrisCornerDetectionFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/setSensitivity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat sensitivity</Declaration>
+			
+			
+			<Anchor>//api/name/sensitivity</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/sensitivity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat sensitivity</Declaration>
+			
+			
+			<Anchor>//api/name/sensitivity</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHarrisCornerDetectionFilter/sensitivity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat sensitivity</Declaration>
+			
+			
+			<Anchor>//api/name/sensitivity</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/setThreshold:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/threshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHarrisCornerDetectionFilter/threshold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/setCornersDetectedBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *cornerArray , NSUInteger cornersDetected , CMTime frameTime ) cornersDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cornersDetectedBlock</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/cornersDetectedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *cornerArray , NSUInteger cornersDetected , CMTime frameTime ) cornersDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cornersDetectedBlock</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHarrisCornerDetectionFilter/cornersDetectedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GLfloat *cornerArray , NSUInteger cornersDetected , CMTime frameTime ) cornersDetectedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cornersDetectedBlock</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/setIntermediateImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/intermediateImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageHarrisCornerDetectionFilter/intermediateImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, strong) NSMutableArray *intermediateImages</Declaration>
+			
+			
+			<Anchor>//api/name/intermediateImages</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageHarrisCornerDetectionFilter/initWithCornerDetectionFragmentShader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageHarrisCornerDetectionFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCornerDetectionFragmentShader:(NSString *)cornerDetectionFragmentShader</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCornerDetectionFragmentShader:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

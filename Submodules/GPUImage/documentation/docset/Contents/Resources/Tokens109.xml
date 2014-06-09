@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePolkaDotFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePolkaDotFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolkaDotFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolkaDotFilter/setDotScaling:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolkaDotFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat dotScaling</Declaration>
+			
+			
+			<Anchor>//api/name/dotScaling</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolkaDotFilter/dotScaling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolkaDotFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat dotScaling</Declaration>
+			
+			
+			<Anchor>//api/name/dotScaling</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePolkaDotFilter/dotScaling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolkaDotFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat dotScaling</Declaration>
+			
+			
+			<Anchor>//api/name/dotScaling</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

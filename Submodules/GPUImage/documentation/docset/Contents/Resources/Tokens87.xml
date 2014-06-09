@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageMosaicFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageMosaicFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setInputTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize inputTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/inputTileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize inputTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMosaicFilter/inputTileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize inputTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setNumTiles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float numTiles</Declaration>
+			
+			
+			<Anchor>//api/name/numTiles</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/numTiles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float numTiles</Declaration>
+			
+			
+			<Anchor>//api/name/numTiles</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMosaicFilter/numTiles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) float numTiles</Declaration>
+			
+			
+			<Anchor>//api/name/numTiles</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setDisplayTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize displayTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/displayTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/displayTileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize displayTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/displayTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMosaicFilter/displayTileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize displayTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/displayTileSize</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setColorOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL colorOn</Declaration>
+			
+			
+			<Anchor>//api/name/colorOn</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/colorOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL colorOn</Declaration>
+			
+			
+			<Anchor>//api/name/colorOn</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMosaicFilter/colorOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL colorOn</Declaration>
+			
+			
+			<Anchor>//api/name/colorOn</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setNumTiles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setNumTiles:(float)numTiles</Declaration>
+			
+			
+			<Anchor>//api/name/setNumTiles:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setDisplayTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setDisplayTileSize:(CGSize)displayTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/setDisplayTileSize:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setInputTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setInputTileSize:(CGSize)inputTileSize</Declaration>
+			
+			
+			<Anchor>//api/name/setInputTileSize:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setTileSet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setTileSet:(NSString *)tileSet</Declaration>
+			
+			
+			<Anchor>//api/name/setTileSet:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMosaicFilter/setColorOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMosaicFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setColorOn:(BOOL)yes</Declaration>
+			
+			
+			<Anchor>//api/name/setColorOn:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

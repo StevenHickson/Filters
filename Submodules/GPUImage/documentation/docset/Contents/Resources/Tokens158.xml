@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageVoronoiConsumerFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageVoronoiConsumerFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVoronoiConsumerFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="158"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVoronoiConsumerFilter/setSizeInPixels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVoronoiConsumerFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="158"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageVoronoiConsumerFilter/sizeInPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVoronoiConsumerFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="158"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageVoronoiConsumerFilter/sizeInPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageVoronoiConsumerFilter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="158"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

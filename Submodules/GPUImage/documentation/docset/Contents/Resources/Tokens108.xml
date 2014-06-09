@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImagePolarPixellateFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImagePolarPixellateFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="108"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolarPixellateFilter/setCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolarPixellateFilter/center</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePolarPixellateFilter/center</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolarPixellateFilter/setPixelSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize pixelSize</Declaration>
+			
+			
+			<Anchor>//api/name/pixelSize</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImagePolarPixellateFilter/pixelSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize pixelSize</Declaration>
+			
+			
+			<Anchor>//api/name/pixelSize</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImagePolarPixellateFilter/pixelSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImagePolarPixellateFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGSize pixelSize</Declaration>
+			
+			
+			<Anchor>//api/name/pixelSize</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

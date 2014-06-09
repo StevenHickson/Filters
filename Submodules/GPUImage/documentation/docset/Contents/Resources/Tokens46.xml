@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFilterPipeline.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFilterPipeline</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/setFilters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/filters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterPipeline/filters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/setInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) GPUImageOutput *input</Declaration>
+			
+			
+			<Anchor>//api/name/input</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/input</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) GPUImageOutput *input</Declaration>
+			
+			
+			<Anchor>//api/name/input</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterPipeline/input</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) GPUImageOutput *input</Declaration>
+			
+			
+			<Anchor>//api/name/input</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/setOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) id&lt;GPUImageInput&gt; output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/output</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) id&lt;GPUImageInput&gt; output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFilterPipeline/output</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>@property (strong) id&lt;GPUImageInput&gt; output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/initWithOrderedFilters:input:output:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithOrderedFilters:(NSArray *)filters input:(GPUImageOutput *)input output:(id&lt;GPUImageInput&gt;)output</Declaration>
+			
+			
+			<Anchor>//api/name/initWithOrderedFilters:input:output:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/initWithConfiguration:input:output:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithConfiguration:(NSDictionary *)configuration input:(GPUImageOutput *)input output:(id&lt;GPUImageInput&gt;)output</Declaration>
+			
+			
+			<Anchor>//api/name/initWithConfiguration:input:output:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/initWithConfigurationFile:input:output:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithConfigurationFile:(NSURL *)configuration input:(GPUImageOutput *)input output:(id&lt;GPUImageInput&gt;)output</Declaration>
+			
+			
+			<Anchor>//api/name/initWithConfigurationFile:input:output:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/addFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)addFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)filter</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/addFilter:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)addFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)filter atIndex:(NSUInteger)insertIndex</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:atIndex:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/replaceFilterAtIndex:withFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)replaceFilterAtIndex:(NSUInteger)index withFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)filter</Declaration>
+			
+			
+			<Anchor>//api/name/replaceFilterAtIndex:withFilter:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/replaceAllFilters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)replaceAllFilters:(NSArray *)newFilters</Declaration>
+			
+			
+			<Anchor>//api/name/replaceAllFilters:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/removeFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)removeFilter:(GPUImageOutput&lt;GPUImageInput&gt; *)filter</Declaration>
+			
+			
+			<Anchor>//api/name/removeFilter:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/removeFilterAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)removeFilterAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/removeFilterAtIndex:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/removeAllFilters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllFilters</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllFilters</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/currentFilteredFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)currentFilteredFrame</Declaration>
+			
+			
+			<Anchor>//api/name/currentFilteredFrame</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/currentFilteredFrameWithOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)currentFilteredFrameWithOrientation:(UIImageOrientation)imageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/currentFilteredFrameWithOrientation:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFilterPipeline/newCGImageFromCurrentFilteredFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFilterPipeline.h</DeclaredIn>
+			
+			<Declaration>- (CGImageRef)newCGImageFromCurrentFilteredFrame</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageFromCurrentFilteredFrame</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

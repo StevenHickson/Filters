@@ -139,56 +139,40 @@
     GPUImagePicture *imageToProcess = [[GPUImagePicture alloc] initWithImage:originalImage smoothlyScaleOutput:YES];
     
     maskFilter = [[GPUImageMaskFilter alloc] init];
-    [maskFilter setBackgroundColorRed:1.0 green:0.0 blue:0.0 alpha:1.0];
-    UIImage *maskImage = [UIImage imageNamed:@"mask"];
+    //[maskFilter setBackgroundColorRed:1.0 green:0.0 blue:0.0 alpha:1.0];
+    UIImage *maskImage = [UIImage imageNamed:@"mask4"];
     GPUImagePicture* maskPicture = [[GPUImagePicture alloc] initWithImage:maskImage smoothlyScaleOutput:YES];
     
+    //Proper order is addTarget, useNextFrame, processImage, imageFromCurrentFrameBuffer
+    
+//    Note that for a manual capture of an image from a filter, you need to set -useNextFrameForImageCapture in order to tell the filter that you'll be needing to capture from it later. By default, GPUImage reuses framebuffers within filters to conserve memory, so if you need to hold on to a filter's framebuffer for manual image capture, you need to let it know ahead of time. 
+    
+    //If I switch these around, weird things happen
     [imageToProcess addTarget:maskFilter];
-    [maskPicture processImage];
+    
+    //[imageToProcess processImage];
+    [maskFilter useNextFrameForImageCapture];
+    
     [maskPicture addTarget:maskFilter];
+    //[maskPicture processImage];
+    
+    //need to apply selected filter to the result of maskFilter.
     [maskFilter addTarget:selectedFilter];
     [selectedFilter useNextFrameForImageCapture];
-    
-    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
-    blendFilter.mix = 0.0f;
-    
-    [maskFilter addTarget:blendFilter];
-    [imageToProcess addTarget:blendFilter];
     [imageToProcess processImage];
-    //I need useNextFrameForImageCapture or it crashes.
-    [blendFilter useNextFrameForImageCapture];
+    [maskPicture processImage];
     
-    UIImage *filteredImage = [blendFilter imageFromCurrentFramebuffer];
-
-    //DOESN'T WORK!
-//    [imageToProcess addTarget:maskFilter];
-//    [maskPicture processImage];
-//    [maskPicture addTarget:maskFilter];
-//    
-//    //[maskFilter addTarget:selectedFilter];
-//    //[selectedFilter useNextFrameForImageCapture];
-//    
 //    GPUImageAlphaBlendFilter *blendFilter = [[GPUImageAlphaBlendFilter alloc] init];
 //    blendFilter.mix = 0.0f;
 //    
-//    [imageToProcess addTarget:blendFilter];
 //    [selectedFilter addTarget:blendFilter];
-//    
+//    [imageToProcess addTarget:blendFilter];
 //    [imageToProcess processImage];
 //    //I need useNextFrameForImageCapture or it crashes.
 //    [blendFilter useNextFrameForImageCapture];
-//    UIImage *filteredImage = [blendFilter imageFromCurrentFramebuffer];
     
-//    [imageToProcess addTarget:maskFilter];
-//    [imageToProcess processImage];
-//    [maskFilter useNextFrameForImageCapture];
-//    [maskPicture processImage];
-//    [maskPicture addTarget:maskFilter];
-//    UIImage *filteredImage = [maskFilter imageFromCurrentFramebuffer];
-    
-    //[maskPicture addTarget:maskFilter];
-    //[maskFilter useNextFrameForImageCapture];
-    
+    UIImage *filteredImage = [selectedFilter imageFromCurrentFramebuffer];
+
     //[imageToProcess addTarget:selectedFilter];
     //[selectedFilter useNextFrameForImageCapture];
     //[imageToProcess processImage];

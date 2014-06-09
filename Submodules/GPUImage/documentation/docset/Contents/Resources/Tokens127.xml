@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSmoothToonFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSmoothToonFilter</TokenIdentifier>
+			<Abstract type="html">This uses a similar process as the GPUImageToonFilter, only it precedes the toon effect with a Gaussian blur to smooth out noise.</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="127"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/setTexelWidth:</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSmoothToonFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/setTexelHeight:</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSmoothToonFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html">The image width and height factors tweak the appearance of the edges. By default, they match the filter size in pixels</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/setBlurRadiusInPixels:</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSmoothToonFilter/blurRadiusInPixels</TokenIdentifier>
+			<Abstract type="html">The radius of the underlying Gaussian blur. The default is 2.0.</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadiusInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadiusInPixels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/setThreshold:</TokenIdentifier>
+			<Abstract type="html">The threshold at which to apply the edges, default of 0.2</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/threshold</TokenIdentifier>
+			<Abstract type="html">The threshold at which to apply the edges, default of 0.2</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSmoothToonFilter/threshold</TokenIdentifier>
+			<Abstract type="html">The threshold at which to apply the edges, default of 0.2</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/setQuantizationLevels:</TokenIdentifier>
+			<Abstract type="html">The levels of quantization for the posterization of colors within the scene, with a default of 10.0</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat quantizationLevels</Declaration>
+			
+			
+			<Anchor>//api/name/quantizationLevels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSmoothToonFilter/quantizationLevels</TokenIdentifier>
+			<Abstract type="html">The levels of quantization for the posterization of colors within the scene, with a default of 10.0</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat quantizationLevels</Declaration>
+			
+			
+			<Anchor>//api/name/quantizationLevels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSmoothToonFilter/quantizationLevels</TokenIdentifier>
+			<Abstract type="html">The levels of quantization for the posterization of colors within the scene, with a default of 10.0</Abstract>
+			<DeclaredIn>GPUImageSmoothToonFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat quantizationLevels</Declaration>
+			
+			
+			<Anchor>//api/name/quantizationLevels</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

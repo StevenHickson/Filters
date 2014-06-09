@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageTwoInputCrossTextureSamplingFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageTwoInputCrossTextureSamplingFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="149"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputCrossTextureSamplingFilter/setTexelWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputCrossTextureSamplingFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTwoInputCrossTextureSamplingFilter/texelWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelWidth</Declaration>
+			
+			
+			<Anchor>//api/name/texelWidth</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputCrossTextureSamplingFilter/setTexelHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageTwoInputCrossTextureSamplingFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageTwoInputCrossTextureSamplingFilter/texelHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageTwoInputCrossTextureSamplingFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat texelHeight</Declaration>
+			
+			
+			<Anchor>//api/name/texelHeight</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

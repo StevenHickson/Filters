@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageGrayscaleFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageGrayscaleFilter</TokenIdentifier>
+			<Abstract type="html">Converts an image to grayscale (a slightly faster implementation of the saturation filter, without the ability to vary the color contribution)</Abstract>
+			<DeclaredIn>GPUImageGrayscaleFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

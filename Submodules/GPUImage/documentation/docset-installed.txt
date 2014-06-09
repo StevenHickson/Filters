@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/stevenhickson/Library/Developer/Shared/Documentation/DocSets/com.sunsetlakesoftware.GPUImage.docset
+Time: 2014-06-09 22:13:34 +0000

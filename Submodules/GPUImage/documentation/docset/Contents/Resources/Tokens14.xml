@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageBuffer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBuffer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageBuffer/setBufferSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger bufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/bufferSize</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageBuffer/bufferSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger bufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/bufferSize</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageBuffer/bufferSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageBuffer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSUInteger bufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/bufferSize</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

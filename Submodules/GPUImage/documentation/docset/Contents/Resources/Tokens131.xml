@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSolidColorGenerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSolidColorGenerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="131"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSolidColorGenerator/setColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSolidColorGenerator/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSolidColorGenerator/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSolidColorGenerator/setUseExistingAlpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) BOOL useExistingAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/useExistingAlpha</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSolidColorGenerator/useExistingAlpha</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) BOOL useExistingAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/useExistingAlpha</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageSolidColorGenerator/useExistingAlpha</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) BOOL useExistingAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/useExistingAlpha</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageSolidColorGenerator/setColorRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSolidColorGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)setColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent alpha:(GLfloat)alphaComponent</Declaration>
+			
+			
+			<Anchor>//api/name/setColorRed:green:blue:alpha:</Anchor>
+            <NodeRef refid="131"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

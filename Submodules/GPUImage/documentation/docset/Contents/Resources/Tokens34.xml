@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageDilationFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageDilationFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageDilationFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageDilationFilter/initWithRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageDilationFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRadius:(NSUInteger)dilationRadius</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRadius:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

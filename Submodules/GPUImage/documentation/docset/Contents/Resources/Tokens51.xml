@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageGaussianBlurPositionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageGaussianBlurPositionFilter</TokenIdentifier>
+			<Abstract type="html">A more generalized 9x9 Gaussian blur filter</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/setBlurSize:</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/blurSize</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurPositionFilter/blurSize</TokenIdentifier>
+			<Abstract type="html">A multiplier for the blur size, ranging from 0.0 on up, with a default of 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurSize</Declaration>
+			
+			
+			<Anchor>//api/name/blurSize</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/setBlurCenter:</TokenIdentifier>
+			<Abstract type="html">Center for the blur, defaults to 0.5, 0.5</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint blurCenter</Declaration>
+			
+			
+			<Anchor>//api/name/blurCenter</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/blurCenter</TokenIdentifier>
+			<Abstract type="html">Center for the blur, defaults to 0.5, 0.5</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint blurCenter</Declaration>
+			
+			
+			<Anchor>//api/name/blurCenter</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurPositionFilter/blurCenter</TokenIdentifier>
+			<Abstract type="html">Center for the blur, defaults to 0.5, 0.5</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGPoint blurCenter</Declaration>
+			
+			
+			<Anchor>//api/name/blurCenter</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/setBlurRadius:</TokenIdentifier>
+			<Abstract type="html">Radius for the blur, defaults to 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageGaussianBlurPositionFilter/blurRadius</TokenIdentifier>
+			<Abstract type="html">Radius for the blur, defaults to 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageGaussianBlurPositionFilter/blurRadius</TokenIdentifier>
+			<Abstract type="html">Radius for the blur, defaults to 1.0</Abstract>
+			<DeclaredIn>GPUImageGaussianBlurPositionFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

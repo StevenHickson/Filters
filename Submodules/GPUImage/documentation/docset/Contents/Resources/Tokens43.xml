@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageFalseColorFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageFalseColorFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/setFirstColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 firstColor</Declaration>
+			
+			
+			<Anchor>//api/name/firstColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/firstColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 firstColor</Declaration>
+			
+			
+			<Anchor>//api/name/firstColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFalseColorFilter/firstColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 firstColor</Declaration>
+			
+			
+			<Anchor>//api/name/firstColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/setSecondColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 secondColor</Declaration>
+			
+			
+			<Anchor>//api/name/secondColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/secondColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 secondColor</Declaration>
+			
+			
+			<Anchor>//api/name/secondColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageFalseColorFilter/secondColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUVector4 secondColor</Declaration>
+			
+			
+			<Anchor>//api/name/secondColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/setFirstColorRed:green:blue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setFirstColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent</Declaration>
+			
+			
+			<Anchor>//api/name/setFirstColorRed:green:blue:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageFalseColorFilter/setSecondColorRed:green:blue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageFalseColorFilter.h</DeclaredIn>
+			
+			<Declaration>- (void)setSecondColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent</Declaration>
+			
+			
+			<Anchor>//api/name/setSecondColorRed:green:blue:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

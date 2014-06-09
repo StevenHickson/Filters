@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageMovieWriter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageMovieWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="92"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setHasAudioTrack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL hasAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/hasAudioTrack</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/hasAudioTrack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL hasAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/hasAudioTrack</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/hasAudioTrack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL hasAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/hasAudioTrack</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setShouldPassthroughAudio:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldPassthroughAudio</Declaration>
+			
+			
+			<Anchor>//api/name/shouldPassthroughAudio</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/shouldPassthroughAudio</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldPassthroughAudio</Declaration>
+			
+			
+			<Anchor>//api/name/shouldPassthroughAudio</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/shouldPassthroughAudio</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldPassthroughAudio</Declaration>
+			
+			
+			<Anchor>//api/name/shouldPassthroughAudio</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setShouldInvalidateAudioSampleWhenDone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldInvalidateAudioSampleWhenDone</Declaration>
+			
+			
+			<Anchor>//api/name/shouldInvalidateAudioSampleWhenDone</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/shouldInvalidateAudioSampleWhenDone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldInvalidateAudioSampleWhenDone</Declaration>
+			
+			
+			<Anchor>//api/name/shouldInvalidateAudioSampleWhenDone</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/shouldInvalidateAudioSampleWhenDone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL shouldInvalidateAudioSampleWhenDone</Declaration>
+			
+			
+			<Anchor>//api/name/shouldInvalidateAudioSampleWhenDone</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setCompletionBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/completionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/completionBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( void ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setFailureBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/failureBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/failureBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/failureBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/failureBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/failureBlock</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageMovieWriterDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageMovieWriterDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;GPUImageMovieWriterDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setEncodingLiveVideo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL encodingLiveVideo</Declaration>
+			
+			
+			<Anchor>//api/name/encodingLiveVideo</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/encodingLiveVideo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL encodingLiveVideo</Declaration>
+			
+			
+			<Anchor>//api/name/encodingLiveVideo</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/encodingLiveVideo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL encodingLiveVideo</Declaration>
+			
+			
+			<Anchor>//api/name/encodingLiveVideo</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setVideoInputReadyCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) videoInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/videoInputReadyCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) videoInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/videoInputReadyCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) videoInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setAudioInputReadyCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) audioInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/audioInputReadyCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) audioInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/audioInputReadyCallback</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) BOOL ( ^ ) ( void ) audioInputReadyCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioInputReadyCallback</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setAssetWriter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVAssetWriter *assetWriter</Declaration>
+			
+			
+			<Anchor>//api/name/assetWriter</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/assetWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVAssetWriter *assetWriter</Declaration>
+			
+			
+			<Anchor>//api/name/assetWriter</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/assetWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVAssetWriter *assetWriter</Declaration>
+			
+			
+			<Anchor>//api/name/assetWriter</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setTransform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/transform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/transform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setMetaData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *metaData</Declaration>
+			
+			
+			<Anchor>//api/name/metaData</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/metaData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *metaData</Declaration>
+			
+			
+			<Anchor>//api/name/metaData</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/metaData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *metaData</Declaration>
+			
+			
+			<Anchor>//api/name/metaData</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setPaused:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isPaused) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/isPaused</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isPaused) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/paused</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isPaused) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setMovieWriterContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) GPUImageContext *movieWriterContext</Declaration>
+			
+			
+			<Anchor>//api/name/movieWriterContext</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/movieWriterContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) GPUImageContext *movieWriterContext</Declaration>
+			
+			
+			<Anchor>//api/name/movieWriterContext</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageMovieWriter/movieWriterContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) GPUImageContext *movieWriterContext</Declaration>
+			
+			
+			<Anchor>//api/name/movieWriterContext</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/initWithMovieURL:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithMovieURL:(NSURL *)newMovieURL size:(CGSize)newSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMovieURL:size:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/initWithMovieURL:size:fileType:outputSettings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithMovieURL:(NSURL *)newMovieURL size:(CGSize)newSize fileType:(NSString *)newFileType outputSettings:(NSDictionary *)outputSettings</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMovieURL:size:fileType:outputSettings:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/setHasAudioTrack:audioSettings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasAudioTrack:(BOOL)hasAudioTrack audioSettings:(NSDictionary *)audioOutputSettings</Declaration>
+			
+			
+			<Anchor>//api/name/setHasAudioTrack:audioSettings:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/startRecording</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)startRecording</Declaration>
+			
+			
+			<Anchor>//api/name/startRecording</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/startRecordingInOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)startRecordingInOrientation:(CGAffineTransform)orientationTransform</Declaration>
+			
+			
+			<Anchor>//api/name/startRecordingInOrientation:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/finishRecording</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)finishRecording</Declaration>
+			
+			
+			<Anchor>//api/name/finishRecording</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/finishRecordingWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)finishRecordingWithCompletionHandler:(void ( ^ ) ( void ))handler</Declaration>
+			
+			
+			<Anchor>//api/name/finishRecordingWithCompletionHandler:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/cancelRecording</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelRecording</Declaration>
+			
+			
+			<Anchor>//api/name/cancelRecording</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/processAudioBuffer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)processAudioBuffer:(CMSampleBufferRef)audioBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/processAudioBuffer:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageMovieWriter/enableSynchronizationCallbacks</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageMovieWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)enableSynchronizationCallbacks</Declaration>
+			
+			
+			<Anchor>//api/name/enableSynchronizationCallbacks</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

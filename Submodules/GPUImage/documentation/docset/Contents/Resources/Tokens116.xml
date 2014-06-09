@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageRGBOpeningFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageRGBOpeningFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRGBOpeningFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="116"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageRGBOpeningFilter/initWithRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageRGBOpeningFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRadius:(NSUInteger)radius</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRadius:</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

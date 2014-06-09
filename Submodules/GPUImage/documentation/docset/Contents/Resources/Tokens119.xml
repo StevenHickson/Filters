@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageSaturationBlendFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageSaturationBlendFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageSaturationBlendFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="119"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageAverageColor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageAverageColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAverageColor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageAverageColor/setColorAverageProcessingFinishedBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAverageColor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat redComponent , CGFloat greenComponent , CGFloat blueComponent , CGFloat alphaComponent , CMTime frameTime ) colorAverageProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/colorAverageProcessingFinishedBlock</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageAverageColor/colorAverageProcessingFinishedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAverageColor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat redComponent , CGFloat greenComponent , CGFloat blueComponent , CGFloat alphaComponent , CMTime frameTime ) colorAverageProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/colorAverageProcessingFinishedBlock</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GPUImageAverageColor/colorAverageProcessingFinishedBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAverageColor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CGFloat redComponent , CGFloat greenComponent , CGFloat blueComponent , CGFloat alphaComponent , CMTime frameTime ) colorAverageProcessingFinishedBlock</Declaration>
+			
+			
+			<Anchor>//api/name/colorAverageProcessingFinishedBlock</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageAverageColor/extractAverageColorAtFrameTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageAverageColor.h</DeclaredIn>
+			
+			<Declaration>- (void)extractAverageColorAtFrameTime:(CMTime)frameTime</Declaration>
+			
+			
+			<Anchor>//api/name/extractAverageColorAtFrameTime:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

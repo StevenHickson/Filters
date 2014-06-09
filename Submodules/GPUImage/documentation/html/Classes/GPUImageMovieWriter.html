@@ -1,0 +1,809 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GPUImageMovieWriter Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GPUImage </a></h1>
+				<a id="developerHome" href="../index.html">Sunset Lake Software</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GPUImageMovieWriter Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/assetWriter">&nbsp;&nbsp;&nbsp;&nbsp;assetWriter</option>
+	
+	<option value="//api/name/audioInputReadyCallback">&nbsp;&nbsp;&nbsp;&nbsp;audioInputReadyCallback</option>
+	
+	<option value="//api/name/completionBlock">&nbsp;&nbsp;&nbsp;&nbsp;completionBlock</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/duration">&nbsp;&nbsp;&nbsp;&nbsp;duration</option>
+	
+	<option value="//api/name/enabled">&nbsp;&nbsp;&nbsp;&nbsp;enabled</option>
+	
+	<option value="//api/name/encodingLiveVideo">&nbsp;&nbsp;&nbsp;&nbsp;encodingLiveVideo</option>
+	
+	<option value="//api/name/failureBlock">&nbsp;&nbsp;&nbsp;&nbsp;failureBlock</option>
+	
+	<option value="//api/name/hasAudioTrack">&nbsp;&nbsp;&nbsp;&nbsp;hasAudioTrack</option>
+	
+	<option value="//api/name/metaData">&nbsp;&nbsp;&nbsp;&nbsp;metaData</option>
+	
+	<option value="//api/name/movieWriterContext">&nbsp;&nbsp;&nbsp;&nbsp;movieWriterContext</option>
+	
+	<option value="//api/name/paused">&nbsp;&nbsp;&nbsp;&nbsp;paused</option>
+	
+	<option value="//api/name/shouldInvalidateAudioSampleWhenDone">&nbsp;&nbsp;&nbsp;&nbsp;shouldInvalidateAudioSampleWhenDone</option>
+	
+	<option value="//api/name/shouldPassthroughAudio">&nbsp;&nbsp;&nbsp;&nbsp;shouldPassthroughAudio</option>
+	
+	<option value="//api/name/transform">&nbsp;&nbsp;&nbsp;&nbsp;transform</option>
+	
+	<option value="//api/name/videoInputReadyCallback">&nbsp;&nbsp;&nbsp;&nbsp;videoInputReadyCallback</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/cancelRecording">&nbsp;&nbsp;&nbsp;&nbsp;- cancelRecording</option>
+	
+	<option value="//api/name/enableSynchronizationCallbacks">&nbsp;&nbsp;&nbsp;&nbsp;- enableSynchronizationCallbacks</option>
+	
+	<option value="//api/name/finishRecording">&nbsp;&nbsp;&nbsp;&nbsp;- finishRecording</option>
+	
+	<option value="//api/name/finishRecordingWithCompletionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- finishRecordingWithCompletionHandler:</option>
+	
+	<option value="//api/name/initWithMovieURL:size:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithMovieURL:size:</option>
+	
+	<option value="//api/name/initWithMovieURL:size:fileType:outputSettings:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithMovieURL:size:fileType:outputSettings:</option>
+	
+	<option value="//api/name/processAudioBuffer:">&nbsp;&nbsp;&nbsp;&nbsp;- processAudioBuffer:</option>
+	
+	<option value="//api/name/setHasAudioTrack:audioSettings:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasAudioTrack:audioSettings:</option>
+	
+	<option value="//api/name/startRecording">&nbsp;&nbsp;&nbsp;&nbsp;- startRecording</option>
+	
+	<option value="//api/name/startRecordingInOrientation:">&nbsp;&nbsp;&nbsp;&nbsp;- startRecordingInOrientation:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/assetWriter">assetWriter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/audioInputReadyCallback">audioInputReadyCallback</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/completionBlock">completionBlock</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/duration">duration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enabled">enabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodingLiveVideo">encodingLiveVideo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/failureBlock">failureBlock</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasAudioTrack">hasAudioTrack</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/metaData">metaData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/movieWriterContext">movieWriterContext</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paused">paused</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldInvalidateAudioSampleWhenDone">shouldInvalidateAudioSampleWhenDone</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldPassthroughAudio">shouldPassthroughAudio</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transform">transform</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/videoInputReadyCallback">videoInputReadyCallback</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelRecording">cancelRecording</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableSynchronizationCallbacks">enableSynchronizationCallbacks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/finishRecording">finishRecording</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/finishRecordingWithCompletionHandler:">finishRecordingWithCompletionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithMovieURL:size:">initWithMovieURL:size:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithMovieURL:size:fileType:outputSettings:">initWithMovieURL:size:fileType:outputSettings:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/processAudioBuffer:">processAudioBuffer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasAudioTrack:audioSettings:">setHasAudioTrack:audioSettings:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startRecording">startRecording</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startRecordingInOrientation:">startRecordingInOrientation:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GPUImageMovieWriter Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GPUImageMovieWriter Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/GPUImageInput.html">GPUImageInput</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GPUImageMovieWriter.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasAudioTrack">&nbsp;&nbsp;hasAudioTrack</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldPassthroughAudio">&nbsp;&nbsp;shouldPassthroughAudio</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldInvalidateAudioSampleWhenDone">&nbsp;&nbsp;shouldInvalidateAudioSampleWhenDone</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/completionBlock">&nbsp;&nbsp;completionBlock</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/failureBlock">&nbsp;&nbsp;failureBlock</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodingLiveVideo">&nbsp;&nbsp;encodingLiveVideo</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/videoInputReadyCallback">&nbsp;&nbsp;videoInputReadyCallback</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/audioInputReadyCallback">&nbsp;&nbsp;audioInputReadyCallback</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enabled">&nbsp;&nbsp;enabled</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/assetWriter">&nbsp;&nbsp;assetWriter</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transform">&nbsp;&nbsp;transform</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/metaData">&nbsp;&nbsp;metaData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paused">&nbsp;&nbsp;paused</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/movieWriterContext">&nbsp;&nbsp;movieWriterContext</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithMovieURL:size:">&ndash;&nbsp;initWithMovieURL:size:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithMovieURL:size:fileType:outputSettings:">&ndash;&nbsp;initWithMovieURL:size:fileType:outputSettings:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasAudioTrack:audioSettings:">&ndash;&nbsp;setHasAudioTrack:audioSettings:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startRecording">&ndash;&nbsp;startRecording</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startRecordingInOrientation:">&ndash;&nbsp;startRecordingInOrientation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/finishRecording">&ndash;&nbsp;finishRecording</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/finishRecordingWithCompletionHandler:">&ndash;&nbsp;finishRecordingWithCompletionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelRecording">&ndash;&nbsp;cancelRecording</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/processAudioBuffer:">&ndash;&nbsp;processAudioBuffer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableSynchronizationCallbacks">&ndash;&nbsp;enableSynchronizationCallbacks</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/assetWriter" title="assetWriter"></a>
+	<h3 class="subsubtitle method-title">assetWriter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) AVAssetWriter *assetWriter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/audioInputReadyCallback" title="audioInputReadyCallback"></a>
+	<h3 class="subsubtitle method-title">audioInputReadyCallback</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) BOOL ( ^ ) ( void ) audioInputReadyCallback</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/completionBlock" title="completionBlock"></a>
+	<h3 class="subsubtitle method-title">completionBlock</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( void ) completionBlock</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;GPUImageMovieWriterDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/duration" title="duration"></a>
+	<h3 class="subsubtitle method-title">duration</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CMTime duration</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enabled" title="enabled"></a>
+	<h3 class="subsubtitle method-title">enabled</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL enabled</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodingLiveVideo" title="encodingLiveVideo"></a>
+	<h3 class="subsubtitle method-title">encodingLiveVideo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL encodingLiveVideo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/failureBlock" title="failureBlock"></a>
+	<h3 class="subsubtitle method-title">failureBlock</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( NSError *) failureBlock</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasAudioTrack" title="hasAudioTrack"></a>
+	<h3 class="subsubtitle method-title">hasAudioTrack</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL hasAudioTrack</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/metaData" title="metaData"></a>
+	<h3 class="subsubtitle method-title">metaData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSArray *metaData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/movieWriterContext" title="movieWriterContext"></a>
+	<h3 class="subsubtitle method-title">movieWriterContext</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) GPUImageContext *movieWriterContext</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paused" title="paused"></a>
+	<h3 class="subsubtitle method-title">paused</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, getter=isPaused) BOOL paused</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldInvalidateAudioSampleWhenDone" title="shouldInvalidateAudioSampleWhenDone"></a>
+	<h3 class="subsubtitle method-title">shouldInvalidateAudioSampleWhenDone</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL shouldInvalidateAudioSampleWhenDone</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldPassthroughAudio" title="shouldPassthroughAudio"></a>
+	<h3 class="subsubtitle method-title">shouldPassthroughAudio</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL shouldPassthroughAudio</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transform" title="transform"></a>
+	<h3 class="subsubtitle method-title">transform</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGAffineTransform transform</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/videoInputReadyCallback" title="videoInputReadyCallback"></a>
+	<h3 class="subsubtitle method-title">videoInputReadyCallback</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) BOOL ( ^ ) ( void ) videoInputReadyCallback</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelRecording" title="cancelRecording"></a>
+	<h3 class="subsubtitle method-title">cancelRecording</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)cancelRecording</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableSynchronizationCallbacks" title="enableSynchronizationCallbacks"></a>
+	<h3 class="subsubtitle method-title">enableSynchronizationCallbacks</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)enableSynchronizationCallbacks</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/finishRecording" title="finishRecording"></a>
+	<h3 class="subsubtitle method-title">finishRecording</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)finishRecording</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/finishRecordingWithCompletionHandler:" title="finishRecordingWithCompletionHandler:"></a>
+	<h3 class="subsubtitle method-title">finishRecordingWithCompletionHandler:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)finishRecordingWithCompletionHandler:(void ( ^ ) ( void ))<em>handler</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithMovieURL:size:" title="initWithMovieURL:size:"></a>
+	<h3 class="subsubtitle method-title">initWithMovieURL:size:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithMovieURL:(NSURL *)<em>newMovieURL</em> size:(CGSize)<em>newSize</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithMovieURL:size:fileType:outputSettings:" title="initWithMovieURL:size:fileType:outputSettings:"></a>
+	<h3 class="subsubtitle method-title">initWithMovieURL:size:fileType:outputSettings:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithMovieURL:(NSURL *)<em>newMovieURL</em> size:(CGSize)<em>newSize</em> fileType:(NSString *)<em>newFileType</em> outputSettings:(NSDictionary *)<em>outputSettings</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/processAudioBuffer:" title="processAudioBuffer:"></a>
+	<h3 class="subsubtitle method-title">processAudioBuffer:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)processAudioBuffer:(CMSampleBufferRef)<em>audioBuffer</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasAudioTrack:audioSettings:" title="setHasAudioTrack:audioSettings:"></a>
+	<h3 class="subsubtitle method-title">setHasAudioTrack:audioSettings:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasAudioTrack:(BOOL)<em>hasAudioTrack</em> audioSettings:(NSDictionary *)<em>audioOutputSettings</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startRecording" title="startRecording"></a>
+	<h3 class="subsubtitle method-title">startRecording</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)startRecording</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startRecordingInOrientation:" title="startRecordingInOrientation:"></a>
+	<h3 class="subsubtitle method-title">startRecordingInOrientation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)startRecordingInOrientation:(CGAffineTransform)<em>orientationTransform</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Sunset Lake Software. All rights reserved. (Last updated: 2014-06-09)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

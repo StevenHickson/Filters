@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GPUImageErosionFilter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GPUImageErosionFilter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageErosionFilter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GPUImageErosionFilter/initWithRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GPUImageErosionFilter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRadius:(NSUInteger)erosionRadius</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRadius:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
