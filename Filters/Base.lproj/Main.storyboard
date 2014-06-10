@@ -8,9 +8,13 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController storyboardIdentifier="viewController" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="OyI-bW-hzT">
+                    <imageView key="view" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="OyI-bW-hzT">
                         <rect key="frame" x="0.0" y="44" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dpT-NK-nSv" appends="YES" id="chM-ds-G6r"/>
+                        </connections>
                     </imageView>
                     <toolbarItems>
                         <barButtonItem title="Album" id="W7k-C8-EPV">
@@ -40,11 +44,17 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
                     <connections>
                         <outlet property="filterButton" destination="Adw-sx-9s9" id="CmP-kQ-EOs"/>
+                        <outlet property="pinchGestureRecognizer" destination="dpT-NK-nSv" id="szl-a3-B3O"/>
                         <outlet property="saveButton" destination="9I4-CW-G2b" id="6Eg-Ky-phk"/>
                         <outlet property="selectedImageView" destination="OyI-bW-hzT" id="VGO-ES-Z2N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="dpT-NK-nSv">
+                    <connections>
+                        <action selector="handlePinchGesture:" destination="vXZ-lx-hvc" id="NtN-OX-PPv"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1358" y="0.0"/>
         </scene>

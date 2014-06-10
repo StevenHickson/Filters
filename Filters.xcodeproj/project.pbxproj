@@ -14,7 +14,7 @@
 		ED2FDE731943927200AAF177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2FDE721943927200AAF177 /* main.m */; };
 		ED2FDE771943927200AAF177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2FDE761943927200AAF177 /* AppDelegate.m */; };
 		ED2FDE7A1943927200AAF177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2FDE781943927200AAF177 /* Main.storyboard */; };
-		ED2FDE7D1943927200AAF177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2FDE7C1943927200AAF177 /* ViewController.m */; };
+		ED2FDE7D1943927200AAF177 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED2FDE7C1943927200AAF177 /* ViewController.mm */; };
 		ED2FDE7F1943927200AAF177 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2FDE7E1943927200AAF177 /* Images.xcassets */; };
 		ED2FDE861943927200AAF177 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FDE851943927200AAF177 /* XCTest.framework */; };
 		ED2FDE871943927200AAF177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FDE661943927200AAF177 /* Foundation.framework */; };
@@ -27,6 +27,7 @@
 		ED2FDEB019442D4300AAF177 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FDEAF19442D4300AAF177 /* OpenGLES.framework */; };
 		ED2FDEB219442D4C00AAF177 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FDEB119442D4C00AAF177 /* AVFoundation.framework */; };
 		ED2FDEB419442D5600AAF177 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FDEB319442D5600AAF177 /* QuartzCore.framework */; };
+		ED7DD02D1946806700AFF760 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DD02C1946806700AFF760 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +81,7 @@
 		ED2FDE761943927200AAF177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED2FDE791943927200AAF177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED2FDE7B1943927200AAF177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED2FDE7C1943927200AAF177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED2FDE7C1943927200AAF177 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		ED2FDE7E1943927200AAF177 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED2FDE841943927200AAF177 /* FiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2FDE851943927200AAF177 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -93,6 +94,7 @@
 		ED2FDEAF19442D4300AAF177 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		ED2FDEB119442D4C00AAF177 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ED2FDEB319442D5600AAF177 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED7DD02C1946806700AFF760 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Submodules/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				ED2FDEAA19442CFB00AAF177 /* libGPUImage.a in Frameworks */,
 				ED2FDE691943927200AAF177 /* CoreGraphics.framework in Frameworks */,
 				ED2FDE6B1943927200AAF177 /* UIKit.framework in Frameworks */,
+				ED7DD02D1946806700AFF760 /* opencv2.framework in Frameworks */,
 				ED2FDE671943927200AAF177 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +131,7 @@
 		ED2FDE5A1943927200AAF177 = {
 			isa = PBXGroup;
 			children = (
+				ED7DD02C1946806700AFF760 /* opencv2.framework */,
 				ED2FDE9B19442BFE00AAF177 /* GPUImage.xcodeproj */,
 				ED2FDE6C1943927200AAF177 /* Filters */,
 				ED2FDE8B1943927200AAF177 /* FiltersTests */,
@@ -168,7 +172,7 @@
 				ED2FDE761943927200AAF177 /* AppDelegate.m */,
 				ED2FDE781943927200AAF177 /* Main.storyboard */,
 				ED2FDE7B1943927200AAF177 /* ViewController.h */,
-				ED2FDE7C1943927200AAF177 /* ViewController.m */,
+				ED2FDE7C1943927200AAF177 /* ViewController.mm */,
 				ED2FDE7E1943927200AAF177 /* Images.xcassets */,
 				ED2FDE6D1943927200AAF177 /* Supporting Files */,
 			);
@@ -342,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2FDE7D1943927200AAF177 /* ViewController.m in Sources */,
+				ED2FDE7D1943927200AAF177 /* ViewController.mm in Sources */,
 				ED2FDE771943927200AAF177 /* AppDelegate.m in Sources */,
 				ED2FDE731943927200AAF177 /* main.m in Sources */,
 			);
@@ -484,6 +488,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Submodules",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Filters/Filters-Prefix.pch";
 				INFOPLIST_FILE = "Filters/Filters-Info.plist";
@@ -497,6 +505,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Submodules",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Filters/Filters-Prefix.pch";
 				INFOPLIST_FILE = "Filters/Filters-Info.plist";
